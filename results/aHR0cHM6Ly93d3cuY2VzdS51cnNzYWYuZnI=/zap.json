@@ -1,9 +1,17 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 1 Mar 2026 01:35:48",
-	"created": "2026-03-01T01:35:48.908641229Z",
+	"@generated": "Sun, 8 Mar 2026 01:42:34",
+	"created": "2026-03-08T01:42:34.514616834Z",
 	"insights":[
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.error",
+			"description": "ZAP errors logged - see the zap.log file for details",
+			"statistic": "1"
+		},
 		{
 			"level": "Info",
 			"reason": "Informational",
@@ -542,8 +550,8 @@
 					"alert": "Information Disclosure - Suspicious Comments",
 					"name": "Information Disclosure - Suspicious Comments",
 					"riskcode": "0",
-					"confidence": "1",
-					"riskdesc": "Informational (Low)",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
@@ -553,7 +561,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "query",
+							"evidence": "9,source: function (query, process) {if(!wait",
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"/*$(document).ready(function(){var waitingResult = false;$(\"form[name='searchForm'] input.typeahead\").typeahead({hint:false,high\", see evidence field for the suspicious comment/snippet."
 						},
 						{
@@ -563,7 +571,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "From",
+							"evidence": "<!-- /From JSP -->",
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"<!-- /From JSP -->\", see evidence field for the suspicious comment/snippet."
 						}
 					],
