@@ -9,13 +9,13 @@
     "testsPassed": 5,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 01 Mar 2026 02:52:18 GMT",
+      "date": "Sun, 08 Mar 2026 02:59:15 GMT",
       "cache-control": "no-cache=\"Set-Cookie\"",
       "set-cookie": [
-        "JSESSIONID=SvKvpjpCCvbw1rKZPpWF94jLLqhCZZpBhRn0yBQBh15NFz2L0hxm!923121640; expires=Sunday, 01-Mar-2026 03:22:18 GMT; path=/; secure",
-        "TS01af3c49=01726d0b822b866b6e8613b832cda8ec6368f49192dfe5b6e5d96beeea726998bf9d32629e1576065654e7db16a487a7bcebf00f57edcf4b2687752e3b03bc6362928a9a4d; Path=/; Domain=.www.tpee.urssaf.fr",
-        "TS5d88df92029=08285ff142ab28000dc979aef43c550fdab1eaeb09d31799dd85f6d9968e4ee31d3bdc98c5e8f3bcc61b6e23596681fb; Max-Age=30; Path=/",
-        "TS7b7158a6027=08285ff142ab2000a138fc86d3181e8db1d81ec9267da05ab618e0ea48c17c59ab98f0633ef8965d08977de9e9113000f8d3247c71e532149c53960c4054f41eac815a14b579149e112e04c669a6e8bb9f1ae3cbff6f8c2cd0d99c4ff15e23de; Path=/"
+        "JSESSIONID=P5pnpsmDvrHnklpwQ5n0H22DnKvLy1p4K024GG278XGfZZTS6dr2!1828362136; expires=Sunday, 08-Mar-2026 03:29:15 GMT; path=/; secure",
+        "TS01af3c49=01726d0b82dc1303a1333152df10241f2e1d3bf41f16ca4284899a122d8b07ea0604de3fd39943345eaa6759c2bf69512c469cad2fa04cef87508ad442b89784011500f07f; Path=/; Domain=.www.tpee.urssaf.fr",
+        "TS5d88df92029=08285ff142ab2800ce7b3f4988d7db60297bf89e668665b8494972dd30474f4a558acea87e38a38da9708095ee050c8c; Max-Age=30; Path=/",
+        "TS7b7158a6027=08285ff142ab2000a4086a36276df821259b60c0e6d08182aedb19d1c37a813c2e3da39c5fd155f508629156a01130001b4d2068f5d5d570c43225ff8e374baf7af56252e18784677cc6abd025bec746a50bd272a6787e0e870a1cd8a46d8c5b; Path=/"
       ],
       "content-language": "fr-FR",
       "content-type": "text/html; charset=ISO-8859-1",
@@ -45,7 +45,7 @@
       "data": {
         "JSESSIONID": {
           "domain": "www.tpee.urssaf.fr",
-          "expires": "2026-03-01T03:22:18.000Z",
+          "expires": "2026-03-08T03:29:15.000Z",
           "path": "/",
           "port": null,
           "secure": true
