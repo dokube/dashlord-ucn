@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 8 Mar 2026 01:43:12",
-	"created": "2026-03-08T01:43:12.580984549Z",
+	"@generated": "Sun, 15 Mar 2026 01:48:40",
+	"created": "2026-03-15T01:48:40.843480672Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -71,7 +71,7 @@
 					"desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "17",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -371,7 +371,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "16",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
