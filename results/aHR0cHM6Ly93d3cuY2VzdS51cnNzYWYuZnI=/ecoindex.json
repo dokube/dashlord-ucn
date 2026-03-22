@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cesu.urssaf.fr",
-        "size": 3422.236,
-        "nodes": 427,
-        "requests": 53,
+        "size": 3211.073,
+        "nodes": 426,
+        "requests": 51,
         "grade": "C",
-        "score": 58.0,
-        "ges": 1.84,
-        "water": 2.76,
+        "score": 59.0,
+        "ges": 1.82,
+        "water": 2.73,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-15 01:39:22.901239",
+        "date": "2026-03-22 01:35:40.411509",
         "page_type": null
     }
 ]
