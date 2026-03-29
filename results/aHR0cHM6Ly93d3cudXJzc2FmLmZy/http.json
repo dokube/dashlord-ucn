@@ -1,15 +1,15 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "C-",
+    "grade": "C",
     "error": null,
-    "score": 45,
+    "score": 50,
     "statusCode": 200,
-    "testsFailed": 4,
-    "testsPassed": 6,
+    "testsFailed": 3,
+    "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 22 Mar 2026 00:55:45 GMT",
+      "date": "Sun, 29 Mar 2026 01:00:13 GMT",
       "content-type": "text/html;charset=UTF-8",
       "connection": "close",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
@@ -25,8 +25,8 @@
       "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization",
       "access-control-max-age": "1728000",
       "set-cookie": [
-        "TSb749e220029=08285ff142ab2800cbbefb19b34ccc8dafecde2adb21099a4ecf862ab98f2a20dc2bbd9bbec893fde389c049338b38d0; Max-Age=30; Path=/",
-        "TS91b06514027=08285ff142ab200053af2b2e7d4f31c8bb520fed1d036698e0b7ddf381cdd3d6e5c16e5436c91cc60875a881bb1130009ac9e47b587610f9cada171c288e3ace9700be1da18a7115b42eace20332f102b9e4dc76e4170e8d1a7159b21e3250ae; Path=/"
+        "TSb749e220029=08285ff142ab2800b7633fcdadd14364bc3efc097c16ffc0bf241f7b0639fb367ac3ed88b564e258b23b3fd89d5b75be; Max-Age=30; Path=/",
+        "TS91b06514027=08285ff142ab2000ac952db9d60deea56f5eaf30f03dd0a69226d1fcdeb63c241f5832dfbe39780f08ca6f8b37113000356bde94ca33208b637ea7d1c69115fc7ac4c3f3bcdc391e2a82f286deab145c9321c568c0c5106f5d5d25d9555ae9e9; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
@@ -118,15 +118,10 @@
     },
     "subresource-integrity": {
       "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-      "pass": false,
-      "result": "sri-not-implemented-but-external-scripts-loaded-securely",
-      "scoreModifier": -5,
-      "data": {
-        "https://res.tmg.urssaf.org/tc_Acoss_48.js": {
-          "crossorigin": null,
-          "integrity": null
-        }
-      }
+      "pass": true,
+      "result": "sri-not-implemented-but-all-scripts-loaded-from-secure-origin",
+      "scoreModifier": 0,
+      "data": {}
     },
     "x-content-type-options": {
       "expectation": "x-content-type-options-nosniff",

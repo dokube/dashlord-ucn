@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 22 Mar 2026 00:54:52",
-	"created": "2026-03-22T00:54:52.345709075Z",
+	"@generated": "Sun, 29 Mar 2026 00:59:20",
+	"created": "2026-03-29T00:59:20.036187521Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -173,7 +173,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script id=\"staticAssetJavascriptBODY1\" src=\"https://res.tmg.urssaf.org/tc_Acoss_48.js\"  ></script>",
+							"evidence": "<script id=\"staticAssetJavascriptBODY1\" src=\"https://res.tmg.urssaf.fr/tc_Acoss_48.js\"  ></script>",
 							"otherinfo": ""
 						}
 					],
@@ -361,9 +361,9 @@
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
-							"param": "https://res.tmg.urssaf.org/tc_Acoss_48.js",
+							"param": "https://res.tmg.urssaf.fr/tc_Acoss_48.js",
 							"attack": "",
-							"evidence": "<script id=\"staticAssetJavascriptBODY1\" src=\"https://res.tmg.urssaf.org/tc_Acoss_48.js\"  ></script>",
+							"evidence": "<script id=\"staticAssetJavascriptBODY1\" src=\"https://res.tmg.urssaf.fr/tc_Acoss_48.js\"  ></script>",
 							"otherinfo": ""
 						}
 					],
@@ -387,7 +387,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "19",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -417,7 +417,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "20",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -447,7 +447,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "18",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -483,14 +483,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/files/live/sites/urssaffr/files/illustrations/actualites/marin/6898-Visuel-Actu-Web-Marins",
-							"otherinfo": "\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD|\uFFFDX\uFFFD\uFFFD\uFFFD~\\x0001\uFFFDn\uFFFDg\uFFFD\uFFFD\u01AB\uFFFD{"
+							"evidence": "/files/live/sites/urssaffr/files/illustrations/actualites/TI/586589179",
+							"otherinfo": "\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD:\uFFFD\uFFFDu\uFFFD"
 						}
 					],
 					"count": "1",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD|\uFFFDX\uFFFD\uFFFD\uFFFD~\\x0001\uFFFDn\uFFFDg\uFFFD\uFFFD\u01AB\uFFFD{</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD:\uFFFD\uFFFDu\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -537,7 +537,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "17",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -687,7 +687,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "21",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
