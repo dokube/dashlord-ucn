@@ -18,12 +18,18 @@
         "testsPassed": 7,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 29 Mar 2026 01:00:13 GMT",
+          "date": "Sun, 05 Apr 2026 01:00:58 GMT",
           "content-type": "text/html;charset=UTF-8",
           "connection": "close",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
           "pragma": "no-cache",
+          "set-cookie": [
+            "JSESSIONID=A34D69C5BC9348D7B18F0F154EB793B8; Path=/; Secure; HttpOnly",
+            "TS01c7b25a=01726d0b82f735a25b614e0e29305453ea43f31c44f377eb8599bc6d4180da0c1857591b716bd374f14c62b83cc168b21b7e605dbd7b1c2605c2d46f3d2c34c993f0be6899; Path=/; Domain=.www.urssaf.fr",
+            "TSb749e220029=08285ff142ab2800c462f1312ed0ba564b77833cf1fecbdf628fedf3de077a2dde35531be4269bc563c882d0402587bb; Max-Age=30; Path=/",
+            "TS91b06514027=08285ff142ab2000cb76ff43ade4d1b9139e4a9d1066a4bf246ab9af3c11e9f9830adb22efd9757a0896602f8d113000d2343eb94e1e44aab85d7e7be7a038f31c587d2ec87a70773da69c53dbddc7cfe81589ff59eea2139bdd112da25d644d; Path=/"
+          ],
           "vary": "accept-encoding",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "x-content-type-options": "nosniff",
@@ -33,10 +39,6 @@
           "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
           "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization",
           "access-control-max-age": "1728000",
-          "set-cookie": [
-            "TSb749e220029=08285ff142ab2800b7633fcdadd14364bc3efc097c16ffc0bf241f7b0639fb367ac3ed88b564e258b23b3fd89d5b75be; Max-Age=30; Path=/",
-            "TS91b06514027=08285ff142ab2000ac952db9d60deea56f5eaf30f03dd0a69226d1fcdeb63c241f5832dfbe39780f08ca6f8b37113000356bde94ca33208b637ea7d1c69115fc7ac4c3f3bcdc391e2a82f286deab145c9321c568c0c5106f5d5d25d9555ae9e9; Path=/"
-          ],
           "transfer-encoding": "chunked"
         }
       },
@@ -509,7 +511,7 @@
         "ip": "www.urssaf.fr/193.178.136.246",
         "port": "443",
         "severity": "HIGH",
-        "finding": "expires < 30 days (24)"
+        "finding": "expires < 30 days (17)"
       },
       {
         "id": "cert_notBefore",
@@ -1220,8 +1222,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 29 Mar 2026 00:59:20",
-      "created": "2026-03-29T00:59:20.036187521Z",
+      "@generated": "Sun, 5 Apr 2026 01:00:03",
+      "created": "2026-04-05T01:00:03.335581612Z",
       "insights": [
         {
           "level": "Info",
@@ -1405,7 +1407,7 @@
       {
         "requestedUrl": "https://www.urssaf.fr/",
         "finalUrl": "https://www.urssaf.fr/accueil.html",
-        "fetchTime": "2026-03-29T00:59:35.810Z",
+        "fetchTime": "2026-04-05T01:00:19.538Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.urssaf.fr/) was redirected to https://www.urssaf.fr/accueil.html. Try testing the second URL directly."
         ],
@@ -1418,7 +1420,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.18
+            "score": 0.17
           },
           "accessibility": {
             "title": "Accessibility",
@@ -1470,53 +1472,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 27152,
+            "numericValue": 27040,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 12541,
-                  "firstMeaningfulPaint": 12541,
-                  "largestContentfulPaint": 13481,
-                  "interactive": 27152,
-                  "speedIndex": 13283,
-                  "totalBlockingTime": 1889,
-                  "maxPotentialFID": 2380,
-                  "cumulativeLayoutShift": 0.034984999999999995,
-                  "cumulativeLayoutShiftMainFrame": 0.034984999999999995,
-                  "totalCumulativeLayoutShift": 0.034984999999999995,
+                  "firstContentfulPaint": 12672,
+                  "firstMeaningfulPaint": 12672,
+                  "largestContentfulPaint": 13493,
+                  "interactive": 27040,
+                  "speedIndex": 13115,
+                  "totalBlockingTime": 2062,
+                  "maxPotentialFID": 2350,
+                  "cumulativeLayoutShift": 0.000949,
+                  "cumulativeLayoutShiftMainFrame": 0.000949,
+                  "totalCumulativeLayoutShift": 0.000949,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 659613839,
+                  "observedTimeOriginTs": 735189349,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 659613839,
-                  "observedFirstPaint": 2231,
-                  "observedFirstPaintTs": 661844643,
-                  "observedFirstContentfulPaint": 2231,
-                  "observedFirstContentfulPaintTs": 661844643,
-                  "observedFirstContentfulPaintAllFrames": 2231,
-                  "observedFirstContentfulPaintAllFramesTs": 661844643,
-                  "observedFirstMeaningfulPaint": 2283,
-                  "observedFirstMeaningfulPaintTs": 661896384,
-                  "observedLargestContentfulPaint": 2283,
-                  "observedLargestContentfulPaintTs": 661896384,
-                  "observedLargestContentfulPaintAllFrames": 2283,
-                  "observedLargestContentfulPaintAllFramesTs": 661896384,
-                  "observedTraceEnd": 7057,
-                  "observedTraceEndTs": 666670491,
-                  "observedLoad": 4135,
-                  "observedLoadTs": 663748581,
-                  "observedDomContentLoaded": 2383,
-                  "observedDomContentLoadedTs": 661997185,
-                  "observedCumulativeLayoutShift": 0.034984999999999995,
-                  "observedCumulativeLayoutShiftMainFrame": 0.034984999999999995,
-                  "observedTotalCumulativeLayoutShift": 0.034984999999999995,
-                  "observedFirstVisualChange": 2231,
-                  "observedFirstVisualChangeTs": 661844839,
-                  "observedLastVisualChange": 4614,
-                  "observedLastVisualChangeTs": 664227839,
-                  "observedSpeedIndex": 2379,
-                  "observedSpeedIndexTs": 661992627
+                  "observedNavigationStartTs": 735189349,
+                  "observedFirstPaint": 2252,
+                  "observedFirstPaintTs": 737441431,
+                  "observedFirstContentfulPaint": 2252,
+                  "observedFirstContentfulPaintTs": 737441431,
+                  "observedFirstContentfulPaintAllFrames": 2252,
+                  "observedFirstContentfulPaintAllFramesTs": 737441431,
+                  "observedFirstMeaningfulPaint": 2292,
+                  "observedFirstMeaningfulPaintTs": 737481128,
+                  "observedLargestContentfulPaint": 2292,
+                  "observedLargestContentfulPaintTs": 737481128,
+                  "observedLargestContentfulPaintAllFrames": 2292,
+                  "observedLargestContentfulPaintAllFramesTs": 737481128,
+                  "observedTraceEnd": 7306,
+                  "observedTraceEndTs": 742495801,
+                  "observedLoad": 4373,
+                  "observedLoadTs": 739562638,
+                  "observedDomContentLoaded": 0,
+                  "observedDomContentLoadedTs": 735189729,
+                  "observedCumulativeLayoutShift": 0.000949,
+                  "observedCumulativeLayoutShiftMainFrame": 0.000949,
+                  "observedTotalCumulativeLayoutShift": 0.000949,
+                  "observedFirstVisualChange": 2252,
+                  "observedFirstVisualChangeTs": 737441349,
+                  "observedLastVisualChange": 4865,
+                  "observedLastVisualChangeTs": 740054349,
+                  "observedSpeedIndex": 2377,
+                  "observedSpeedIndexTs": 737566115
                 },
                 {
                   "lcpInvalidated": false
@@ -1534,23 +1536,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 88,
+                  "numRequests": 90,
                   "numScripts": 15,
                   "numStylesheets": 5,
                   "numFonts": 5,
-                  "numTasks": 4050,
-                  "numTasksOver10ms": 19,
-                  "numTasksOver25ms": 8,
-                  "numTasksOver50ms": 3,
+                  "numTasks": 4316,
+                  "numTasksOver10ms": 23,
+                  "numTasksOver25ms": 11,
+                  "numTasksOver50ms": 6,
                   "numTasksOver100ms": 3,
                   "numTasksOver500ms": 1,
-                  "rtt": 2.5640000000000214,
-                  "throughput": 14913571.266744083,
-                  "maxRtt": 91.61100000000002,
-                  "maxServerLatency": 10.373999999999995,
-                  "totalByteWeight": 6213695,
-                  "totalTaskTime": 1513.0549999999917,
-                  "mainDocumentTransferSize": 366216
+                  "rtt": 2.1779999999999973,
+                  "throughput": 14380503.224637078,
+                  "maxRtt": 88.404,
+                  "maxServerLatency": 9.360000000000014,
+                  "totalByteWeight": 6079200,
+                  "totalTaskTime": 1904.9669999999926,
+                  "mainDocumentTransferSize": 369992
                 }
               ]
             }
@@ -1572,15 +1574,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.urssaf.fr",
-        "size": 7596.946,
-        "nodes": 4519,
+        "size": 7468.16,
+        "nodes": 4553,
         "requests": 78,
         "grade": "F",
         "score": 20,
         "ges": 2.6,
         "water": 3.9,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-29 00:50:29.509307",
+        "date": "2026-04-05 00:51:09.367705",
         "page_type": null
       }
     ],
@@ -1598,7 +1600,7 @@
       "trackersCount": null,
       "zapCount": 12,
       "zapGrade": "D",
-      "lighthouse_performance": 0.18,
+      "lighthouse_performance": 0.17,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.91,
       "lighthouse_accessibilityGrade": "A",
@@ -1630,7 +1632,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 29 Mar 2026 01:27:30 GMT",
+          "date": "Sun, 05 Apr 2026 01:27:46 GMT",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache,no-store,must-revalidate",
           "pragma": "no-cache, no-cache",
@@ -1642,8 +1644,8 @@
           "connection": "close",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "set-cookie": [
-            "TS6bd60791029=08285ff142ab28001ecebd14ba91dce71c5a0f8acdce08650a27967de0a64eac267fc92d87daa3b0c5807c0f86c490c8; Max-Age=30; Path=/",
-            "TS047062ef027=08285ff142ab2000552f39c8891480d9f90838e28b31465bc938b8dce3d65a35351f556413e9d397086fffbe1e1130009ae0dc175aab6cf2c3945c7f6aa24a97284ca73912f358bf7ae48a198f7b3e84c535b67aa7ed80a5e0a3616c6d4ec1fe; Path=/"
+            "TS6bd60791029=08285ff142ab28003395cb15bd9efb75c4aba08397fef8525284c6713cd9d3548905d991d3951405a7c77a3e0e4922ce; Max-Age=30; Path=/",
+            "TS047062ef027=08285ff142ab20007d7b620c22b58edc6a78de11c2af1ed0cedc06946f7967c1a2b61faa75051be008fa1d520e11300017c897b62648d0e412e464455a9706a3225ff387a379e4a274ee9cfdae6f2e93206a60d73b0814a90eca305a2e188b99; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -2128,7 +2130,7 @@
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "015B83162968FCB1356A6F8D769A3C4C"
+        "finding": "05609D7EB2F550A52FF91C575A2D45E5"
       },
       {
         "id": "cert_serialNumberLen",
@@ -2142,21 +2144,21 @@
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "17A52938E9D7301CC7C357999430D611D6E78C60"
+        "finding": "2ABCA2FB030A8BB1BC58BD4CAC0875A25102F9A3"
       },
       {
         "id": "cert_fingerprintSHA256",
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "B47D605A1B931EAA6F0DB8726B8A7330EB8381FFF33483D2FDC18CACDDE2D1BC"
+        "finding": "A1045708557CF602AC9B7FAD089D5DFE95A64FC63D812AD04D9F4DBF363AAAB5"
       },
       {
         "id": "cert",
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
@@ -2211,22 +2213,22 @@
         "id": "cert_expirationStatus",
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
-        "severity": "HIGH",
-        "finding": "expires < 30 days (4)"
+        "severity": "OK",
+        "finding": "171 >= 60 days"
       },
       {
         "id": "cert_notBefore",
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "2025-04-03 00:00"
+        "finding": "2026-03-09 00:00"
       },
       {
         "id": "cert_notAfter",
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
-        "severity": "HIGH",
-        "finding": "2026-04-02 23:59"
+        "severity": "OK",
+        "finding": "2026-09-23 23:59"
       },
       {
         "id": "cert_extlifeSpan",
@@ -2508,7 +2510,7 @@
         "severity": "INFO",
         "cve": "CVE-2016-0800 CVE-2016-0703",
         "cwe": "CWE-310",
-        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=B47D605A1B931EAA6F0DB8726B8A7330EB8381FFF33483D2FDC18CACDDE2D1BC"
+        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=A1045708557CF602AC9B7FAD089D5DFE95A64FC63D812AD04D9F4DBF363AAAB5"
       },
       {
         "id": "LOGJAM-common_primes",
@@ -2884,7 +2886,7 @@
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "122"
+        "finding": "94"
       }
     ],
     "thirdparties": {
@@ -2904,8 +2906,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 29 Mar 2026 01:26:37",
-      "created": "2026-03-29T01:26:37.370756385Z",
+      "@generated": "Sun, 5 Apr 2026 01:26:56",
+      "created": "2026-04-05T01:26:56.040358608Z",
       "insights": [
         {
           "level": "Info",
@@ -3117,7 +3119,7 @@
       {
         "requestedUrl": "https://www.autoentrepreneur.urssaf.fr/",
         "finalUrl": "https://www.autoentrepreneur.urssaf.fr/portail/accueil.html",
-        "fetchTime": "2026-03-29T01:26:53.719Z",
+        "fetchTime": "2026-04-05T01:27:11.990Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.autoentrepreneur.urssaf.fr/) was redirected to https://www.autoentrepreneur.urssaf.fr/portail/accueil.html. Try testing the second URL directly."
         ],
@@ -3130,7 +3132,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.17
+            "score": 0.2
           },
           "accessibility": {
             "title": "Accessibility",
@@ -3182,53 +3184,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 15097,
+            "numericValue": 13620,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7077,
-                  "firstMeaningfulPaint": 7227,
-                  "largestContentfulPaint": 8145,
-                  "interactive": 15097,
-                  "speedIndex": 9583,
-                  "totalBlockingTime": 3415,
-                  "maxPotentialFID": 2459,
+                  "firstContentfulPaint": 6110,
+                  "firstMeaningfulPaint": 6236,
+                  "largestContentfulPaint": 7127,
+                  "interactive": 13620,
+                  "speedIndex": 7806,
+                  "totalBlockingTime": 3166,
+                  "maxPotentialFID": 2330,
                   "cumulativeLayoutShift": 0.06936,
                   "cumulativeLayoutShiftMainFrame": 0.06936,
                   "totalCumulativeLayoutShift": 0.06936,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 689082821,
+                  "observedTimeOriginTs": 673887839,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 689082821,
-                  "observedFirstPaint": 2077,
-                  "observedFirstPaintTs": 691160131,
-                  "observedFirstContentfulPaint": 2077,
-                  "observedFirstContentfulPaintTs": 691160131,
-                  "observedFirstContentfulPaintAllFrames": 2077,
-                  "observedFirstContentfulPaintAllFramesTs": 691160131,
-                  "observedFirstMeaningfulPaint": 2077,
-                  "observedFirstMeaningfulPaintTs": 691160131,
-                  "observedLargestContentfulPaint": 2077,
-                  "observedLargestContentfulPaintTs": 691160131,
-                  "observedLargestContentfulPaintAllFrames": 2077,
-                  "observedLargestContentfulPaintAllFramesTs": 691160131,
-                  "observedTraceEnd": 7103,
-                  "observedTraceEndTs": 696185499,
-                  "observedLoad": 4174,
-                  "observedLoadTs": 693256395,
+                  "observedNavigationStartTs": 673887839,
+                  "observedFirstPaint": 1424,
+                  "observedFirstPaintTs": 675312054,
+                  "observedFirstContentfulPaint": 1424,
+                  "observedFirstContentfulPaintTs": 675312054,
+                  "observedFirstContentfulPaintAllFrames": 1424,
+                  "observedFirstContentfulPaintAllFramesTs": 675312054,
+                  "observedFirstMeaningfulPaint": 1424,
+                  "observedFirstMeaningfulPaintTs": 675312054,
+                  "observedLargestContentfulPaint": 1424,
+                  "observedLargestContentfulPaintTs": 675312054,
+                  "observedLargestContentfulPaintAllFrames": 1424,
+                  "observedLargestContentfulPaintAllFramesTs": 675312054,
+                  "observedTraceEnd": 6536,
+                  "observedTraceEndTs": 680423908,
+                  "observedLoad": 3486,
+                  "observedLoadTs": 677374079,
                   "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 689083242,
+                  "observedDomContentLoadedTs": 673888166,
                   "observedCumulativeLayoutShift": 0.06936,
                   "observedCumulativeLayoutShiftMainFrame": 0.06936,
                   "observedTotalCumulativeLayoutShift": 0.06936,
-                  "observedFirstVisualChange": 2077,
-                  "observedFirstVisualChangeTs": 691159821,
-                  "observedLastVisualChange": 4881,
-                  "observedLastVisualChangeTs": 693963821,
-                  "observedSpeedIndex": 2312,
-                  "observedSpeedIndexTs": 691394956
+                  "observedFirstVisualChange": 1422,
+                  "observedFirstVisualChangeTs": 675309839,
+                  "observedLastVisualChange": 4397,
+                  "observedLastVisualChangeTs": 678284839,
+                  "observedSpeedIndex": 1660,
+                  "observedSpeedIndexTs": 675548234
                 },
                 {
                   "lcpInvalidated": false
@@ -3250,19 +3252,19 @@
                   "numScripts": 12,
                   "numStylesheets": 4,
                   "numFonts": 0,
-                  "numTasks": 2955,
-                  "numTasksOver10ms": 16,
-                  "numTasksOver25ms": 7,
+                  "numTasks": 3519,
+                  "numTasksOver10ms": 13,
+                  "numTasksOver25ms": 6,
                   "numTasksOver50ms": 3,
                   "numTasksOver100ms": 3,
                   "numTasksOver500ms": 1,
-                  "rtt": 0.7669999999999959,
-                  "throughput": 11636956.461708723,
-                  "maxRtt": 151.34599999999998,
-                  "maxServerLatency": 177.959,
-                  "totalByteWeight": 4281436,
-                  "totalTaskTime": 1537.9600000000091,
-                  "mainDocumentTransferSize": 113134
+                  "rtt": 1.929000000000002,
+                  "throughput": 10700668.887553802,
+                  "maxRtt": 114.065,
+                  "maxServerLatency": 76.976,
+                  "totalByteWeight": 2564298,
+                  "totalTaskTime": 1433.2210000000052,
+                  "mainDocumentTransferSize": 113441
                 }
               ]
             }
@@ -3284,15 +3286,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.autoentrepreneur.urssaf.fr",
-        "size": 5548.291,
-        "nodes": 640,
+        "size": 3831.253,
+        "nodes": 648,
         "requests": 70,
         "grade": "D",
-        "score": 44,
-        "ges": 2.12,
-        "water": 3.18,
+        "score": 45,
+        "ges": 2.1,
+        "water": 3.15,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-29 01:17:29.186320",
+        "date": "2026-04-05 01:17:57.135189",
         "page_type": null
       }
     ],
@@ -3301,8 +3303,8 @@
     "summary": {
       "404": "A+",
       "httpGrade": "C",
-      "testsslExpireSoon": true,
-      "testsslExpireDate": "2026-04-02T23:59:00.000Z",
+      "testsslExpireSoon": false,
+      "testsslExpireDate": "2026-09-23T23:59:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": null,
       "cookiesCount": null,
@@ -3310,7 +3312,7 @@
       "trackersCount": null,
       "zapCount": 16,
       "zapGrade": "D",
-      "lighthouse_performance": 0.17,
+      "lighthouse_performance": 0.2,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.88,
       "lighthouse_accessibilityGrade": "A",
@@ -3342,7 +3344,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 29 Mar 2026 01:27:32 GMT",
+          "date": "Sun, 05 Apr 2026 01:28:19 GMT",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache,no-store,must-revalidate",
           "pragma": "no-cache, no-cache",
@@ -3354,8 +3356,8 @@
           "connection": "close",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "set-cookie": [
-            "TS6bd60791029=08285ff142ab2800c374c191a0553f3d7d975aa1f60394386460ebf241e4eec259bd108de5cd33d09ab13cc0bee5e93b; Max-Age=30; Path=/",
-            "TS047062ef027=08285ff142ab20004e2ff772ff3366bb0761504f55baebb9a818bc77187ecd4a35807fb5725ef65f08121af7bd113000ab0fe35ff875a692bbf9d467ae53ebdc79a3ea28bf6e9f051da61cf8118d381d01395d315e97794c72ba763b95470e59; Path=/"
+            "TS6bd60791029=08285ff142ab2800f1bef80e4764f70041ac1e2db32a75f22472961e0d3031c4363e2b2791650575b73cdfbd21c239d5; Max-Age=30; Path=/",
+            "TS047062ef027=08285ff142ab200063fc962bece4a979acd57065f51db255ee17efc6c86cf5057bf6c9e404de370308a4df9947113000d3497be971f10bc079126f4e1b407f510735cd1ee44dfc186067c5c21ad4344c2014bbf300417c605e75c369029b9d50; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -3846,7 +3848,7 @@
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "015B83162968FCB1356A6F8D769A3C4C"
+        "finding": "05609D7EB2F550A52FF91C575A2D45E5"
       },
       {
         "id": "cert_serialNumberLen",
@@ -3860,21 +3862,21 @@
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "17A52938E9D7301CC7C357999430D611D6E78C60"
+        "finding": "2ABCA2FB030A8BB1BC58BD4CAC0875A25102F9A3"
       },
       {
         "id": "cert_fingerprintSHA256",
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "B47D605A1B931EAA6F0DB8726B8A7330EB8381FFF33483D2FDC18CACDDE2D1BC"
+        "finding": "A1045708557CF602AC9B7FAD089D5DFE95A64FC63D812AD04D9F4DBF363AAAB5"
       },
       {
         "id": "cert",
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIG0DCCBbigAwIBAgIQBWCdfrL1UKUv+RxXWi1F5TANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR8wHQYDVQQDExZHZW9UcnVzdCBUTFMgUlNBIENBIEcxMB4XDTI2MDMwOTAwMDAwMFoXDTI2MDkyMzIzNTk1OVowgaAxCzAJBgNVBAYTAkZSMRcwFQYDVQQIDA7DjmxlLWRlLUZyYW5jZTESMBAGA1UEBxMJTW9udHJldWlsMT0wOwYDVQQKDDRBZ2VuY2UgQ2VudHJhbGUgRGVzIE9yZ2FuaXNtZXMgRGUgU8OpY3VyaXTDqSBTb2NpYWxlMSUwIwYDVQQDDBwqLmF1dG9lbnRyZXByZW5ldXIudXJzc2FmLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzHl0kx+e2sOZ0iZg9//y6lZCxMesW6KzC3xiWtriC+dCwLddLeGuPMTrC51s6ok56FvOenT9h0DPeCMtmQiIfCgPuBLigOwP0dYnI7FqXs+/6hgBNrV0ZoKPIouYlz70uZ257kBgXPdhX4UCy5LiHVD5vheBhCUb/mNIqlUdzqhJSgBr4/2yqvR64B0J3tMkIf0x6lP6gIcgTCqzwWre0Y94XOldtCpqMz2Aa9ocxtNynepATlfHFhYwglwfTFOC798pfcSGw5PbPGtA0Fi9vYz2rzqPqZ9aaXx8mkotB9pn/Rdlo41AqdbLd+OE8K1MBDsyKmjaBsgJMR595CycJQIDAQABo4IDQzCCAz8wHwYDVR0jBBgwFoAUlE/UXYvkpOKmgP792PkA76O+AlcwHQYDVR0OBBYEFFsc1HRf77gJdfTYCClibIAjvHhLMEMGA1UdEQQ8MDqCHCouYXV0b2VudHJlcHJlbmV1ci51cnNzYWYuZnKCGmF1dG9lbnRyZXByZW5ldXIudXJzc2FmLmZyMD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHA6Ly9jZHAuZ2VvdHJ1c3QuY29tL0dlb1RydXN0VExTUlNBQ0FHMS5jcmwwdgYIKwYBBQUHAQEEajBoMCYGCCsGAQUFBzABhhpodHRwOi8vc3RhdHVzLmdlb3RydXN0LmNvbTA+BggrBgEFBQcwAoYyaHR0cDovL2NhY2VydHMuZ2VvdHJ1c3QuY29tL0dlb1RydXN0VExTUlNBQ0FHMS5jcnQwDAYDVR0TAQH/BAIwADCCAYAGCisGAQQB1nkCBAIEggFwBIIBbAFqAHcAwjF+V0UZo0XufzjespBB68fCIVoiv3/Vta12mtkOUs0AAAGc0f2T8gAABAMASDBGAiEA80iWOQGIayfqqA7mGZCumr8b+ozKjhYex+LDKOcYjFgCIQDa2irTn5MZO8MgORpYTURJahX6mvehCFyI01tMvrSB2QB2ANgJVTuUT3r/yBYZb5RPhauw+Pxeh1UmDxXRLnK7RUsUAAABnNH9k/kAAAQDAEcwRQIgGSqKSJCUqpYIvwL9Zk8waJKOOGAmSqCtcgbNumeeFR4CIQCj5fgefAMc9x8qfQcnXkNDHrPO5SvRPVVyWCkpm6dRmQB3AJROQ4f67MHvgfMZJCaoGGUBx9NfOAIBP3JnfVU3LhnYAAABnNH9k/8AAAQDAEgwRgIhAIiXqhgUCdrJtrScJJA8ZlpLPN7p4lpDEIh/MuyGPM8aAiEA8kFVPKFUbshcz1aXPcUlY2WJrBXY6n6tyWlrSCoZ9hEwDQYJKoZIhvcNAQELBQADggEBAA0iC3RKfhOh+YLO4Wf2KYDOl0px2fZ22wm3OiEfe1+iqPpL1QCa6ec43QLOfb1J9jltRcmTqiZPQ9kaw7URaXuParm4IwnquLxQw31dow+koE4URhhBzEsJvdH6GEY1dzbXcqz+GedTidTKxBM13QEAUvoYw9kQI76tY3BlIbkxgEM4o/x9BzujXUx+Hfvv4kMi4DdgtOouKX8YTWak+Zrclk7VaIH2WQg9Scn3h1i0RE0fdgkDmXPhoktHOJAQFtmW/Iio1Px7YYIlqKy3n8k6Vyc1/Emkqckgu0mC5wbvumEwM/6l3qKDkzxSvKzrALZl18hUuAxq9fIYCO02/o8=\n-----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
@@ -3929,22 +3931,22 @@
         "id": "cert_expirationStatus",
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
-        "severity": "HIGH",
-        "finding": "expires < 30 days (4)"
+        "severity": "OK",
+        "finding": "171 >= 60 days"
       },
       {
         "id": "cert_notBefore",
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "2025-04-03 00:00"
+        "finding": "2026-03-09 00:00"
       },
       {
         "id": "cert_notAfter",
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
-        "severity": "HIGH",
-        "finding": "2026-04-02 23:59"
+        "severity": "OK",
+        "finding": "2026-09-23 23:59"
       },
       {
         "id": "cert_extlifeSpan",
@@ -4226,7 +4228,7 @@
         "severity": "INFO",
         "cve": "CVE-2016-0800 CVE-2016-0703",
         "cwe": "CWE-310",
-        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=B47D605A1B931EAA6F0DB8726B8A7330EB8381FFF33483D2FDC18CACDDE2D1BC"
+        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=A1045708557CF602AC9B7FAD089D5DFE95A64FC63D812AD04D9F4DBF363AAAB5"
       },
       {
         "id": "LOGJAM-common_primes",
@@ -4602,7 +4604,7 @@
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "89"
+        "finding": "74"
       }
     ],
     "thirdparties": {
@@ -4622,8 +4624,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 29 Mar 2026 01:26:39",
-      "created": "2026-03-29T01:26:39.152550411Z",
+      "@generated": "Sun, 5 Apr 2026 01:27:28",
+      "created": "2026-04-05T01:27:28.168922280Z",
       "insights": [
         {
           "level": "Info",
@@ -4859,7 +4861,7 @@
       {
         "requestedUrl": "https://autoentrepreneur.urssaf.fr/services",
         "finalUrl": "https://www.autoentrepreneur.urssaf.fr/portail/accueil.html",
-        "fetchTime": "2026-03-29T01:26:54.954Z",
+        "fetchTime": "2026-04-05T01:27:44.063Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://autoentrepreneur.urssaf.fr/services) was redirected to https://www.autoentrepreneur.urssaf.fr/portail/accueil.html. Try testing the second URL directly."
         ],
@@ -4872,7 +4874,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.17
+            "score": 0.18
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4924,53 +4926,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 14634,
+            "numericValue": 14950,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7247,
-                  "firstMeaningfulPaint": 7247,
-                  "largestContentfulPaint": 8033,
-                  "interactive": 14634,
-                  "speedIndex": 9156,
-                  "totalBlockingTime": 3591,
-                  "maxPotentialFID": 2377,
+                  "firstContentfulPaint": 7001,
+                  "firstMeaningfulPaint": 7001,
+                  "largestContentfulPaint": 7765,
+                  "interactive": 14950,
+                  "speedIndex": 8446,
+                  "totalBlockingTime": 3266,
+                  "maxPotentialFID": 2412,
                   "cumulativeLayoutShift": 0.06936,
                   "cumulativeLayoutShiftMainFrame": 0.06936,
                   "totalCumulativeLayoutShift": 0.06936,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 676251617,
+                  "observedTimeOriginTs": 668226970,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 676251617,
-                  "observedFirstPaint": 1971,
-                  "observedFirstPaintTs": 678223046,
-                  "observedFirstContentfulPaint": 1971,
-                  "observedFirstContentfulPaintTs": 678223046,
-                  "observedFirstContentfulPaintAllFrames": 1971,
-                  "observedFirstContentfulPaintAllFramesTs": 678223046,
-                  "observedFirstMeaningfulPaint": 1971,
-                  "observedFirstMeaningfulPaintTs": 678223046,
-                  "observedLargestContentfulPaint": 1971,
-                  "observedLargestContentfulPaintTs": 678223046,
-                  "observedLargestContentfulPaintAllFrames": 1971,
-                  "observedLargestContentfulPaintAllFramesTs": 678223046,
-                  "observedTraceEnd": 7084,
-                  "observedTraceEndTs": 683336077,
-                  "observedLoad": 4039,
-                  "observedLoadTs": 680290230,
-                  "observedDomContentLoaded": 1988,
-                  "observedDomContentLoadedTs": 678239561,
+                  "observedNavigationStartTs": 668226970,
+                  "observedFirstPaint": 1701,
+                  "observedFirstPaintTs": 669928194,
+                  "observedFirstContentfulPaint": 1701,
+                  "observedFirstContentfulPaintTs": 669928194,
+                  "observedFirstContentfulPaintAllFrames": 1701,
+                  "observedFirstContentfulPaintAllFramesTs": 669928194,
+                  "observedFirstMeaningfulPaint": 1701,
+                  "observedFirstMeaningfulPaintTs": 669928194,
+                  "observedLargestContentfulPaint": 1701,
+                  "observedLargestContentfulPaintTs": 669928194,
+                  "observedLargestContentfulPaintAllFrames": 1701,
+                  "observedLargestContentfulPaintAllFramesTs": 669928194,
+                  "observedTraceEnd": 6473,
+                  "observedTraceEndTs": 674700190,
+                  "observedLoad": 3541,
+                  "observedLoadTs": 671767892,
+                  "observedDomContentLoaded": 0,
+                  "observedDomContentLoadedTs": 668227377,
                   "observedCumulativeLayoutShift": 0.06936,
                   "observedCumulativeLayoutShiftMainFrame": 0.06936,
                   "observedTotalCumulativeLayoutShift": 0.06936,
-                  "observedFirstVisualChange": 1971,
-                  "observedFirstVisualChangeTs": 678222617,
-                  "observedLastVisualChange": 4976,
-                  "observedLastVisualChangeTs": 681227617,
-                  "observedSpeedIndex": 2209,
-                  "observedSpeedIndexTs": 678461035
+                  "observedFirstVisualChange": 1701,
+                  "observedFirstVisualChangeTs": 669927970,
+                  "observedLastVisualChange": 4374,
+                  "observedLastVisualChangeTs": 672600970,
+                  "observedSpeedIndex": 1913,
+                  "observedSpeedIndexTs": 670140195
                 },
                 {
                   "lcpInvalidated": false
@@ -4992,19 +4994,19 @@
                   "numScripts": 12,
                   "numStylesheets": 4,
                   "numFonts": 0,
-                  "numTasks": 3248,
-                  "numTasksOver10ms": 14,
-                  "numTasksOver25ms": 9,
-                  "numTasksOver50ms": 4,
+                  "numTasks": 3762,
+                  "numTasksOver10ms": 12,
+                  "numTasksOver25ms": 8,
+                  "numTasksOver50ms": 3,
                   "numTasksOver100ms": 3,
                   "numTasksOver500ms": 1,
-                  "rtt": 1.3659999999999854,
-                  "throughput": 14130742.962401623,
-                  "maxRtt": 105.60299999999998,
-                  "maxServerLatency": 110.17,
-                  "totalByteWeight": 4288629,
-                  "totalTaskTime": 1582.648999999988,
-                  "mainDocumentTransferSize": 113218
+                  "rtt": 5.310000000000002,
+                  "throughput": 13911778.685945228,
+                  "maxRtt": 89.977,
+                  "maxServerLatency": 76.83099999999999,
+                  "totalByteWeight": 2744897,
+                  "totalTaskTime": 1506.8259999999977,
+                  "mainDocumentTransferSize": 113493
                 }
               ]
             }
@@ -5026,15 +5028,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://autoentrepreneur.urssaf.fr/services",
-        "size": 5618.056,
-        "nodes": 640,
+        "size": 4074.544,
+        "nodes": 648,
         "requests": 70,
         "grade": "D",
         "score": 44,
         "ges": 2.12,
         "water": 3.18,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-29 01:17:40.824236",
+        "date": "2026-04-05 01:18:31.297259",
         "page_type": null
       }
     ],
@@ -5043,8 +5045,8 @@
     "summary": {
       "404": "A+",
       "httpGrade": "C",
-      "testsslExpireSoon": true,
-      "testsslExpireDate": "2026-04-02T23:59:00.000Z",
+      "testsslExpireSoon": false,
+      "testsslExpireDate": "2026-09-23T23:59:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": null,
       "cookiesCount": null,
@@ -5052,7 +5054,7 @@
       "trackersCount": null,
       "zapCount": 16,
       "zapGrade": "D",
-      "lighthouse_performance": 0.17,
+      "lighthouse_performance": 0.18,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.88,
       "lighthouse_accessibilityGrade": "A",
@@ -5084,7 +5086,7 @@
         "testsPassed": 7,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 29 Mar 2026 01:49:31 GMT",
+          "date": "Sun, 05 Apr 2026 01:50:16 GMT",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
           "pragma": "no-cache",
@@ -5096,8 +5098,8 @@
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "set-cookie": [
-            "TS3ab25f03029=08285ff142ab28009f164f58446f7659fc1fb3efee5179e9db23b7e61d54dae0db9640f733d7ba6eb0719b1a9a5f2e51; Max-Age=30; Path=/",
-            "TS1c4bd837027=08285ff142ab2000f366b4a3aa467e4a7125b20ec96014e05d5989585dc582c726c34c13f01a0d5308cff98e6f113000951820f39ba6f168ab8793bb6e6b26b6388de52fc7b67b3c92a51ace3c946a5933e791e256f53fe1e6f32c1dca2e55d5; Path=/"
+            "TS3ab25f03029=08285ff142ab2800ef5c63cf22f8eeaf55354f315d26623c984038658edd6574a70e02f7c976fb81d50e372905fddb0f; Max-Age=30; Path=/",
+            "TS1c4bd837027=08285ff142ab2000d559970defe0469b3e101053f3f0ba75c7ed42a011fc2ebe0108eee4fd0e3c0008184aa92f1130001133b7d7264fc9ee32d20915003f5d8a0c3c61094ea5edb31d67e04b09e563b11f2e63b4d675b629d77cf63abb60e7ec; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -5629,7 +5631,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "OK",
-        "finding": "156 >= 60 days"
+        "finding": "149 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -6301,7 +6303,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "95"
+        "finding": "58"
       }
     ],
     "thirdparties": {
@@ -6321,8 +6323,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 29 Mar 2026 01:48:42",
-      "created": "2026-03-29T01:48:42.526418745Z",
+      "@generated": "Sun, 5 Apr 2026 01:49:29",
+      "created": "2026-04-05T01:49:29.015155447Z",
       "insights": [
         {
           "level": "Info",
@@ -6513,7 +6515,7 @@
       {
         "requestedUrl": "https://www.cesu.urssaf.fr/",
         "finalUrl": "https://www.cesu.urssaf.fr/info/accueil.html",
-        "fetchTime": "2026-03-29T01:48:59.185Z",
+        "fetchTime": "2026-04-05T01:49:45.177Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.cesu.urssaf.fr/) was redirected to https://www.cesu.urssaf.fr/info/accueil.html. Try testing the second URL directly."
         ],
@@ -6526,7 +6528,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.17
+            "score": 0.18
           },
           "accessibility": {
             "title": "Accessibility",
@@ -6578,53 +6580,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 18742,
+            "numericValue": 19117,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6754,
-                  "firstMeaningfulPaint": 6754,
-                  "largestContentfulPaint": 18234,
-                  "interactive": 18742,
-                  "speedIndex": 9965,
-                  "totalBlockingTime": 3232,
-                  "maxPotentialFID": 2411,
+                  "firstContentfulPaint": 6183,
+                  "firstMeaningfulPaint": 6183,
+                  "largestContentfulPaint": 18531,
+                  "interactive": 19117,
+                  "speedIndex": 8797,
+                  "totalBlockingTime": 3348,
+                  "maxPotentialFID": 2361,
                   "cumulativeLayoutShift": 0.014992,
                   "cumulativeLayoutShiftMainFrame": 0.014992,
                   "totalCumulativeLayoutShift": 0.014992,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 709018385,
+                  "observedTimeOriginTs": 661110179,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 709018385,
-                  "observedFirstPaint": 1728,
-                  "observedFirstPaintTs": 710746678,
-                  "observedFirstContentfulPaint": 1728,
-                  "observedFirstContentfulPaintTs": 710746678,
-                  "observedFirstContentfulPaintAllFrames": 1728,
-                  "observedFirstContentfulPaintAllFramesTs": 710746678,
-                  "observedFirstMeaningfulPaint": 1728,
-                  "observedFirstMeaningfulPaintTs": 710746678,
-                  "observedLargestContentfulPaint": 3426,
-                  "observedLargestContentfulPaintTs": 712444689,
-                  "observedLargestContentfulPaintAllFrames": 3426,
-                  "observedLargestContentfulPaintAllFramesTs": 712444689,
-                  "observedTraceEnd": 6579,
-                  "observedTraceEndTs": 715597256,
-                  "observedLoad": 3410,
-                  "observedLoadTs": 712428350,
-                  "observedDomContentLoaded": 2156,
-                  "observedDomContentLoadedTs": 711174331,
+                  "observedNavigationStartTs": 661110179,
+                  "observedFirstPaint": 1383,
+                  "observedFirstPaintTs": 662493539,
+                  "observedFirstContentfulPaint": 1383,
+                  "observedFirstContentfulPaintTs": 662493539,
+                  "observedFirstContentfulPaintAllFrames": 1383,
+                  "observedFirstContentfulPaintAllFramesTs": 662493539,
+                  "observedFirstMeaningfulPaint": 1383,
+                  "observedFirstMeaningfulPaintTs": 662493539,
+                  "observedLargestContentfulPaint": 2792,
+                  "observedLargestContentfulPaintTs": 663902501,
+                  "observedLargestContentfulPaintAllFrames": 2792,
+                  "observedLargestContentfulPaintAllFramesTs": 663902501,
+                  "observedTraceEnd": 5702,
+                  "observedTraceEndTs": 666812028,
+                  "observedLoad": 2777,
+                  "observedLoadTs": 663886701,
+                  "observedDomContentLoaded": 0,
+                  "observedDomContentLoadedTs": 661110510,
                   "observedCumulativeLayoutShift": 0.014992,
                   "observedCumulativeLayoutShiftMainFrame": 0.014992,
                   "observedTotalCumulativeLayoutShift": 0.014992,
-                  "observedFirstVisualChange": 1728,
-                  "observedFirstVisualChangeTs": 710746385,
-                  "observedLastVisualChange": 4100,
-                  "observedLastVisualChangeTs": 713118385,
-                  "observedSpeedIndex": 2637,
-                  "observedSpeedIndexTs": 711654998
+                  "observedFirstVisualChange": 1383,
+                  "observedFirstVisualChangeTs": 662493179,
+                  "observedLastVisualChange": 3259,
+                  "observedLastVisualChangeTs": 664369179,
+                  "observedSpeedIndex": 2131,
+                  "observedSpeedIndexTs": 663241482
                 },
                 {
                   "lcpInvalidated": false
@@ -6646,19 +6648,19 @@
                   "numScripts": 14,
                   "numStylesheets": 4,
                   "numFonts": 0,
-                  "numTasks": 2297,
+                  "numTasks": 2492,
                   "numTasksOver10ms": 19,
-                  "numTasksOver25ms": 7,
+                  "numTasksOver25ms": 6,
                   "numTasksOver50ms": 3,
                   "numTasksOver100ms": 3,
                   "numTasksOver500ms": 1,
-                  "rtt": 17.423000000000002,
-                  "throughput": 8890494.096925661,
-                  "maxRtt": 129.785,
-                  "maxServerLatency": 125.09,
-                  "totalByteWeight": 2403117,
-                  "totalTaskTime": 1420.9419999999946,
-                  "mainDocumentTransferSize": 54915
+                  "rtt": 6.409,
+                  "throughput": 12860001.442439001,
+                  "maxRtt": 90.142,
+                  "maxServerLatency": 50.016999999999996,
+                  "totalByteWeight": 2588571,
+                  "totalTaskTime": 1396.901999999995,
+                  "mainDocumentTransferSize": 54942
                 }
               ]
             }
@@ -6680,15 +6682,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cesu.urssaf.fr",
-        "size": 3241.39,
+        "size": 3390.569,
         "nodes": 426,
         "requests": 51,
         "grade": "C",
-        "score": 59,
-        "ges": 1.82,
-        "water": 2.73,
+        "score": 58,
+        "ges": 1.84,
+        "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-29 01:39:43.314952",
+        "date": "2026-04-05 01:40:36.112426",
         "page_type": null
       }
     ],
@@ -6706,7 +6708,7 @@
       "trackersCount": null,
       "zapCount": 12,
       "zapGrade": "D",
-      "lighthouse_performance": 0.17,
+      "lighthouse_performance": 0.18,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",
@@ -6739,7 +6741,7 @@
         "testsPassed": 7,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 29 Mar 2026 01:50:56 GMT",
+          "date": "Sun, 05 Apr 2026 01:51:20 GMT",
           "last-modified": "Wed, 25 Feb 2026 08:15:21 GMT",
           "etag": "\"2333-64ba19ae85840\"",
           "accept-ranges": "bytes",
@@ -6754,9 +6756,9 @@
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "set-cookie": [
-            "TS01479bf2=01726d0b826c67f9775ba551583baaf4d02318340ba974b47a9546cb13ac53582a01b8ec16a4943cece38b83e8bee953483224811b; Path=/; Domain=.www.cesu.urssaf.fr",
-            "TS3ab25f03029=08285ff142ab28004dabc22b3b627ea6e55550d309176fd2127ac52f1733c8c739c413358604bc2e2b221b46ca55c364; Max-Age=30; Path=/",
-            "TS1c4bd837027=08285ff142ab20009258a221c8404cd7ce542192cb0e2c05871b898026ea03e8331b60315e56d81408a50323ae11300029b93c1a2d00208941b56210a3e7cf31f3f4591e643222866931331d99f350b2db74f5b706df1f911a2ad74a7647a463; Path=/"
+            "TS01479bf2=01726d0b820a0cf5447ecd049997c27ee40dd53af5044dc0aae17c8ce54f84ac6d80153e2d2ec9500017aec4c5eebaf7a55d6ad690; Path=/; Domain=.www.cesu.urssaf.fr",
+            "TS3ab25f03029=08285ff142ab2800f58802f2155abf74d11f476b12e32c74a0569bcbb69e6420eca21d528cfd1f4e9c6e8ed8b43a24c7; Max-Age=30; Path=/",
+            "TS1c4bd837027=08285ff142ab2000c27317962a4d3e37f3f74d89c2c25ea24e62186cb671f0e4887928398d7868d2083f25f20c1130005069a7aeca8c47c82ab9eb9460c58743f65eda7bbb7eaabc2bc2ce2f29066fb51aca5bd09bbd95c24df81bff74ad1bcc; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -7275,7 +7277,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "OK",
-        "finding": "156 >= 60 days"
+        "finding": "149 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -7947,7 +7949,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "99"
+        "finding": "98"
       }
     ],
     "thirdparties": {
@@ -7967,8 +7969,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 29 Mar 2026 01:50:01",
-      "created": "2026-03-29T01:50:01.879844829Z",
+      "@generated": "Sun, 5 Apr 2026 01:50:28",
+      "created": "2026-04-05T01:50:28.922096992Z",
       "insights": [
         {
           "level": "Info",
@@ -8183,7 +8185,7 @@
       {
         "requestedUrl": "https://www.cesu.urssaf.fr/decla/index.html",
         "finalUrl": "https://www.cesu.urssaf.fr/decla/index.html?page=page_se_connecter&LANG=FR",
-        "fetchTime": "2026-03-29T01:50:18.389Z",
+        "fetchTime": "2026-04-05T01:50:43.770Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.cesu.urssaf.fr/decla/index.html) was redirected to https://www.cesu.urssaf.fr/decla/index.html?page=page_se_connecter&LANG=FR. Try testing the second URL directly."
         ],
@@ -8248,53 +8250,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 37631,
+            "numericValue": 38731,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 30205,
-                  "firstMeaningfulPaint": 30205,
-                  "largestContentfulPaint": 36670,
-                  "interactive": 37631,
-                  "speedIndex": 30205,
-                  "totalBlockingTime": 4406,
+                  "firstContentfulPaint": 28653,
+                  "firstMeaningfulPaint": 30952,
+                  "largestContentfulPaint": 38790,
+                  "interactive": 38731,
+                  "speedIndex": 28798,
+                  "totalBlockingTime": 4411,
                   "maxPotentialFID": 1175,
                   "cumulativeLayoutShift": 0.010424,
                   "cumulativeLayoutShiftMainFrame": 0.010424,
                   "totalCumulativeLayoutShift": 0.010424,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 692522477,
+                  "observedTimeOriginTs": 702136789,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 692522477,
-                  "observedFirstPaint": 502,
-                  "observedFirstPaintTs": 693024345,
-                  "observedFirstContentfulPaint": 1705,
-                  "observedFirstContentfulPaintTs": 694227448,
-                  "observedFirstContentfulPaintAllFrames": 1705,
-                  "observedFirstContentfulPaintAllFramesTs": 694227448,
-                  "observedFirstMeaningfulPaint": 1705,
-                  "observedFirstMeaningfulPaintTs": 694227448,
-                  "observedLargestContentfulPaint": 1705,
-                  "observedLargestContentfulPaintTs": 694227448,
-                  "observedLargestContentfulPaintAllFrames": 1705,
-                  "observedLargestContentfulPaintAllFramesTs": 694227448,
-                  "observedTraceEnd": 3003,
-                  "observedTraceEndTs": 695525407,
-                  "observedLoad": 1681,
-                  "observedLoadTs": 694203774,
+                  "observedNavigationStartTs": 702136789,
+                  "observedFirstPaint": 521,
+                  "observedFirstPaintTs": 702657459,
+                  "observedFirstContentfulPaint": 1253,
+                  "observedFirstContentfulPaintTs": 703390097,
+                  "observedFirstContentfulPaintAllFrames": 1253,
+                  "observedFirstContentfulPaintAllFramesTs": 703390097,
+                  "observedFirstMeaningfulPaint": 2106,
+                  "observedFirstMeaningfulPaintTs": 704242422,
+                  "observedLargestContentfulPaint": 2106,
+                  "observedLargestContentfulPaintTs": 704242422,
+                  "observedLargestContentfulPaintAllFrames": 2106,
+                  "observedLargestContentfulPaintAllFramesTs": 704242422,
+                  "observedTraceEnd": 3400,
+                  "observedTraceEndTs": 705536798,
+                  "observedLoad": 2093,
+                  "observedLoadTs": 704229556,
                   "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 692522798,
+                  "observedDomContentLoadedTs": 702137121,
                   "observedCumulativeLayoutShift": 0.010424,
                   "observedCumulativeLayoutShiftMainFrame": 0.010424,
                   "observedTotalCumulativeLayoutShift": 0.010424,
-                  "observedFirstVisualChange": 502,
-                  "observedFirstVisualChangeTs": 693024477,
-                  "observedLastVisualChange": 2240,
-                  "observedLastVisualChangeTs": 694762477,
-                  "observedSpeedIndex": 1723,
-                  "observedSpeedIndexTs": 694245342
+                  "observedFirstVisualChange": 520,
+                  "observedFirstVisualChangeTs": 702656789,
+                  "observedLastVisualChange": 2407,
+                  "observedLastVisualChangeTs": 704543789,
+                  "observedSpeedIndex": 2012,
+                  "observedSpeedIndexTs": 704148567
                 },
                 {
                   "lcpInvalidated": false
@@ -8312,22 +8314,22 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 135,
-                  "numScripts": 50,
+                  "numRequests": 138,
+                  "numScripts": 51,
                   "numStylesheets": 8,
                   "numFonts": 0,
-                  "numTasks": 3986,
-                  "numTasksOver10ms": 27,
-                  "numTasksOver25ms": 17,
-                  "numTasksOver50ms": 11,
+                  "numTasks": 4249,
+                  "numTasksOver10ms": 28,
+                  "numTasksOver25ms": 20,
+                  "numTasksOver50ms": 10,
                   "numTasksOver100ms": 10,
                   "numTasksOver500ms": 4,
-                  "rtt": 0.9770000000000039,
-                  "throughput": 5042711.207692273,
-                  "maxRtt": 153.52599999999998,
-                  "maxServerLatency": 184.07999999999998,
-                  "totalByteWeight": 4497288,
-                  "totalTaskTime": 4555.189999999985,
+                  "rtt": 1.0869999999999997,
+                  "throughput": 5014178.998712947,
+                  "maxRtt": 155.724,
+                  "maxServerLatency": 239.35000000000002,
+                  "totalByteWeight": 4677997,
+                  "totalTaskTime": 4632.623999999971,
                   "mainDocumentTransferSize": 10852
                 }
               ]
@@ -8350,15 +8352,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cesu.urssaf.fr/decla/index.html",
-        "size": 5207.211,
-        "nodes": 609,
-        "requests": 137,
+        "size": 5295.813,
+        "nodes": 606,
+        "requests": 120,
         "grade": "E",
-        "score": 34,
-        "ges": 2.32,
-        "water": 3.48,
+        "score": 36,
+        "ges": 2.28,
+        "water": 3.42,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-29 01:41:05.295550",
+        "date": "2026-04-05 01:41:22.910879",
         "page_type": null
       }
     ],
@@ -8408,7 +8410,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 29 Mar 2026 02:44:40 GMT",
+          "date": "Sun, 05 Apr 2026 02:44:41 GMT",
           "last-modified": "Mon, 27 Feb 2023 09:03:52 GMT",
           "etag": "\"72-c2066e00\"",
           "accept-ranges": "bytes",
@@ -8417,9 +8419,9 @@
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "set-cookie": [
-            "TS01af3c49=01726d0b821f8c8929ffed88c36f56360c8d5b006b05ea990c9d43d4dd5aebc21d7f0589eb5b934cbcff09be6b5e408ae9ec9decbe; Path=/; Domain=.www.tpee.urssaf.fr",
-            "TS5d88df92029=08285ff142ab2800005aad16d22fd398737dd1bf2052eb7c98c64f6ece8f6067d1be94e696befdbac0bee3aeffbaaabd; Max-Age=30; Path=/",
-            "TS7b7158a6027=08285ff142ab2000198565c796b97fafc60af4510f90717ac917366b11943e11d5dc8d61deb8e91b08256b861b113000e2654b0881b9102e1f947f5335bf27ed412ab707e492c477da7c3f8db8f64e5bf83740cad8e7558ff4d4c66ea4d98773; Path=/"
+            "TS01af3c49=01726d0b82faf87d41d6741dee7ee173506a39dc4b043b7a5e472253e00a31a20947a5c2645d02dec5e7d8e8935aea7cb232602732; Path=/; Domain=.www.tpee.urssaf.fr",
+            "TS5d88df92029=08285ff142ab280079de87ce508d7844f327d918df2a329fc86a662d6503ffe250179adced20a86a187013f09d26a6fd; Max-Age=30; Path=/",
+            "TS7b7158a6027=08285ff142ab20004d83d7e8477fc5fa31ea7f881f66ec447aba8223575fff3de34d515d2842ff27087b80e2771130002a0ed1104722a96c4a98da45f317d991da11bb69f6ce59ea299c0a650d859a375232121b517c3fc554c2cbb1b487d6f3; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -8885,1585 +8887,7 @@
         "ip": "www.tpee.urssaf.fr/193.178.136.212",
         "port": "443",
         "severity": "OK",
-        "finding": "94 >= 60 days"
-      },
-      {
-        "id": "cert_notBefore",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2025-07-02 00:00"
-      },
-      {
-        "id": "cert_notAfter",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2026-07-01 23:59"
-      },
-      {
-        "id": "cert_extlifeSpan",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "certificate has no extended life time according to browser forum"
-      },
-      {
-        "id": "cert_eTLS",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not present"
-      },
-      {
-        "id": "cert_crlDistributionPoints",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "http://cdp.geotrust.com/GeoTrustTLSRSACAG1.crl"
-      },
-      {
-        "id": "cert_ocspURL",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "http://status.geotrust.com"
-      },
-      {
-        "id": "OCSP_stapling",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "not offered"
-      },
-      {
-        "id": "cert_mustStapleExtension",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "--"
-      },
-      {
-        "id": "DNS_CAArecord",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "iodef=mailto:hostmaster@acoss.fr, issue=certigna.fr, issue=digicert.com"
-      },
-      {
-        "id": "certificate_transparency",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "yes (certificate extension)"
-      },
-      {
-        "id": "certs_countServer",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "3"
-      },
-      {
-        "id": "certs_list_ordering_problem",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "no"
-      },
-      {
-        "id": "cert_caIssuers",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "GeoTrust TLS RSA CA G1 (DigiCert Inc from US)"
-      },
-      {
-        "id": "intermediate_cert <#1>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIEjTCCA3WgAwIBAgIQDQd4KhM/xvmlcpbhMf/ReTANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0xNzExMDIxMjIzMzdaFw0yNzExMDIxMjIzMzdaMGAxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xHzAdBgNVBAMTFkdlb1RydXN0IFRMUyBSU0EgQ0EgRzEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+F+jsvikKy/65LWEx/TMkCDIuWegh1Ngwvm4QyISgP7oU5d79eoySG3vOhC3w/3jEMuipoH1fBtp7m0tTpsYbAhch4XA7rfuD6whUgajeErLVxoiWMPkC/DnUvbgi74BJmdBiuGHQSd7LwsuXpTEGG9fYXcbTVN5SATYqDfbexbYxTMwVJWoVb6lrBEgM3gBBqiiAiy800xu1Nq07JdCIQkBsNpFtZbIZhsDSfzlGWP4wEmBQ3O67c+ZXkFr2DcrXBEtHam80Gp2SNhou2U5U7UesDL/xgLK6/0d76TnEVMSUVJkZ8VeZr+IUIlvoLrtjLbqugb0T3OYXW+CQU0kBAgMBAAGjggFAMIIBPDAdBgNVHQ4EFgQUlE/UXYvkpOKmgP792PkA76O+AlcwHwYDVR0jBBgwFoAUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcmwwPQYDVR0gBDYwNDAyBgRVHSAAMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwDQYJKoZIhvcNAQELBQADggEBAIIcBDqC6cWpyGUSXAjjAcYwsK4iiGF7KweG97i1RJz1kwZhRoo6orU1JtBYnjzBc4+/sXmnHJk3mlPyL1xuIAt9sMeC7+vreRIF5wFBC0MCN5sbHwhNN1JzKbifNeP5ozpZdQFmkCo+neBiKR6HqIA+LMTMCMMuv2khGGuPHmtDze4GmEGZtYLyF8EQpa5YjPuV6k2Cr/N3XxFpT3hRpt/3usU/Zb9wfKPtWpoznZ4/44c1p9rzFcZYrWkj3A+7TNBJE0GmP2fhXhP1D/XVfIW/h0yCJGEiV9Glm/uGOa3DXHlmbAcxSyCRraG+ZBkA7h4SeM6Y8l/7MBRpPCz6l8Y=\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "intermediate_cert_fingerprintSHA256 <#1>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "C06E307F7CFC1D32FA72A4C033C87B90019AF216F0775D64978A2ECA6C8A230E"
-      },
-      {
-        "id": "intermediate_cert_notBefore <#1>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2017-11-02 12:23"
-      },
-      {
-        "id": "intermediate_cert_notAfter <#1>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2027-11-02 12:23"
-      },
-      {
-        "id": "intermediate_cert_expiration <#1>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "ok > 40 days"
-      },
-      {
-        "id": "intermediate_cert_chain <#1>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "GeoTrust TLS RSA CA G1 <-- DigiCert Global Root G2"
-      },
-      {
-        "id": "intermediate_cert <#2>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIDjjCCAnagAwIBAgIQAzrx5qcRqaC7KGSxHQn65TANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0xMzA4MDExMjAwMDBaFw0zODAxMTUxMjAwMDBaMGExCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IEcyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuzfNNNx7a8myaJCtSnX/RrohCgiN9RlUyfuI2/Ou8jqJkTx65qsGGmvPrC3oXgkkRLpimn7Wo6h+4FR1IAWsULecYxpsMNzaHxmx1x7e/dfgy5SDN67sH0NO3Xss0r0upS/kqbitOtSZpLYl6ZtrAGCSYP9PIUkY92eQq2EGnI/yuum06ZIya7XzV+hdG82MHauVBJVJ8zUtluNJbd134/tJS7SsVQepj5WztCO7TG1F8PapspUwtP1MVYwnSlcUfIKdzXOS0xZKBgyMUNGPHgm+F6HmIcr9g+UQvIOlCsRnKPZzFBQ9RnbDhxSJITRNrw9FDKZJobq7nMWxM4MphQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHQ4EFgQUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDQYJKoZIhvcNAQELBQADggEBAGBnKJRvDkhj6zHd6mcY1Yl9PMWLSn/pvtsrF9+wX3N3KjITOYFnQoQj8kVnNeyIv/iPsGEMNKSuIEyExtv4NeF22d+mQrvHRAiGfzZ0JFrabA0UWTW98kndth/Jsw1HKj2ZL7tcu7XUIOGZX1NGFdtom/DzMNU+MeKNhJ7jitralj41E6Vf8PlwUHBHQRFXGU7Aj64GxJUTFy8bJZ918rGOmaFvE7FBcf6IKshPECBV1/MUReXgRPTqh5Uykw7+U0b6LJ3/iyK5S9kJRaTepLiaWN0bfVKfjllDiIGknibVb63dDcY3fe0Dkhvld1927jyNxF1WW6LZZm6zNTflMrY=\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "intermediate_cert_fingerprintSHA256 <#2>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "CB3CCBB76031E5E0138F8DD39A23F9DE47FFC35E43C1144CEA27D46A5AB1CB5F"
-      },
-      {
-        "id": "intermediate_cert_notBefore <#2>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2013-08-01 12:00"
-      },
-      {
-        "id": "intermediate_cert_notAfter <#2>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2038-01-15 12:00"
-      },
-      {
-        "id": "intermediate_cert_expiration <#2>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "ok > 40 days"
-      },
-      {
-        "id": "intermediate_cert_chain <#2>",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "DigiCert Global Root G2 <-- DigiCert Global Root G2"
-      },
-      {
-        "id": "intermediate_cert_badOCSP",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "intermediate certificate(s) is/are ok"
-      },
-      {
-        "id": "heartbleed",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-0160",
-        "cwe": "CWE-119",
-        "finding": "not vulnerable, no heartbeat extension"
-      },
-      {
-        "id": "CCS",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-0224",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "ticketbleed",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "cve": "CVE-2016-9244",
-        "cwe": "CWE-200",
-        "finding": "not applicable, not HTTP"
-      },
-      {
-        "id": "ROBOT",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
-        "cwe": "CWE-203",
-        "finding": "not vulnerable, no RSA key transport cipher"
-      },
-      {
-        "id": "secure_renego",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-310",
-        "finding": "supported"
-      },
-      {
-        "id": "secure_client_renego",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "MEDIUM",
-        "cve": "CVE-2011-1473",
-        "cwe": "CWE-310",
-        "finding": "VULNERABLE, potential DoS threat"
-      },
-      {
-        "id": "CRIME_TLS",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2012-4929",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable (not using HTTP anyway)"
-      },
-      {
-        "id": "POODLE_SSL",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-3566",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable, no SSLv3"
-      },
-      {
-        "id": "fallback_SCSV",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "no protocol below TLS 1.2 offered"
-      },
-      {
-        "id": "SWEET32",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2016-2183 CVE-2016-6329",
-        "cwe": "CWE-327",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "FREAK",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2015-0204",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "DROWN",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2016-0800 CVE-2016-0703",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable on this host and port"
-      },
-      {
-        "id": "DROWN_hint",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "cve": "CVE-2016-0800 CVE-2016-0703",
-        "cwe": "CWE-310",
-        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=84B3A86DD025A5C3396D35D464DCCB27AA7DF3120D0C11FAD9ACFEDB7793FC3E"
-      },
-      {
-        "id": "LOGJAM",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2015-4000",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable, no DH EXPORT ciphers,"
-      },
-      {
-        "id": "LOGJAM-common_primes",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2015-4000",
-        "cwe": "CWE-310",
-        "finding": "no DH key with <= TLS 1.2"
-      },
-      {
-        "id": "BEAST",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2011-3389",
-        "cwe": "CWE-20",
-        "finding": "not vulnerable, no SSL3 or TLS1"
-      },
-      {
-        "id": "LUCKY13",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "LOW",
-        "cve": "CVE-2013-0169",
-        "cwe": "CWE-310",
-        "finding": "potentially vulnerable, uses obsolete TLS CBC ciphers"
-      },
-      {
-        "id": "winshock",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-6321",
-        "cwe": "CWE-94",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "RC4",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2013-2566 CVE-2015-2808",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "clientsimulation-android_70",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-android_81",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-android_90",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-android_X",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-android_11_12",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-android_13_14",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-android_15",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-chrome_101_win10",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-chromium_137_win11",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-firefox_100_win10",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-firefox_137_win11",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-ie_8_win7",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No connection"
-      },
-      {
-        "id": "clientsimulation-ie_11_win7",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
-      },
-      {
-        "id": "clientsimulation-ie_11_win81",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
-      },
-      {
-        "id": "clientsimulation-ie_11_winphone81",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
-      },
-      {
-        "id": "clientsimulation-ie_11_win10",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-edge_15_win10",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-edge_101_win10_21h2",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-edge_133_win11_23h2",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-safari_184_ios_184",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-safari_154_osx_1231",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-safari_184_osx_154",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-java_7u25",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No connection"
-      },
-      {
-        "id": "clientsimulation-java_80442",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-java_1102",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-java_1703",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-java_2106",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-go_1178",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-libressl_336",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-openssl_102e",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-openssl_111d",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-openssl_315",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-openssl_350",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "clientsimulation-apple_mail_16_0",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "clientsimulation-thunderbird_91_9",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
-      },
-      {
-        "id": "rating_spec",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
-      },
-      {
-        "id": "rating_doc",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
-      },
-      {
-        "id": "protocol_support_score",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "100"
-      },
-      {
-        "id": "protocol_support_score_weighted",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "30"
-      },
-      {
-        "id": "key_exchange_score",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "90"
-      },
-      {
-        "id": "key_exchange_score_weighted",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "27"
-      },
-      {
-        "id": "cipher_strength_score",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "60"
-      },
-      {
-        "id": "cipher_strength_score_weighted",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "24"
-      },
-      {
-        "id": "final_score",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "81"
-      },
-      {
-        "id": "overall_grade",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "A+"
-      },
-      {
-        "id": "scanTime",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "77"
-      }
-    ],
-    "thirdparties": {
-      "trackers": null,
-      "cookies": null,
-      "headers": null
-    },
-    "wappalyzer": {
-      "urls": {
-        "https://www.tpee.urssaf.fr/": {
-          "status": 0,
-          "error": "net::ERR_CONNECTION_RESET at https://www.tpee.urssaf.fr/ (https://www.tpee.urssaf.fr/)"
-        }
-      },
-      "technologies": []
-    },
-    "zap": {
-      "@programName": "ZAP",
-      "@version": "2.17.0",
-      "@generated": "Sun, 29 Mar 2026 02:43:55",
-      "created": "2026-03-29T02:43:55.521425724Z",
-      "insights": [
-        {
-          "level": "Info",
-          "reason": "Informational",
-          "site": "",
-          "key": "insight.network.failure",
-          "description": "Percentage of network failures",
-          "statistic": "33"
-        },
-        {
-          "level": "Info",
-          "reason": "Informational",
-          "site": "https://www.tpee.urssaf.fr",
-          "key": "insight.code.2xx",
-          "description": "Percentage of responses with status code 2xx",
-          "statistic": "100"
-        },
-        {
-          "level": "Info",
-          "reason": "Informational",
-          "site": "https://www.tpee.urssaf.fr",
-          "key": "insight.response.slow",
-          "description": "Percentage of slow responses",
-          "statistic": "100"
-        }
-      ],
-      "site": [
-        {
-          "@name": "https://www.tpee.urssaf.fr",
-          "@host": "www.tpee.urssaf.fr",
-          "@port": "443",
-          "@ssl": "true",
-          "alerts": [
-            {
-              "name": "Content Security Policy (CSP) Header Not Set",
-              "riskcode": "2",
-              "confidence": "3",
-              "riskdesc": "Medium (High)",
-              "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>"
-            },
-            {
-              "name": "Missing Anti-clickjacking Header",
-              "riskcode": "2",
-              "confidence": "2",
-              "riskdesc": "Medium (Medium)",
-              "desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>"
-            },
-            {
-              "name": "Cookie No HttpOnly Flag",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>"
-            },
-            {
-              "name": "Cookie Without Secure Flag",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>"
-            },
-            {
-              "name": "Cookie without SameSite Attribute",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>"
-            },
-            {
-              "name": "Cross-Origin-Embedder-Policy Header Missing or Invalid",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>"
-            },
-            {
-              "name": "Cross-Origin-Opener-Policy Header Missing or Invalid",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>"
-            },
-            {
-              "name": "Cross-Origin-Resource-Policy Header Missing or Invalid",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>"
-            },
-            {
-              "name": "Permissions Policy Header Not Set",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>"
-            },
-            {
-              "name": "X-Content-Type-Options Header Missing",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>"
-            },
-            {
-              "name": "Modern Web Application",
-              "riskcode": "0",
-              "confidence": "2",
-              "riskdesc": "Informational (Medium)",
-              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
-            },
-            {
-              "name": "Re-examine Cache-control Directives",
-              "riskcode": "0",
-              "confidence": "1",
-              "riskdesc": "Informational (Low)",
-              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
-            },
-            {
-              "name": "Sec-Fetch-Dest Header is Missing",
-              "riskcode": "0",
-              "confidence": "3",
-              "riskdesc": "Informational (High)",
-              "desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>"
-            },
-            {
-              "name": "Sec-Fetch-Mode Header is Missing",
-              "riskcode": "0",
-              "confidence": "3",
-              "riskdesc": "Informational (High)",
-              "desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>"
-            },
-            {
-              "name": "Sec-Fetch-Site Header is Missing",
-              "riskcode": "0",
-              "confidence": "3",
-              "riskdesc": "Informational (High)",
-              "desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>"
-            },
-            {
-              "name": "Sec-Fetch-User Header is Missing",
-              "riskcode": "0",
-              "confidence": "3",
-              "riskdesc": "Informational (High)",
-              "desc": "<p>Specifies if a navigation request was initiated by a user.</p>"
-            },
-            {
-              "name": "Session Management Response Identified",
-              "riskcode": "0",
-              "confidence": "2",
-              "riskdesc": "Informational (Medium)",
-              "desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>"
-            },
-            {
-              "name": "Storable and Cacheable Content",
-              "riskcode": "0",
-              "confidence": "2",
-              "riskdesc": "Informational (Medium)",
-              "desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>"
-            }
-          ]
-        }
-      ],
-      "sequences": []
-    },
-    "nuclei": [],
-    "lhr": [
-      {
-        "requestedUrl": "https://www.tpee.urssaf.fr/",
-        "finalUrl": "https://www.tpee.urssaf.fr/tpeewebinfo/cms/lang/fr/page200.html",
-        "fetchTime": "2026-03-29T02:44:10.076Z",
-        "runWarnings": [
-          "The page may not be loading as expected because your test URL (https://www.tpee.urssaf.fr/) was redirected to https://www.tpee.urssaf.fr/tpeewebinfo/cms/lang/fr/page200.html. Try testing the second URL directly."
-        ],
-        "categories": {
-          "performance": {
-            "title": "Performance",
-            "supportedModes": [
-              "navigation",
-              "timespan",
-              "snapshot"
-            ],
-            "id": "performance",
-            "score": 0.48
-          },
-          "accessibility": {
-            "title": "Accessibility",
-            "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
-            "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
-            "supportedModes": [
-              "navigation",
-              "snapshot"
-            ],
-            "id": "accessibility",
-            "score": 0.84
-          },
-          "best-practices": {
-            "title": "Best Practices",
-            "supportedModes": [
-              "navigation",
-              "timespan",
-              "snapshot"
-            ],
-            "id": "best-practices",
-            "score": 0.67
-          },
-          "seo": {
-            "title": "SEO",
-            "description": "These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on [Core Web Vitals](https://web.dev/learn-web-vitals/). [Learn more](https://support.google.com/webmasters/answer/35769).",
-            "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
-            "supportedModes": [
-              "navigation",
-              "snapshot"
-            ],
-            "id": "seo",
-            "score": 0.58
-          },
-          "pwa": {
-            "title": "PWA",
-            "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
-            "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
-            "supportedModes": [
-              "navigation"
-            ],
-            "id": "pwa",
-            "score": 0
-          }
-        },
-        "audits": {
-          "metrics": {
-            "id": "metrics",
-            "title": "Metrics",
-            "description": "Collects all available metrics.",
-            "score": null,
-            "scoreDisplayMode": "informative",
-            "numericValue": 7550,
-            "numericUnit": "millisecond",
-            "details": {
-              "type": "debugdata",
-              "items": [
-                {
-                  "firstContentfulPaint": 3474,
-                  "firstMeaningfulPaint": 3474,
-                  "largestContentfulPaint": 3979,
-                  "interactive": 7550,
-                  "speedIndex": 3720,
-                  "totalBlockingTime": 1697,
-                  "maxPotentialFID": 2672,
-                  "cumulativeLayoutShift": 0,
-                  "cumulativeLayoutShiftMainFrame": 0,
-                  "totalCumulativeLayoutShift": 0,
-                  "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 661766635,
-                  "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 661766635,
-                  "observedFirstPaint": 744,
-                  "observedFirstPaintTs": 662510666,
-                  "observedFirstContentfulPaint": 744,
-                  "observedFirstContentfulPaintTs": 662510666,
-                  "observedFirstContentfulPaintAllFrames": 744,
-                  "observedFirstContentfulPaintAllFramesTs": 662510666,
-                  "observedFirstMeaningfulPaint": 744,
-                  "observedFirstMeaningfulPaintTs": 662510666,
-                  "observedLargestContentfulPaint": 845,
-                  "observedLargestContentfulPaintTs": 662611185,
-                  "observedLargestContentfulPaintAllFrames": 845,
-                  "observedLargestContentfulPaintAllFramesTs": 662611185,
-                  "observedTraceEnd": 4067,
-                  "observedTraceEndTs": 665833225,
-                  "observedLoad": 1625,
-                  "observedLoadTs": 663391638,
-                  "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 661767058,
-                  "observedCumulativeLayoutShift": 0,
-                  "observedCumulativeLayoutShiftMainFrame": 0,
-                  "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 744,
-                  "observedFirstVisualChangeTs": 662510635,
-                  "observedLastVisualChange": 1633,
-                  "observedLastVisualChangeTs": 663399635,
-                  "observedSpeedIndex": 797,
-                  "observedSpeedIndexTs": 662563424
-                },
-                {
-                  "lcpInvalidated": false
-                }
-              ]
-            }
-          },
-          "diagnostics": {
-            "id": "diagnostics",
-            "title": "Diagnostics",
-            "description": "Collection of useful page vitals.",
-            "score": null,
-            "scoreDisplayMode": "informative",
-            "details": {
-              "type": "debugdata",
-              "items": [
-                {
-                  "numRequests": 44,
-                  "numScripts": 10,
-                  "numStylesheets": 16,
-                  "numFonts": 0,
-                  "numTasks": 1766,
-                  "numTasksOver10ms": 9,
-                  "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 2,
-                  "numTasksOver500ms": 1,
-                  "rtt": 105.062,
-                  "throughput": 6283209.82449879,
-                  "maxRtt": 105.062,
-                  "maxServerLatency": 1.7350000000000136,
-                  "totalByteWeight": 287447,
-                  "totalTaskTime": 1214.7299999999902,
-                  "mainDocumentTransferSize": 1209
-                }
-              ]
-            }
-          }
-        }
-      }
-    ],
-    "screenshot": false,
-    "stats": null,
-    "github_repository": null,
-    "budget_page": null,
-    "declaration-a11y": {
-      "mention": null
-    },
-    "declaration-rgpd": null,
-    "betagouv": null,
-    "ecoindex": [
-      {
-        "width": 1920,
-        "height": 1080,
-        "url": "https://www.tpee.urssaf.fr",
-        "size": 307.954,
-        "nodes": 124,
-        "requests": 44,
-        "grade": "A",
-        "score": 82,
-        "ges": 1.36,
-        "water": 2.04,
-        "ecoindex_version": "5.4.2",
-        "date": "2026-03-29 02:35:04.988751",
-        "page_type": null
-      }
-    ],
-    "sonarcloud": null,
-    "dsfr": null,
-    "summary": {
-      "404": "A+",
-      "httpGrade": "C-",
-      "testsslExpireSoon": false,
-      "testsslExpireDate": "2026-07-01T23:59:00.000Z",
-      "testsslGrade": "A+",
-      "cookiesGrade": null,
-      "cookiesCount": null,
-      "trackersGrade": null,
-      "trackersCount": null,
-      "zapCount": 10,
-      "zapGrade": "D",
-      "lighthouse_performance": 0.48,
-      "lighthouse_performanceGrade": "D",
-      "lighthouse_accessibility": 0.84,
-      "lighthouse_accessibilityGrade": "A",
-      "lighthouse_best-practices": 0.67,
-      "lighthouse_best-practicesGrade": "B",
-      "lighthouse_seo": 0.58,
-      "lighthouse_seoGrade": "C",
-      "lighthouse_pwa": 0,
-      "lighthouse_pwaGrade": "F",
-      "declaration-a11y": "F",
-      "ecoindexGrade": "A"
-    }
-  },
-  {
-    "404": [],
-    "url": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-    "tags": [
-      "tpee",
-      "urssaf",
-      "informatif"
-    ],
-    "http": {
-      "scan": {
-        "algorithmVersion": 4,
-        "grade": "F",
-        "error": null,
-        "score": 15,
-        "statusCode": 200,
-        "testsFailed": 5,
-        "testsPassed": 5,
-        "testsQuantity": 10,
-        "responseHeaders": {
-          "date": "Sun, 29 Mar 2026 03:06:32 GMT",
-          "cache-control": "no-cache=\"Set-Cookie\"",
-          "set-cookie": [
-            "JSESSIONID=vkNkpLXYgMC4Qy2RYstlH8Z4qcTnhwpjMfs4vmp1pHRrvs7cJhF2!-846808135; expires=Sunday, 29-Mar-2026 03:36:32 GMT; path=/; secure",
-            "TS01af3c49=01726d0b82b72d5a56ae8dff4b5642750d6ac196a6de4ef8c6a153f1375b61a11478c982df4f4e7357cc72caad9a3bbaace6baa7f6266c172539b1f5918613db65f22d079a; Path=/; Domain=.www.tpee.urssaf.fr",
-            "TS5d88df92029=08285ff142ab2800fac20e9c5adc1088f3c0dc0ba430d4bdf80c6698b2e6d0c47f33ce05719b4c218f4c005722013fee; Max-Age=30; Path=/",
-            "TS7b7158a6027=08285ff142ab200047e28449d5a04ad50327bc139ff5382532dbfd616942ac18daa38ccfe9259733084904593d113000d7b65c2db00ac16912bf454cf61870196207ad17d963854610e40a39704ecd32c84f99091ad960c2b870011ea8ea37fc; Path=/"
-          ],
-          "content-language": "fr-FR",
-          "content-type": "text/html; charset=ISO-8859-1",
-          "connection": "close",
-          "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
-          "vary": "Accept-Encoding",
-          "transfer-encoding": "chunked"
-        }
-      },
-      "tests": {
-        "content-security-policy": {
-          "expectation": "csp-implemented-with-no-unsafe",
-          "pass": false,
-          "result": "csp-not-implemented",
-          "scoreModifier": -25,
-          "data": null,
-          "http": false,
-          "meta": false,
-          "policy": null,
-          "numPolicies": 0
-        },
-        "cookies": {
-          "expectation": "cookies-secure-with-httponly-sessions",
-          "pass": false,
-          "result": "cookies-session-without-httponly-flag",
-          "scoreModifier": -30,
-          "data": {
-            "JSESSIONID": {
-              "domain": "www.tpee.urssaf.fr",
-              "expires": "2026-03-29T03:36:32.000Z",
-              "path": "/",
-              "port": null,
-              "secure": true
-            },
-            "TS01af3c49": {
-              "domain": "www.tpee.urssaf.fr",
-              "path": "/",
-              "port": null
-            },
-            "TS5d88df92029": {
-              "domain": "www.tpee.urssaf.fr",
-              "max-age": 30,
-              "path": "/",
-              "port": null
-            },
-            "TS7b7158a6027": {
-              "domain": "www.tpee.urssaf.fr",
-              "path": "/",
-              "port": null
-            }
-          },
-          "sameSite": false
-        },
-        "cross-origin-resource-sharing": {
-          "expectation": "cross-origin-resource-sharing-not-implemented",
-          "pass": true,
-          "result": "cross-origin-resource-sharing-not-implemented",
-          "scoreModifier": 0,
-          "data": null
-        },
-        "redirection": {
-          "expectation": "redirection-to-https",
-          "pass": true,
-          "result": "redirection-to-https",
-          "scoreModifier": 0,
-          "destination": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-          "redirects": true,
-          "route": [
-            "http://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-            "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm"
-          ],
-          "statusCode": 200
-        },
-        "referrer-policy": {
-          "expectation": "referrer-policy-private",
-          "pass": true,
-          "result": "referrer-policy-not-implemented",
-          "scoreModifier": 0,
-          "data": null,
-          "http": false,
-          "meta": false
-        },
-        "strict-transport-security": {
-          "expectation": "hsts-implemented-max-age-at-least-six-months",
-          "pass": true,
-          "result": "hsts-implemented-max-age-at-least-six-months",
-          "scoreModifier": 0,
-          "data": "max-age=16070400; includeSubDomains; preload",
-          "includeSubDomains": true,
-          "maxAge": 16070400,
-          "preload": true,
-          "preloaded": false
-        },
-        "subresource-integrity": {
-          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
-          "pass": false,
-          "result": "sri-not-implemented-but-external-scripts-loaded-securely",
-          "scoreModifier": -5,
-          "data": {
-            "https://cdn.tagcommander.com/4736/tc_Acoss_109.js": {
-              "crossorigin": null,
-              "integrity": null
-            }
-          }
-        },
-        "x-content-type-options": {
-          "expectation": "x-content-type-options-nosniff",
-          "pass": false,
-          "result": "x-content-type-options-not-implemented",
-          "scoreModifier": -5,
-          "data": null
-        },
-        "x-frame-options": {
-          "expectation": "x-frame-options-sameorigin-or-deny",
-          "pass": false,
-          "result": "x-frame-options-not-implemented",
-          "scoreModifier": -20,
-          "data": null
-        },
-        "cross-origin-resource-policy": {
-          "expectation": "corp-implemented-with-same-site",
-          "pass": true,
-          "result": "corp-not-implemented",
-          "scoreModifier": 0,
-          "data": null,
-          "http": false,
-          "meta": false
-        }
-      }
-    },
-    "updownio": null,
-    "nmap": null,
-    "dependabot": null,
-    "codescan": null,
-    "testssl": [
-      {
-        "id": "service",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "DEBUG",
-        "finding": "Couldn't determine service, skipping all HTTP checks"
-      },
-      {
-        "id": "pre_128cipher",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No 128 cipher limit bug"
-      },
-      {
-        "id": "SSLv2",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "not offered"
-      },
-      {
-        "id": "SSLv3",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "not offered"
-      },
-      {
-        "id": "TLS1",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "TLS1_1",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "TLS1_2",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "TLS1_3",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered with final"
-      },
-      {
-        "id": "ALPN",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_NULL",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_aNULL",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_EXPORT",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_LOW",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_3DES_IDEA",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "cwe": "CWE-310",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_OBSOLETED",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "LOW",
-        "cwe": "CWE-310",
-        "finding": "offered"
-      },
-      {
-        "id": "cipherlist_STRONG_NOFS",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_STRONG_FS",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "cipher_order-tls1_2",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "server"
-      },
-      {
-        "id": "cipherorder_TLSv1_2",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "ECDHE-RSA-AES128-GCM-SHA256"
-      },
-      {
-        "id": "cipher_order",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "server"
-      },
-      {
-        "id": "FS",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "FS_ciphers",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
-      },
-      {
-        "id": "FS_KEMs",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "No KEMs offered"
-      },
-      {
-        "id": "FS_ECDHE_curves",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "prime256v1 secp384r1"
-      },
-      {
-        "id": "TLS_extensions",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "'server name/#0' 'EC point formats/#11' 'extended master secret/#23' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
-      },
-      {
-        "id": "TLS_session_ticket",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "no -- no lifetime advertised"
-      },
-      {
-        "id": "SSL_sessionID_support",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "yes"
-      },
-      {
-        "id": "sessionresumption_ticket",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not supported"
-      },
-      {
-        "id": "sessionresumption_ID",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "supported"
-      },
-      {
-        "id": "TLS_timestamp",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "random"
-      },
-      {
-        "id": "certificate_compression",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "none"
-      },
-      {
-        "id": "clientAuth",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "none"
-      },
-      {
-        "id": "cert_numbers",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "1"
-      },
-      {
-        "id": "cert_signatureAlgorithm",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "SHA256 with RSA"
-      },
-      {
-        "id": "cert_keySize",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "RSA 2048 bits (exponent is 65537)"
-      },
-      {
-        "id": "cert_keyUsage",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Digital Signature, Key Encipherment"
-      },
-      {
-        "id": "cert_extKeyUsage",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
-      },
-      {
-        "id": "cert_serialNumber",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "08676FA434BAD095F40BB2AD036ADA81"
-      },
-      {
-        "id": "cert_serialNumberLen",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "16"
-      },
-      {
-        "id": "cert_fingerprintSHA1",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "4425FB203FA9C456FE3D32BC5BFF7420FB7FE140"
-      },
-      {
-        "id": "cert_fingerprintSHA256",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "84B3A86DD025A5C3396D35D464DCCB27AA7DF3120D0C11FAD9ACFEDB7793FC3E"
-      },
-      {
-        "id": "cert",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "cert_commonName",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "www.tpee.urssaf.fr"
-      },
-      {
-        "id": "cert_commonName_wo_SNI",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "www.tpee.urssaf.fr"
-      },
-      {
-        "id": "cert_subjectAltName",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "www.tpee.urssaf.fr tpee.urssaf.fr"
-      },
-      {
-        "id": "cert_trust",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "Ok via SAN and CN (same w/o SNI)"
-      },
-      {
-        "id": "cert_chain_of_trust",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "passed."
-      },
-      {
-        "id": "cert_certificatePolicies_EV",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "no"
-      },
-      {
-        "id": "cert_expirationStatus",
-        "ip": "www.tpee.urssaf.fr/193.178.136.212",
-        "port": "443",
-        "severity": "OK",
-        "finding": "94 >= 60 days"
+        "finding": "87 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -11145,6 +9569,1584 @@
     },
     "wappalyzer": {
       "urls": {
+        "https://www.tpee.urssaf.fr/": {
+          "status": 0,
+          "error": "net::ERR_CONNECTION_RESET at https://www.tpee.urssaf.fr/ (https://www.tpee.urssaf.fr/)"
+        }
+      },
+      "technologies": []
+    },
+    "zap": {
+      "@programName": "ZAP",
+      "@version": "2.17.0",
+      "@generated": "Sun, 5 Apr 2026 02:43:55",
+      "created": "2026-04-05T02:43:55.429508877Z",
+      "insights": [
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "",
+          "key": "insight.network.failure",
+          "description": "Percentage of network failures",
+          "statistic": "33"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.tpee.urssaf.fr",
+          "key": "insight.code.2xx",
+          "description": "Percentage of responses with status code 2xx",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.tpee.urssaf.fr",
+          "key": "insight.response.slow",
+          "description": "Percentage of slow responses",
+          "statistic": "100"
+        }
+      ],
+      "site": [
+        {
+          "@name": "https://www.tpee.urssaf.fr",
+          "@host": "www.tpee.urssaf.fr",
+          "@port": "443",
+          "@ssl": "true",
+          "alerts": [
+            {
+              "name": "Content Security Policy (CSP) Header Not Set",
+              "riskcode": "2",
+              "confidence": "3",
+              "riskdesc": "Medium (High)",
+              "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>"
+            },
+            {
+              "name": "Missing Anti-clickjacking Header",
+              "riskcode": "2",
+              "confidence": "2",
+              "riskdesc": "Medium (Medium)",
+              "desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>"
+            },
+            {
+              "name": "Cookie No HttpOnly Flag",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>"
+            },
+            {
+              "name": "Cookie Without Secure Flag",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.</p>"
+            },
+            {
+              "name": "Cookie without SameSite Attribute",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>"
+            },
+            {
+              "name": "Cross-Origin-Embedder-Policy Header Missing or Invalid",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>"
+            },
+            {
+              "name": "Cross-Origin-Opener-Policy Header Missing or Invalid",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>"
+            },
+            {
+              "name": "Cross-Origin-Resource-Policy Header Missing or Invalid",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>"
+            },
+            {
+              "name": "Permissions Policy Header Not Set",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>"
+            },
+            {
+              "name": "X-Content-Type-Options Header Missing",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>"
+            },
+            {
+              "name": "Modern Web Application",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+            },
+            {
+              "name": "Re-examine Cache-control Directives",
+              "riskcode": "0",
+              "confidence": "1",
+              "riskdesc": "Informational (Low)",
+              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
+            },
+            {
+              "name": "Sec-Fetch-Dest Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>"
+            },
+            {
+              "name": "Sec-Fetch-Mode Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>"
+            },
+            {
+              "name": "Sec-Fetch-Site Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>"
+            },
+            {
+              "name": "Sec-Fetch-User Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Specifies if a navigation request was initiated by a user.</p>"
+            },
+            {
+              "name": "Session Management Response Identified",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>"
+            },
+            {
+              "name": "Storable and Cacheable Content",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>"
+            }
+          ]
+        }
+      ],
+      "sequences": []
+    },
+    "nuclei": [],
+    "lhr": [
+      {
+        "requestedUrl": "https://www.tpee.urssaf.fr/",
+        "finalUrl": "https://www.tpee.urssaf.fr/tpeewebinfo/cms/lang/fr/page200.html",
+        "fetchTime": "2026-04-05T02:44:11.057Z",
+        "runWarnings": [
+          "The page may not be loading as expected because your test URL (https://www.tpee.urssaf.fr/) was redirected to https://www.tpee.urssaf.fr/tpeewebinfo/cms/lang/fr/page200.html. Try testing the second URL directly."
+        ],
+        "categories": {
+          "performance": {
+            "title": "Performance",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "performance",
+            "score": 0.48
+          },
+          "accessibility": {
+            "title": "Accessibility",
+            "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+            "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "accessibility",
+            "score": 0.84
+          },
+          "best-practices": {
+            "title": "Best Practices",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "best-practices",
+            "score": 0.67
+          },
+          "seo": {
+            "title": "SEO",
+            "description": "These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on [Core Web Vitals](https://web.dev/learn-web-vitals/). [Learn more](https://support.google.com/webmasters/answer/35769).",
+            "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "seo",
+            "score": 0.58
+          },
+          "pwa": {
+            "title": "PWA",
+            "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+            "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+            "supportedModes": [
+              "navigation"
+            ],
+            "id": "pwa",
+            "score": 0
+          }
+        },
+        "audits": {
+          "metrics": {
+            "id": "metrics",
+            "title": "Metrics",
+            "description": "Collects all available metrics.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "numericValue": 7622,
+            "numericUnit": "millisecond",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "firstContentfulPaint": 3446,
+                  "firstMeaningfulPaint": 3446,
+                  "largestContentfulPaint": 3985,
+                  "interactive": 7622,
+                  "speedIndex": 3493,
+                  "totalBlockingTime": 1565,
+                  "maxPotentialFID": 2412,
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0,
+                  "totalCumulativeLayoutShift": 0,
+                  "observedTimeOrigin": 0,
+                  "observedTimeOriginTs": 730989845,
+                  "observedNavigationStart": 0,
+                  "observedNavigationStartTs": 730989845,
+                  "observedFirstPaint": 555,
+                  "observedFirstPaintTs": 731545292,
+                  "observedFirstContentfulPaint": 555,
+                  "observedFirstContentfulPaintTs": 731545292,
+                  "observedFirstContentfulPaintAllFrames": 555,
+                  "observedFirstContentfulPaintAllFramesTs": 731545292,
+                  "observedFirstMeaningfulPaint": 555,
+                  "observedFirstMeaningfulPaintTs": 731545292,
+                  "observedLargestContentfulPaint": 652,
+                  "observedLargestContentfulPaintTs": 731642344,
+                  "observedLargestContentfulPaintAllFrames": 652,
+                  "observedLargestContentfulPaintAllFramesTs": 731642344,
+                  "observedTraceEnd": 3792,
+                  "observedTraceEndTs": 734781804,
+                  "observedLoad": 1378,
+                  "observedLoadTs": 732367445,
+                  "observedDomContentLoaded": 0,
+                  "observedDomContentLoadedTs": 730990207,
+                  "observedCumulativeLayoutShift": 0,
+                  "observedCumulativeLayoutShiftMainFrame": 0,
+                  "observedTotalCumulativeLayoutShift": 0,
+                  "observedFirstVisualChange": 555,
+                  "observedFirstVisualChangeTs": 731544845,
+                  "observedLastVisualChange": 1385,
+                  "observedLastVisualChangeTs": 732374845,
+                  "observedSpeedIndex": 603,
+                  "observedSpeedIndexTs": 731592783
+                },
+                {
+                  "lcpInvalidated": false
+                }
+              ]
+            }
+          },
+          "diagnostics": {
+            "id": "diagnostics",
+            "title": "Diagnostics",
+            "description": "Collection of useful page vitals.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "numRequests": 44,
+                  "numScripts": 10,
+                  "numStylesheets": 16,
+                  "numFonts": 0,
+                  "numTasks": 1496,
+                  "numTasksOver10ms": 10,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 3,
+                  "numTasksOver100ms": 2,
+                  "numTasksOver500ms": 1,
+                  "rtt": 89.31700000000001,
+                  "throughput": 9674000.974149475,
+                  "maxRtt": 89.31700000000001,
+                  "maxServerLatency": 4.590000000000003,
+                  "totalByteWeight": 286057,
+                  "totalTaskTime": 1212.7309999999989,
+                  "mainDocumentTransferSize": 1209
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "screenshot": false,
+    "stats": null,
+    "github_repository": null,
+    "budget_page": null,
+    "declaration-a11y": {
+      "mention": null
+    },
+    "declaration-rgpd": null,
+    "betagouv": null,
+    "ecoindex": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.tpee.urssaf.fr",
+        "size": 306.57,
+        "nodes": 124,
+        "requests": 44,
+        "grade": "A",
+        "score": 82,
+        "ges": 1.36,
+        "water": 2.04,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-04-05 02:34:59.076362",
+        "page_type": null
+      }
+    ],
+    "sonarcloud": null,
+    "dsfr": null,
+    "summary": {
+      "404": "A+",
+      "httpGrade": "C-",
+      "testsslExpireSoon": false,
+      "testsslExpireDate": "2026-07-01T23:59:00.000Z",
+      "testsslGrade": "A+",
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
+      "zapCount": 10,
+      "zapGrade": "D",
+      "lighthouse_performance": 0.48,
+      "lighthouse_performanceGrade": "D",
+      "lighthouse_accessibility": 0.84,
+      "lighthouse_accessibilityGrade": "A",
+      "lighthouse_best-practices": 0.67,
+      "lighthouse_best-practicesGrade": "B",
+      "lighthouse_seo": 0.58,
+      "lighthouse_seoGrade": "C",
+      "lighthouse_pwa": 0,
+      "lighthouse_pwaGrade": "F",
+      "declaration-a11y": "F",
+      "ecoindexGrade": "A"
+    }
+  },
+  {
+    "404": [],
+    "url": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
+    "tags": [
+      "tpee",
+      "urssaf",
+      "informatif"
+    ],
+    "http": {
+      "scan": {
+        "algorithmVersion": 4,
+        "grade": "F",
+        "error": null,
+        "score": 15,
+        "statusCode": 200,
+        "testsFailed": 5,
+        "testsPassed": 5,
+        "testsQuantity": 10,
+        "responseHeaders": {
+          "date": "Sun, 05 Apr 2026 03:06:15 GMT",
+          "cache-control": "no-cache=\"Set-Cookie\"",
+          "set-cookie": [
+            "JSESSIONID=4K8VpRRHWpvZ2VCnBzxBknHW6Gpxn1PSTn7qkLLV178R5hQXgRDH!-1282029994; expires=Sunday, 05-Apr-2026 03:36:15 GMT; path=/; secure",
+            "TS01af3c49=01726d0b82735b837fb6f6d9b1e3556d67297b9d9814f1841b167c35caeecb03d2ca83a6a5a62976d7ba010604eb690550f2bd7068097ca9200353f16946a58c9d5211c3e2; Path=/; Domain=.www.tpee.urssaf.fr",
+            "TS5d88df92029=08285ff142ab28003b99d5bec590004185bd6a77547019065a9395dd2369945d4d6d2b2dc3dbbf056d95293661d17a27; Max-Age=30; Path=/",
+            "TS7b7158a6027=08285ff142ab200066d07ede8d5a462a8c2425de65d5d2bdf34adb64cefd00567df15101e66bf1e708d63c13e91130007586ce3c2620b1b1b663886492f16f389709c3e56cccc397882d65ca3c5433385b798f8ceca806d459d3902c923261af; Path=/"
+          ],
+          "content-language": "fr-FR",
+          "content-type": "text/html; charset=ISO-8859-1",
+          "connection": "close",
+          "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
+          "vary": "Accept-Encoding",
+          "transfer-encoding": "chunked"
+        }
+      },
+      "tests": {
+        "content-security-policy": {
+          "expectation": "csp-implemented-with-no-unsafe",
+          "pass": false,
+          "result": "csp-not-implemented",
+          "scoreModifier": -25,
+          "data": null,
+          "http": false,
+          "meta": false,
+          "policy": null,
+          "numPolicies": 0
+        },
+        "cookies": {
+          "expectation": "cookies-secure-with-httponly-sessions",
+          "pass": false,
+          "result": "cookies-session-without-httponly-flag",
+          "scoreModifier": -30,
+          "data": {
+            "JSESSIONID": {
+              "domain": "www.tpee.urssaf.fr",
+              "expires": "2026-04-05T03:36:15.000Z",
+              "path": "/",
+              "port": null,
+              "secure": true
+            },
+            "TS01af3c49": {
+              "domain": "www.tpee.urssaf.fr",
+              "path": "/",
+              "port": null
+            },
+            "TS5d88df92029": {
+              "domain": "www.tpee.urssaf.fr",
+              "max-age": 30,
+              "path": "/",
+              "port": null
+            },
+            "TS7b7158a6027": {
+              "domain": "www.tpee.urssaf.fr",
+              "path": "/",
+              "port": null
+            }
+          },
+          "sameSite": false
+        },
+        "cross-origin-resource-sharing": {
+          "expectation": "cross-origin-resource-sharing-not-implemented",
+          "pass": true,
+          "result": "cross-origin-resource-sharing-not-implemented",
+          "scoreModifier": 0,
+          "data": null
+        },
+        "redirection": {
+          "expectation": "redirection-to-https",
+          "pass": true,
+          "result": "redirection-to-https",
+          "scoreModifier": 0,
+          "destination": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
+          "redirects": true,
+          "route": [
+            "http://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
+            "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm"
+          ],
+          "statusCode": 200
+        },
+        "referrer-policy": {
+          "expectation": "referrer-policy-private",
+          "pass": true,
+          "result": "referrer-policy-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        },
+        "strict-transport-security": {
+          "expectation": "hsts-implemented-max-age-at-least-six-months",
+          "pass": true,
+          "result": "hsts-implemented-max-age-at-least-six-months",
+          "scoreModifier": 0,
+          "data": "max-age=16070400; includeSubDomains; preload",
+          "includeSubDomains": true,
+          "maxAge": 16070400,
+          "preload": true,
+          "preloaded": false
+        },
+        "subresource-integrity": {
+          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+          "pass": false,
+          "result": "sri-not-implemented-but-external-scripts-loaded-securely",
+          "scoreModifier": -5,
+          "data": {
+            "https://cdn.tagcommander.com/4736/tc_Acoss_109.js": {
+              "crossorigin": null,
+              "integrity": null
+            }
+          }
+        },
+        "x-content-type-options": {
+          "expectation": "x-content-type-options-nosniff",
+          "pass": false,
+          "result": "x-content-type-options-not-implemented",
+          "scoreModifier": -5,
+          "data": null
+        },
+        "x-frame-options": {
+          "expectation": "x-frame-options-sameorigin-or-deny",
+          "pass": false,
+          "result": "x-frame-options-not-implemented",
+          "scoreModifier": -20,
+          "data": null
+        },
+        "cross-origin-resource-policy": {
+          "expectation": "corp-implemented-with-same-site",
+          "pass": true,
+          "result": "corp-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        }
+      }
+    },
+    "updownio": null,
+    "nmap": null,
+    "dependabot": null,
+    "codescan": null,
+    "testssl": [
+      {
+        "id": "service",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "DEBUG",
+        "finding": "Couldn't determine service, skipping all HTTP checks"
+      },
+      {
+        "id": "pre_128cipher",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No 128 cipher limit bug"
+      },
+      {
+        "id": "SSLv2",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not offered"
+      },
+      {
+        "id": "SSLv3",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1_1",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1_2",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "TLS1_3",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered with final"
+      },
+      {
+        "id": "ALPN",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_NULL",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_aNULL",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_EXPORT",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_LOW",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_3DES_IDEA",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-310",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_OBSOLETED",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "LOW",
+        "cwe": "CWE-310",
+        "finding": "offered"
+      },
+      {
+        "id": "cipherlist_STRONG_NOFS",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_STRONG_FS",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "cipher_order-tls1_2",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "cipherorder_TLSv1_2",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "cipher_order",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "FS",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "FS_ciphers",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
+      },
+      {
+        "id": "FS_KEMs",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "No KEMs offered"
+      },
+      {
+        "id": "FS_ECDHE_curves",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "prime256v1 secp384r1"
+      },
+      {
+        "id": "TLS_extensions",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "'server name/#0' 'EC point formats/#11' 'extended master secret/#23' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+      },
+      {
+        "id": "TLS_session_ticket",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no -- no lifetime advertised"
+      },
+      {
+        "id": "SSL_sessionID_support",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "yes"
+      },
+      {
+        "id": "sessionresumption_ticket",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not supported"
+      },
+      {
+        "id": "sessionresumption_ID",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "supported"
+      },
+      {
+        "id": "TLS_timestamp",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "random"
+      },
+      {
+        "id": "certificate_compression",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "none"
+      },
+      {
+        "id": "clientAuth",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "none"
+      },
+      {
+        "id": "cert_numbers",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1"
+      },
+      {
+        "id": "cert_signatureAlgorithm",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "SHA256 with RSA"
+      },
+      {
+        "id": "cert_keySize",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "RSA 2048 bits (exponent is 65537)"
+      },
+      {
+        "id": "cert_keyUsage",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Digital Signature, Key Encipherment"
+      },
+      {
+        "id": "cert_extKeyUsage",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
+      },
+      {
+        "id": "cert_serialNumber",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "08676FA434BAD095F40BB2AD036ADA81"
+      },
+      {
+        "id": "cert_serialNumberLen",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "16"
+      },
+      {
+        "id": "cert_fingerprintSHA1",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "4425FB203FA9C456FE3D32BC5BFF7420FB7FE140"
+      },
+      {
+        "id": "cert_fingerprintSHA256",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "84B3A86DD025A5C3396D35D464DCCB27AA7DF3120D0C11FAD9ACFEDB7793FC3E"
+      },
+      {
+        "id": "cert",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "cert_commonName",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "www.tpee.urssaf.fr"
+      },
+      {
+        "id": "cert_commonName_wo_SNI",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "www.tpee.urssaf.fr"
+      },
+      {
+        "id": "cert_subjectAltName",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "www.tpee.urssaf.fr tpee.urssaf.fr"
+      },
+      {
+        "id": "cert_trust",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "Ok via SAN and CN (same w/o SNI)"
+      },
+      {
+        "id": "cert_chain_of_trust",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "passed."
+      },
+      {
+        "id": "cert_certificatePolicies_EV",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_expirationStatus",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "87 >= 60 days"
+      },
+      {
+        "id": "cert_notBefore",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2025-07-02 00:00"
+      },
+      {
+        "id": "cert_notAfter",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2026-07-01 23:59"
+      },
+      {
+        "id": "cert_extlifeSpan",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "certificate has no extended life time according to browser forum"
+      },
+      {
+        "id": "cert_eTLS",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not present"
+      },
+      {
+        "id": "cert_crlDistributionPoints",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http://cdp.geotrust.com/GeoTrustTLSRSACAG1.crl"
+      },
+      {
+        "id": "cert_ocspURL",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http://status.geotrust.com"
+      },
+      {
+        "id": "OCSP_stapling",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "not offered"
+      },
+      {
+        "id": "cert_mustStapleExtension",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "--"
+      },
+      {
+        "id": "DNS_CAArecord",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "iodef=mailto:hostmaster@acoss.fr, issue=certigna.fr, issue=digicert.com"
+      },
+      {
+        "id": "certificate_transparency",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "yes (certificate extension)"
+      },
+      {
+        "id": "certs_countServer",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "3"
+      },
+      {
+        "id": "certs_list_ordering_problem",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_caIssuers",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "GeoTrust TLS RSA CA G1 (DigiCert Inc from US)"
+      },
+      {
+        "id": "intermediate_cert <#1>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIEjTCCA3WgAwIBAgIQDQd4KhM/xvmlcpbhMf/ReTANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0xNzExMDIxMjIzMzdaFw0yNzExMDIxMjIzMzdaMGAxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xHzAdBgNVBAMTFkdlb1RydXN0IFRMUyBSU0EgQ0EgRzEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+F+jsvikKy/65LWEx/TMkCDIuWegh1Ngwvm4QyISgP7oU5d79eoySG3vOhC3w/3jEMuipoH1fBtp7m0tTpsYbAhch4XA7rfuD6whUgajeErLVxoiWMPkC/DnUvbgi74BJmdBiuGHQSd7LwsuXpTEGG9fYXcbTVN5SATYqDfbexbYxTMwVJWoVb6lrBEgM3gBBqiiAiy800xu1Nq07JdCIQkBsNpFtZbIZhsDSfzlGWP4wEmBQ3O67c+ZXkFr2DcrXBEtHam80Gp2SNhou2U5U7UesDL/xgLK6/0d76TnEVMSUVJkZ8VeZr+IUIlvoLrtjLbqugb0T3OYXW+CQU0kBAgMBAAGjggFAMIIBPDAdBgNVHQ4EFgQUlE/UXYvkpOKmgP792PkA76O+AlcwHwYDVR0jBBgwFoAUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcmwwPQYDVR0gBDYwNDAyBgRVHSAAMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwDQYJKoZIhvcNAQELBQADggEBAIIcBDqC6cWpyGUSXAjjAcYwsK4iiGF7KweG97i1RJz1kwZhRoo6orU1JtBYnjzBc4+/sXmnHJk3mlPyL1xuIAt9sMeC7+vreRIF5wFBC0MCN5sbHwhNN1JzKbifNeP5ozpZdQFmkCo+neBiKR6HqIA+LMTMCMMuv2khGGuPHmtDze4GmEGZtYLyF8EQpa5YjPuV6k2Cr/N3XxFpT3hRpt/3usU/Zb9wfKPtWpoznZ4/44c1p9rzFcZYrWkj3A+7TNBJE0GmP2fhXhP1D/XVfIW/h0yCJGEiV9Glm/uGOa3DXHlmbAcxSyCRraG+ZBkA7h4SeM6Y8l/7MBRpPCz6l8Y=\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "intermediate_cert_fingerprintSHA256 <#1>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "C06E307F7CFC1D32FA72A4C033C87B90019AF216F0775D64978A2ECA6C8A230E"
+      },
+      {
+        "id": "intermediate_cert_notBefore <#1>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2017-11-02 12:23"
+      },
+      {
+        "id": "intermediate_cert_notAfter <#1>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2027-11-02 12:23"
+      },
+      {
+        "id": "intermediate_cert_expiration <#1>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "ok > 40 days"
+      },
+      {
+        "id": "intermediate_cert_chain <#1>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "GeoTrust TLS RSA CA G1 <-- DigiCert Global Root G2"
+      },
+      {
+        "id": "intermediate_cert <#2>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIDjjCCAnagAwIBAgIQAzrx5qcRqaC7KGSxHQn65TANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0xMzA4MDExMjAwMDBaFw0zODAxMTUxMjAwMDBaMGExCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IEcyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuzfNNNx7a8myaJCtSnX/RrohCgiN9RlUyfuI2/Ou8jqJkTx65qsGGmvPrC3oXgkkRLpimn7Wo6h+4FR1IAWsULecYxpsMNzaHxmx1x7e/dfgy5SDN67sH0NO3Xss0r0upS/kqbitOtSZpLYl6ZtrAGCSYP9PIUkY92eQq2EGnI/yuum06ZIya7XzV+hdG82MHauVBJVJ8zUtluNJbd134/tJS7SsVQepj5WztCO7TG1F8PapspUwtP1MVYwnSlcUfIKdzXOS0xZKBgyMUNGPHgm+F6HmIcr9g+UQvIOlCsRnKPZzFBQ9RnbDhxSJITRNrw9FDKZJobq7nMWxM4MphQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHQ4EFgQUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDQYJKoZIhvcNAQELBQADggEBAGBnKJRvDkhj6zHd6mcY1Yl9PMWLSn/pvtsrF9+wX3N3KjITOYFnQoQj8kVnNeyIv/iPsGEMNKSuIEyExtv4NeF22d+mQrvHRAiGfzZ0JFrabA0UWTW98kndth/Jsw1HKj2ZL7tcu7XUIOGZX1NGFdtom/DzMNU+MeKNhJ7jitralj41E6Vf8PlwUHBHQRFXGU7Aj64GxJUTFy8bJZ918rGOmaFvE7FBcf6IKshPECBV1/MUReXgRPTqh5Uykw7+U0b6LJ3/iyK5S9kJRaTepLiaWN0bfVKfjllDiIGknibVb63dDcY3fe0Dkhvld1927jyNxF1WW6LZZm6zNTflMrY=\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "intermediate_cert_fingerprintSHA256 <#2>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "CB3CCBB76031E5E0138F8DD39A23F9DE47FFC35E43C1144CEA27D46A5AB1CB5F"
+      },
+      {
+        "id": "intermediate_cert_notBefore <#2>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2013-08-01 12:00"
+      },
+      {
+        "id": "intermediate_cert_notAfter <#2>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2038-01-15 12:00"
+      },
+      {
+        "id": "intermediate_cert_expiration <#2>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "ok > 40 days"
+      },
+      {
+        "id": "intermediate_cert_chain <#2>",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "DigiCert Global Root G2 <-- DigiCert Global Root G2"
+      },
+      {
+        "id": "intermediate_cert_badOCSP",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "intermediate certificate(s) is/are ok"
+      },
+      {
+        "id": "heartbleed",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0160",
+        "cwe": "CWE-119",
+        "finding": "not vulnerable, no heartbeat extension"
+      },
+      {
+        "id": "CCS",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0224",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "ticketbleed",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "cve": "CVE-2016-9244",
+        "cwe": "CWE-200",
+        "finding": "not applicable, not HTTP"
+      },
+      {
+        "id": "ROBOT",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+        "cwe": "CWE-203",
+        "finding": "not vulnerable, no RSA key transport cipher"
+      },
+      {
+        "id": "secure_renego",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-310",
+        "finding": "supported"
+      },
+      {
+        "id": "secure_client_renego",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "MEDIUM",
+        "cve": "CVE-2011-1473",
+        "cwe": "CWE-310",
+        "finding": "VULNERABLE, potential DoS threat"
+      },
+      {
+        "id": "CRIME_TLS",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2012-4929",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable (not using HTTP anyway)"
+      },
+      {
+        "id": "POODLE_SSL",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-3566",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no SSLv3"
+      },
+      {
+        "id": "fallback_SCSV",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "no protocol below TLS 1.2 offered"
+      },
+      {
+        "id": "SWEET32",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-2183 CVE-2016-6329",
+        "cwe": "CWE-327",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "FREAK",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-0204",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "DROWN",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable on this host and port"
+      },
+      {
+        "id": "DROWN_hint",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=84B3A86DD025A5C3396D35D464DCCB27AA7DF3120D0C11FAD9ACFEDB7793FC3E"
+      },
+      {
+        "id": "LOGJAM",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no DH EXPORT ciphers,"
+      },
+      {
+        "id": "LOGJAM-common_primes",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "no DH key with <= TLS 1.2"
+      },
+      {
+        "id": "BEAST",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2011-3389",
+        "cwe": "CWE-20",
+        "finding": "not vulnerable, no SSL3 or TLS1"
+      },
+      {
+        "id": "LUCKY13",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "LOW",
+        "cve": "CVE-2013-0169",
+        "cwe": "CWE-310",
+        "finding": "potentially vulnerable, uses obsolete TLS CBC ciphers"
+      },
+      {
+        "id": "winshock",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-6321",
+        "cwe": "CWE-94",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "RC4",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-2566 CVE-2015-2808",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "clientsimulation-android_70",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_81",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_90",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-android_X",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-android_11_12",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-android_13_14",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-android_15",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-chrome_101_win10",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-chromium_137_win11",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-firefox_100_win10",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-firefox_137_win11",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-ie_8_win7",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_11_win7",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+      },
+      {
+        "id": "clientsimulation-ie_11_win81",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+      },
+      {
+        "id": "clientsimulation-ie_11_winphone81",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+      },
+      {
+        "id": "clientsimulation-ie_11_win10",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-edge_15_win10",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-edge_101_win10_21h2",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-edge_133_win11_23h2",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-safari_184_ios_184",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-safari_154_osx_1231",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-safari_184_osx_154",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-java_7u25",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-java_80442",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-java_1102",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-java_1703",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-java_2106",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-go_1178",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-libressl_336",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_102e",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_111d",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_315",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_350",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "clientsimulation-apple_mail_16_0",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-thunderbird_91_9",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+      },
+      {
+        "id": "rating_spec",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
+      },
+      {
+        "id": "rating_doc",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+      },
+      {
+        "id": "protocol_support_score",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "100"
+      },
+      {
+        "id": "protocol_support_score_weighted",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "30"
+      },
+      {
+        "id": "key_exchange_score",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "90"
+      },
+      {
+        "id": "key_exchange_score_weighted",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "27"
+      },
+      {
+        "id": "cipher_strength_score",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "60"
+      },
+      {
+        "id": "cipher_strength_score_weighted",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "24"
+      },
+      {
+        "id": "final_score",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "81"
+      },
+      {
+        "id": "overall_grade",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "OK",
+        "finding": "A+"
+      },
+      {
+        "id": "scanTime",
+        "ip": "www.tpee.urssaf.fr/193.178.136.212",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "56"
+      }
+    ],
+    "thirdparties": {
+      "trackers": null,
+      "cookies": null,
+      "headers": null
+    },
+    "wappalyzer": {
+      "urls": {
         "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm": {
           "status": 0,
           "error": "net::ERR_CONNECTION_RESET at https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm (https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm)"
@@ -11155,8 +11157,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 29 Mar 2026 03:05:50",
-      "created": "2026-03-29T03:05:50.168341399Z",
+      "@generated": "Sun, 5 Apr 2026 03:05:32",
+      "created": "2026-04-05T03:05:32.878169610Z",
       "insights": [
         {
           "level": "Info",
@@ -11385,7 +11387,7 @@
       {
         "requestedUrl": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
         "finalUrl": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-        "fetchTime": "2026-03-29T03:06:05.003Z",
+        "fetchTime": "2026-04-05T03:05:47.728Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -11396,7 +11398,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.24
+            "score": 0.25
           },
           "accessibility": {
             "title": "Accessibility",
@@ -11448,53 +11450,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 11271,
+            "numericValue": 11858,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6328,
-                  "firstMeaningfulPaint": 6328,
-                  "largestContentfulPaint": 7522,
-                  "interactive": 11271,
-                  "speedIndex": 7037,
-                  "totalBlockingTime": 1770,
-                  "maxPotentialFID": 2316,
+                  "firstContentfulPaint": 4950,
+                  "firstMeaningfulPaint": 4950,
+                  "largestContentfulPaint": 7096,
+                  "interactive": 11858,
+                  "speedIndex": 6068,
+                  "totalBlockingTime": 2381,
+                  "maxPotentialFID": 2382,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 663750955,
+                  "observedTimeOriginTs": 660022476,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 663750955,
-                  "observedFirstPaint": 1264,
-                  "observedFirstPaintTs": 665014625,
-                  "observedFirstContentfulPaint": 1264,
-                  "observedFirstContentfulPaintTs": 665014625,
-                  "observedFirstContentfulPaintAllFrames": 1264,
-                  "observedFirstContentfulPaintAllFramesTs": 665014625,
-                  "observedFirstMeaningfulPaint": 1264,
-                  "observedFirstMeaningfulPaintTs": 665014625,
-                  "observedLargestContentfulPaint": 1328,
-                  "observedLargestContentfulPaintTs": 665079225,
-                  "observedLargestContentfulPaintAllFrames": 1328,
-                  "observedLargestContentfulPaintAllFramesTs": 665079225,
-                  "observedTraceEnd": 3906,
-                  "observedTraceEndTs": 667656998,
-                  "observedLoad": 1595,
-                  "observedLoadTs": 665345719,
-                  "observedDomContentLoaded": 1264,
-                  "observedDomContentLoadedTs": 665014617,
+                  "observedNavigationStartTs": 660022476,
+                  "observedFirstPaint": 1272,
+                  "observedFirstPaintTs": 661294486,
+                  "observedFirstContentfulPaint": 1272,
+                  "observedFirstContentfulPaintTs": 661294486,
+                  "observedFirstContentfulPaintAllFrames": 1272,
+                  "observedFirstContentfulPaintAllFramesTs": 661294486,
+                  "observedFirstMeaningfulPaint": 1272,
+                  "observedFirstMeaningfulPaintTs": 661294486,
+                  "observedLargestContentfulPaint": 1320,
+                  "observedLargestContentfulPaintTs": 661342537,
+                  "observedLargestContentfulPaintAllFrames": 1320,
+                  "observedLargestContentfulPaintAllFramesTs": 661342537,
+                  "observedTraceEnd": 4298,
+                  "observedTraceEndTs": 664320906,
+                  "observedLoad": 1981,
+                  "observedLoadTs": 662003814,
+                  "observedDomContentLoaded": 0,
+                  "observedDomContentLoadedTs": 660022893,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1264,
-                  "observedFirstVisualChangeTs": 665014955,
-                  "observedLastVisualChange": 1328,
-                  "observedLastVisualChangeTs": 665078955,
-                  "observedSpeedIndex": 1275,
-                  "observedSpeedIndexTs": 665026455
+                  "observedFirstVisualChange": 1272,
+                  "observedFirstVisualChangeTs": 661294476,
+                  "observedLastVisualChange": 1373,
+                  "observedLastVisualChangeTs": 661395476,
+                  "observedSpeedIndex": 1282,
+                  "observedSpeedIndexTs": 661304216
                 },
                 {
                   "lcpInvalidated": false
@@ -11516,19 +11518,19 @@
                   "numScripts": 18,
                   "numStylesheets": 9,
                   "numFonts": 0,
-                  "numTasks": 1531,
+                  "numTasks": 1273,
                   "numTasksOver10ms": 8,
                   "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 2,
+                  "numTasksOver50ms": 3,
                   "numTasksOver100ms": 2,
                   "numTasksOver500ms": 1,
-                  "rtt": 5.661000000000001,
-                  "throughput": 13278717.12794808,
-                  "maxRtt": 90.02499999999999,
-                  "maxServerLatency": 5.5120000000000005,
-                  "totalByteWeight": 1018442,
-                  "totalTaskTime": 1085.0330000000042,
-                  "mainDocumentTransferSize": 10982
+                  "rtt": 5.8870000000000005,
+                  "throughput": 13857735.364043633,
+                  "maxRtt": 91.638,
+                  "maxServerLatency": 501.21999999999997,
+                  "totalByteWeight": 1022115,
+                  "totalTaskTime": 1088.5520000000033,
+                  "mainDocumentTransferSize": 10990
                 }
               ]
             }
@@ -11550,7 +11552,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-        "size": 1268.564,
+        "size": 1265.74,
         "nodes": 93,
         "requests": 41,
         "grade": "B",
@@ -11558,7 +11560,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2026-03-29 02:56:55.740549",
+        "date": "2026-04-05 02:56:39.491228",
         "page_type": null
       }
     ],
@@ -11576,7 +11578,7 @@
       "trackersCount": null,
       "zapCount": 14,
       "zapGrade": "D",
-      "lighthouse_performance": 0.24,
+      "lighthouse_performance": 0.25,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
