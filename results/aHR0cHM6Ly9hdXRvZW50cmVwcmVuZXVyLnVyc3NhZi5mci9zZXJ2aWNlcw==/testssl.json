@@ -353,7 +353,7 @@
               "ip"           : "autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "157 >= 60 days"
+              "finding"      : "150 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -430,7 +430,7 @@
               "ip"           : "autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3"
+              "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -487,48 +487,6 @@
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "GeoTrust TLS RSA CA G1 <-- DigiCert Global Root G2"
-          }
-,         {
-              "id"           : "intermediate_cert <#2>",
-              "ip"           : "autoentrepreneur.urssaf.fr/193.178.136.237",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDjjCCAnagAwIBAgIQAzrx5qcRqaC7KGSxHQn65TANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0xMzA4MDExMjAwMDBaFw0zODAxMTUxMjAwMDBaMGExCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IEcyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuzfNNNx7a8myaJCtSnX/RrohCgiN9RlUyfuI2/Ou8jqJkTx65qsGGmvPrC3oXgkkRLpimn7Wo6h+4FR1IAWsULecYxpsMNzaHxmx1x7e/dfgy5SDN67sH0NO3Xss0r0upS/kqbitOtSZpLYl6ZtrAGCSYP9PIUkY92eQq2EGnI/yuum06ZIya7XzV+hdG82MHauVBJVJ8zUtluNJbd134/tJS7SsVQepj5WztCO7TG1F8PapspUwtP1MVYwnSlcUfIKdzXOS0xZKBgyMUNGPHgm+F6HmIcr9g+UQvIOlCsRnKPZzFBQ9RnbDhxSJITRNrw9FDKZJobq7nMWxM4MphQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHQ4EFgQUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDQYJKoZIhvcNAQELBQADggEBAGBnKJRvDkhj6zHd6mcY1Yl9PMWLSn/pvtsrF9+wX3N3KjITOYFnQoQj8kVnNeyIv/iPsGEMNKSuIEyExtv4NeF22d+mQrvHRAiGfzZ0JFrabA0UWTW98kndth/Jsw1HKj2ZL7tcu7XUIOGZX1NGFdtom/DzMNU+MeKNhJ7jitralj41E6Vf8PlwUHBHQRFXGU7Aj64GxJUTFy8bJZ918rGOmaFvE7FBcf6IKshPECBV1/MUReXgRPTqh5Uykw7+U0b6LJ3/iyK5S9kJRaTepLiaWN0bfVKfjllDiIGknibVb63dDcY3fe0Dkhvld1927jyNxF1WW6LZZm6zNTflMrY=\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
-              "ip"           : "autoentrepreneur.urssaf.fr/193.178.136.237",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "CB3CCBB76031E5E0138F8DD39A23F9DE47FFC35E43C1144CEA27D46A5AB1CB5F"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#2>",
-              "ip"           : "autoentrepreneur.urssaf.fr/193.178.136.237",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2013-08-01 12:00"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#2>",
-              "ip"           : "autoentrepreneur.urssaf.fr/193.178.136.237",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2038-01-15 12:00"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#2>",
-              "ip"           : "autoentrepreneur.urssaf.fr/193.178.136.237",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#2>",
-              "ip"           : "autoentrepreneur.urssaf.fr/193.178.136.237",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "DigiCert Global Root G2 <-- DigiCert Global Root G2"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -1025,6 +983,6 @@
               "ip"           : "autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "101"
+              "finding"      : "112"
           }
 ]

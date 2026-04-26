@@ -9,7 +9,7 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 19 Apr 2026 01:32:00 GMT",
+      "date": "Sun, 26 Apr 2026 01:34:15 GMT",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
       "cache-control": "no-cache,no-store,must-revalidate",
       "pragma": "no-cache, no-cache",
@@ -21,8 +21,8 @@
       "connection": "close",
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "set-cookie": [
-        "TS6bd60791029=08285ff142ab2800220049aa87ab67ac2bcdc63ad1734967dd6cd9acc705e82d1b08438995aadb2473edbbad226c30ba; Max-Age=30; Path=/",
-        "TS047062ef027=08285ff142ab2000600b2fc67823747d01b8eefe01d109ccfcf4d990c7126b27f2fa8bb1c064b5ea0876f31d81113000ae8a0bf9e19a660c5bb77d51f0ad5b7a6a02cdb467b447495afc981e29d6ee909f651f5a0c6db8fc1e6be4020f3cfe5a; Path=/"
+        "TSeb68a781029=08864aa589ab28002040ff6a96ca2007c0a5245e39e15f6785abcf3515bb96a450ea59147c039585a435a815c108ac51; Max-Age=30; Path=/",
+        "TSb4494f8b027=08864aa589ab2000c58e3304b8825b020bbcdc675e595ff0151cbb99b827ec5f0834f62e56408879089a4c0b441130004b2250b84bbd845d3c2775b24e35109a3eeead05d408b677950d4ab50a2c340b3fb55f4dc770750f26a60fd0ecdcbcc3; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
@@ -122,23 +122,23 @@
       "result": "cookies-without-secure-flag-but-protected-by-hsts",
       "scoreModifier": -5,
       "data": {
-        "TS011bc192": {
+        "TS016e4b65": {
           "domain": "autoentrepreneur.urssaf.fr",
           "path": "/",
           "port": null
         },
-        "TS6bd60791029": {
+        "TSeb68a781029": {
           "domain": "www.autoentrepreneur.urssaf.fr",
           "max-age": 30,
           "path": "/",
           "port": null
         },
-        "TS047062ef027": {
+        "TSb4494f8b027": {
           "domain": "www.autoentrepreneur.urssaf.fr",
           "path": "/",
           "port": null
         },
-        "TS01e420e8": {
+        "TS0191aa1f": {
           "domain": "www.autoentrepreneur.urssaf.fr",
           "path": "/",
           "port": null
@@ -150,7 +150,7 @@
           "port": null,
           "secure": true
         },
-        "TS013afc68": {
+        "TS014f769f": {
           "domain": "www.autoentrepreneur.urssaf.fr",
           "path": "/portail",
           "port": null
