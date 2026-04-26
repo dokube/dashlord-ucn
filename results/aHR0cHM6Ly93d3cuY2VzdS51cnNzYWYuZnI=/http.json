@@ -9,20 +9,20 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 19 Apr 2026 01:43:49 GMT",
+      "date": "Sun, 26 Apr 2026 01:56:18 GMT",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
       "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
       "pragma": "no-cache",
       "content-type": "text/html;charset=UTF-8",
+      "vary": "Accept-Encoding,User-Agent",
       "content-security-policy": "default-src 'self' *.youtube.com *.gstatic.com *.googleapis.com *.hcaptcha.com *.data.gouv.fr *.api.gouv.fr *.googletagmanager.com *.google.com voxusagers.numerique.gouv.fr *.urssaf.fr *.tagcommander.com *.commander1.com *.trustcommander.net tag.aticdn.net *.smartly.ai widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.abtasty.com *.amazonaws.com *.mopinion.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io 'unsafe-inline' 'unsafe-eval' data: wss: blob:;",
       "x-xss-protection": "1; mode=block",
       "x-content-type-options": "nosniff",
       "connection": "close",
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
-      "vary": "Accept-Encoding",
       "set-cookie": [
-        "TS3ab25f03029=08285ff142ab2800a04f50c5d832367186b32d97ff1e055f92446691aaeec329cb4e44b2167cbffebb67da5efffd6a61; Max-Age=30; Path=/",
-        "TS1c4bd837027=08285ff142ab2000c3fa756110c2c3a0e10b9211d54d9bbc41c4c680569e12141c2ceb48a29f1ff4086d8ab2711130007e892447d57bd2be0ff996955cb04ac6c2409f712308be671714f576fe84276eac52e7a7c71ea075f7732568760fbdf6; Path=/"
+        "TSb8ac319d029=08864aa589ab28009d4a73692658ca3f72b780dc8eed2cf1b83e6ca2899c8eebda675fb1df9ce43979db1532fed6c645; Max-Age=30; Path=/",
+        "TS5aec2e40027=08864aa589ab2000ab8f013bcf57b887f1f229fedf1f7eb1d2d5df514b7f30589994ea27a1915c9108e294ae6911300018a01a5f50b6f1af9d2fc8943f8b732bd10b1b1994f8c7c51aba68e9681d8fb53893b678c4d4ab8d82e19aa51cbc18cd; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
@@ -91,18 +91,18 @@
       "result": "cookies-session-without-secure-flag-but-protected-by-hsts",
       "scoreModifier": -10,
       "data": {
-        "TS01479bf2": {
+        "TS012b5fcd": {
           "domain": "www.cesu.urssaf.fr",
           "path": "/",
           "port": null
         },
-        "TS3ab25f03029": {
+        "TSb8ac319d029": {
           "domain": "www.cesu.urssaf.fr",
           "max-age": 30,
           "path": "/",
           "port": null
         },
-        "TS1c4bd837027": {
+        "TS5aec2e40027": {
           "domain": "www.cesu.urssaf.fr",
           "path": "/",
           "port": null
@@ -113,7 +113,7 @@
           "path": "/info/",
           "port": null
         },
-        "TS017ce0d3": {
+        "TS011024ec": {
           "domain": "www.cesu.urssaf.fr",
           "path": "/info/",
           "port": null
