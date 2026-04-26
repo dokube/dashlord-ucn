@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 19 Apr 2026 01:03:59",
-	"created": "2026-04-19T01:03:59.760615774Z",
+	"@generated": "Sun, 26 Apr 2026 01:05:44",
+	"created": "2026-04-26T01:05:44.463629773Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -201,19 +201,9 @@
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
-							"param": "TS01c7b25a",
+							"param": "TS01a8dcfe",
 							"attack": "",
-							"evidence": "Set-Cookie: TS01c7b25a",
-							"otherinfo": ""
-						},
-						{
-							"id": "5",
-							"uri": "https://www.urssaf.fr",
-							"nodeName": "https:\/\/www.urssaf.fr",
-							"method": "GET",
-							"param": "TS91b06514027",
-							"attack": "",
-							"evidence": "Set-Cookie: TS91b06514027",
+							"evidence": "Set-Cookie: TS01a8dcfe",
 							"otherinfo": ""
 						},
 						{
@@ -221,9 +211,19 @@
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
-							"param": "TSb749e220029",
+							"param": "TS5f1c04a0029",
 							"attack": "",
-							"evidence": "Set-Cookie: TSb749e220029",
+							"evidence": "Set-Cookie: TS5f1c04a0029",
+							"otherinfo": ""
+						},
+						{
+							"id": "5",
+							"uri": "https://www.urssaf.fr",
+							"nodeName": "https:\/\/www.urssaf.fr",
+							"method": "GET",
+							"param": "TSbd5c1b7d027",
+							"attack": "",
+							"evidence": "Set-Cookie: TSbd5c1b7d027",
 							"otherinfo": ""
 						}
 					],
@@ -251,19 +251,9 @@
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
-							"param": "TS01c7b25a",
+							"param": "TS01a8dcfe",
 							"attack": "",
-							"evidence": "Set-Cookie: TS01c7b25a",
-							"otherinfo": ""
-						},
-						{
-							"id": "12",
-							"uri": "https://www.urssaf.fr",
-							"nodeName": "https:\/\/www.urssaf.fr",
-							"method": "GET",
-							"param": "TS91b06514027",
-							"attack": "",
-							"evidence": "Set-Cookie: TS91b06514027",
+							"evidence": "Set-Cookie: TS01a8dcfe",
 							"otherinfo": ""
 						},
 						{
@@ -271,9 +261,19 @@
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
-							"param": "TSb749e220029",
+							"param": "TS5f1c04a0029",
 							"attack": "",
-							"evidence": "Set-Cookie: TSb749e220029",
+							"evidence": "Set-Cookie: TS5f1c04a0029",
+							"otherinfo": ""
+						},
+						{
+							"id": "12",
+							"uri": "https://www.urssaf.fr",
+							"nodeName": "https:\/\/www.urssaf.fr",
+							"method": "GET",
+							"param": "TSbd5c1b7d027",
+							"attack": "",
+							"evidence": "Set-Cookie: TSbd5c1b7d027",
 							"otherinfo": ""
 						}
 					],
@@ -311,19 +311,9 @@
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
-							"param": "TS01c7b25a",
+							"param": "TS01a8dcfe",
 							"attack": "",
-							"evidence": "Set-Cookie: TS01c7b25a",
-							"otherinfo": ""
-						},
-						{
-							"id": "9",
-							"uri": "https://www.urssaf.fr",
-							"nodeName": "https:\/\/www.urssaf.fr",
-							"method": "GET",
-							"param": "TS91b06514027",
-							"attack": "",
-							"evidence": "Set-Cookie: TS91b06514027",
+							"evidence": "Set-Cookie: TS01a8dcfe",
 							"otherinfo": ""
 						},
 						{
@@ -331,9 +321,19 @@
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
-							"param": "TSb749e220029",
+							"param": "TS5f1c04a0029",
 							"attack": "",
-							"evidence": "Set-Cookie: TSb749e220029",
+							"evidence": "Set-Cookie: TS5f1c04a0029",
+							"otherinfo": ""
+						},
+						{
+							"id": "9",
+							"uri": "https://www.urssaf.fr",
+							"nodeName": "https:\/\/www.urssaf.fr",
+							"method": "GET",
+							"param": "TSbd5c1b7d027",
+							"attack": "",
+							"evidence": "Set-Cookie: TSbd5c1b7d027",
 							"otherinfo": ""
 						}
 					],
@@ -691,16 +691,16 @@
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
-							"param": "TSb749e220029",
+							"param": "JSESSIONID",
 							"attack": "",
-							"evidence": "TSb749e220029",
-							"otherinfo": "cookie:TSb749e220029\ncookie:TS01c7b25a\ncookie:JSESSIONID\ncookie:TS91b06514027"
+							"evidence": "JSESSIONID",
+							"otherinfo": "cookie:JSESSIONID\ncookie:TS01a8dcfe\ncookie:TS5f1c04a0029\ncookie:TSbd5c1b7d027"
 						}
 					],
 					"count": "1",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
-					"otherinfo": "<p>cookie:TSb749e220029</p><p>cookie:TS01c7b25a</p><p>cookie:JSESSIONID</p><p>cookie:TS91b06514027</p>",
+					"otherinfo": "<p>cookie:JSESSIONID</p><p>cookie:TS01a8dcfe</p><p>cookie:TS5f1c04a0029</p><p>cookie:TSbd5c1b7d027</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
