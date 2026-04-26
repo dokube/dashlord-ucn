@@ -9,7 +9,7 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 19 Apr 2026 01:55:06 GMT",
+      "date": "Sun, 26 Apr 2026 01:57:26 GMT",
       "last-modified": "Wed, 25 Feb 2026 08:15:21 GMT",
       "etag": "\"2333-64ba19ae85840\"",
       "accept-ranges": "bytes",
@@ -24,9 +24,9 @@
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "vary": "Accept-Encoding",
       "set-cookie": [
-        "TS01479bf2=01726d0b82883a2618fd5c7cf4cb0c6b5d05e32555723dc0137edd4313fa80c32b49a3763ba3be97c8ddea88b856c83e2b02dca10a; Path=/; Domain=.www.cesu.urssaf.fr",
-        "TS3ab25f03029=08285ff142ab280048cdcb78b392ba31b16e39c355508fc6eac8ef8e7a658eaf9b9d92392f6745cd4fb328e7957438fb; Max-Age=30; Path=/",
-        "TS1c4bd837027=08285ff142ab2000cd4e793745d075483c4dec3ffdc0d5c84d930a02b69b60770b6d6fabd5218aac086f157ff911300062be03fffcabec253797473cb23d3793e850db14aeef40ee753f9624245e046ed68d7e8bb035848c8179c446e9bd4ca0; Path=/"
+        "TS012b5fcd=01825cd9a63db950461095d7eca9d92db7794e1bb1f560565ccebc4a14c5cadcd106a3528ed296f2f641cf63282e5b440b2f39d0f5; Path=/; Domain=.www.cesu.urssaf.fr",
+        "TSb8ac319d029=08864aa589ab28006f80d292659cb364ba7604bbd88072d79cc640148fef8588855e9d6202d0b510a2997fc71e3991b1; Max-Age=30; Path=/",
+        "TS5aec2e40027=08864aa589ab20003cf3bfbfd8273530d9f8b891eecc3d29a83ba3a6aaab9980b8403e67ca00112308a65c4c371130005cf58aa2f57a21308be47ab2cfa7fa407da106fc5181231656f61c61e84a5da874f4cd6f37c387d5b19d4def0d512ebf; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
@@ -95,18 +95,18 @@
       "result": "cookies-without-secure-flag-but-protected-by-hsts",
       "scoreModifier": -5,
       "data": {
-        "TS01479bf2": {
+        "TS012b5fcd": {
           "domain": "www.cesu.urssaf.fr",
           "path": "/",
           "port": null
         },
-        "TS3ab25f03029": {
+        "TSb8ac319d029": {
           "domain": "www.cesu.urssaf.fr",
           "max-age": 30,
           "path": "/",
           "port": null
         },
-        "TS1c4bd837027": {
+        "TS5aec2e40027": {
           "domain": "www.cesu.urssaf.fr",
           "path": "/",
           "port": null
