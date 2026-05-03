@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.tpee.urssaf.fr/193.178.136.212",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "66 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (59)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.tpee.urssaf.fr/193.178.136.212",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2026-07-01 23:59"
           }
 ,         {
@@ -1018,6 +1018,6 @@
               "ip"           : "www.tpee.urssaf.fr/193.178.136.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "101"
+              "finding"      : "93"
           }
 ]
