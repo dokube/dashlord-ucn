@@ -48,7 +48,7 @@
 "cert_trust_wildcard","www.cesu.urssaf.fr/193.178.136.193","443","LOW","trust is via wildcard","",""
 "cert_chain_of_trust","www.cesu.urssaf.fr/193.178.136.193","443","OK","passed.","",""
 "cert_certificatePolicies_EV","www.cesu.urssaf.fr/193.178.136.193","443","INFO","no","",""
-"cert_expirationStatus","www.cesu.urssaf.fr/193.178.136.193","443","OK","128 >= 60 days","",""
+"cert_expirationStatus","www.cesu.urssaf.fr/193.178.136.193","443","OK","121 >= 60 days","",""
 "cert_notBefore","www.cesu.urssaf.fr/193.178.136.193","443","INFO","2025-09-02 00:00","",""
 "cert_notAfter","www.cesu.urssaf.fr/193.178.136.193","443","OK","2026-09-01 23:59","",""
 "cert_extlifeSpan","www.cesu.urssaf.fr/193.178.136.193","443","OK","certificate has no extended life time according to browser forum","",""
