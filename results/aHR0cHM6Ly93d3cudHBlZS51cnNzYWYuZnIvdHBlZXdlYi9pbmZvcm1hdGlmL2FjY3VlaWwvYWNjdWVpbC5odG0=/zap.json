@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 3 May 2026 03:16:53",
-	"created": "2026-05-03T03:16:53.447317241Z",
+	"@generated": "Sun, 10 May 2026 03:17:35",
+	"created": "2026-05-10T03:17:35.906498371Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -82,7 +82,7 @@
 						}
 					],
 					"count": "1",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
 					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token, _csrfToken] was found in the following HTML form: [Form 1: \"btnValider\" \"inLogin\" \"inPassword\" ].</p>",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
@@ -122,7 +122,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
@@ -141,7 +141,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "1",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -151,7 +151,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "2",
+							"id": "3",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -162,7 +162,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
@@ -192,7 +192,7 @@
 						}
 					],
 					"count": "1",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
@@ -251,7 +251,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "19",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -291,7 +291,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
+							"id": "15",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -381,7 +381,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "23",
+							"id": "22",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -432,7 +432,7 @@
 						}
 					],
 					"count": "1",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
@@ -472,7 +472,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Embedder-Policy header appropriately, and that it sets the Cross-Origin-Embedder-Policy header to 'require-corp' for documents.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Embedder-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-embedder-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
@@ -512,7 +512,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Opener-Policy header appropriately, and that it sets the Cross-Origin-Opener-Policy header to 'same-origin' for documents.</p><p>'same-origin-allow-popups' is considered as less secured and should be avoided.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Opener-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-opener-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
@@ -552,7 +552,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Cross-Origin-Resource-Policy header appropriately, and that it sets the Cross-Origin-Resource-Policy header to 'same-origin' for all web pages.</p><p>'same-site' is considered as less secured and should be avoided.</p><p>If resources must be shared, set the header to 'cross-origin'.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that supports the Cross-Origin-Resource-Policy header (https://caniuse.com/mdn-http_headers_cross-origin-resource-policy).</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
@@ -622,7 +622,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
@@ -641,7 +641,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "23",
 							"uri": "https://www.tpee.urssaf.fr/",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/",
 							"method": "GET",
@@ -662,7 +662,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>",
 					"otherinfo": "<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p><p>At \"High\" threshold this scan rule will not alert on client or server error responses.</p>",
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
@@ -687,14 +687,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "srdnp22QmJKPRPnmqlLnTLTypjPyyk2pxh2FD3Sdsy60GLzkTfQs",
-							"otherinfo": "\uFFFD\uFFFDg\uFFFDm\uFFFD\uFFFD\uFFFD\uFFFDD\uFFFD\uFFFDR\uFFFDL\uFFFD\uFFFD3\uFFFD\uFFFDM\uFFFD\uFFFD\\x001d\uFFFD\\x000ft\uFFFD\uFFFD.\uFFFD\\x0018\uFFFD\uFFFDM\uFFFD,"
+							"evidence": "ZRXDp14KpMDsqWYnt1zZBjYzct1kyQhLnVy8HqB7h5p2G6ymlPy5",
+							"otherinfo": "e\\x0015\u00E7^\n\uFFFD\uFFFD\uFFFDf'\uFFFD\\\uFFFD\\x000663r\uFFFDd\uFFFD\\x0008K\uFFFD\\\uFFFD\\x001e\uFFFD{\uFFFD\uFFFDv\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
 						}
 					],
 					"count": "1",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFDg\uFFFDm\uFFFD\uFFFD\uFFFD\uFFFDD\uFFFD\uFFFDR\uFFFDL\uFFFD\uFFFD3\uFFFD\uFFFDM\uFFFD\uFFFD\\x001d\uFFFD\\x000ft\uFFFD\uFFFD.\uFFFD\\x0018\uFFFD\uFFFDM\uFFFD,</p>",
+					"otherinfo": "<p>e\\x0015\u00E7^</p><p>\uFFFD\uFFFD\uFFFDf'\uFFFD\\\uFFFD\\x000663r\uFFFDd\uFFFD\\x0008K\uFFFD\\\uFFFD\\x001e\uFFFD{\uFFFD\uFFFDv\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
@@ -727,12 +727,12 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a href=\"/tpeeweb/adhesion/create/createAdhesion.htm;jsessionid=gJ2spnGQrqPnGLGMr4d45jd22chPpKQJKrrnnLPwycryvsmcHS12!930567025\" title=\"Adh\u00E9sion\" alt=\"Adh\u00E9sion\" target=\"_self\">Adh\u00E9sion</a>",
+							"evidence": "<a href=\"/tpeeweb/adhesion/create/createAdhesion.htm;jsessionid=jkp9p31fhKp4MVGyQzpnhv1f4S6GGJRJKLmF0BcqJvPb0nH5jndJ!-567711525\" title=\"Adh\u00E9sion\" alt=\"Adh\u00E9sion\" target=\"_self\">Adh\u00E9sion</a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>This is an informational alert and so no changes are required.</p>",
 					"otherinfo": "<p>No links have been found while there are scripts, which is an indication that this is a modern web application.</p>",
 					"reference": "",
@@ -761,7 +761,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "14",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -772,7 +772,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
@@ -812,7 +812,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
@@ -852,7 +852,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
@@ -892,7 +892,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
@@ -932,7 +932,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
@@ -961,7 +961,7 @@
 							"otherinfo": "cookie:TSd15bbf8a029\ncookie:TS331ba057027\ncookie:TS0175fd60"
 						},
 						{
-							"id": "1",
+							"id": "2",
 							"uri": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr\/tpeeweb\/informatif\/accueil\/accueil.htm",
 							"method": "GET",
@@ -1012,7 +1012,7 @@
 						}
 					],
 					"count": "2",
-					"systemic": true,
+					"systemic": false,
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information. If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request.</p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
