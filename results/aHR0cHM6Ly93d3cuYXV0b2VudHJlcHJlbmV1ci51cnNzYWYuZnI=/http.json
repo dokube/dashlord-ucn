@@ -9,7 +9,7 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 03 May 2026 01:39:45 GMT",
+      "date": "Sun, 10 May 2026 01:40:26 GMT",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
       "cache-control": "no-cache,no-store,must-revalidate",
       "pragma": "no-cache, no-cache",
@@ -21,8 +21,8 @@
       "connection": "close",
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "set-cookie": [
-        "TSeb68a781029=08864aa589ab2800c4dfdf1a668e78f71790ded88e76c595be99b21f2ea14c8c5796fac187444a84820b1b83c545844b; Max-Age=30; Path=/",
-        "TSb4494f8b027=08864aa589ab2000928151195d960ff410104c841a888709fe74f1d96655ece39cfb77dde7912c4508a6b702a5113000c774ecad4fb6e46d8fae482d9931b7a2b25b2c3b583ce2fa7ca79f5612737615c28b01353e44d634daaa8180d575ba1e; Path=/"
+        "TSeb68a781029=08864aa589ab2800fd7d5789dce439749c6feaa2a57f44ec63f3509b031486dca18576b7b104faf2f77c473633d34f72; Max-Age=30; Path=/",
+        "TSb4494f8b027=08864aa589ab200012e99874863b7ec84ef9c73d909aa3d57b4bfa148ac4557f8c31f99d2e481f3f08c97ed7c51130003c5e4a879429f877b4389abcee0be113404430a75d1cf2be24d16d0aaa1785eb1e39eaca06ab2c148b55eeed2b0fff27; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
