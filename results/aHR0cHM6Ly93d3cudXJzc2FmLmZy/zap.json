@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 10 May 2026 01:13:04",
-	"created": "2026-05-10T01:13:04.481557681Z",
+	"@generated": "Sun, 17 May 2026 01:13:47",
+	"created": "2026-05-17T01:13:47.495505524Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -387,7 +387,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "20",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -417,7 +417,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "21",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -447,7 +447,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "19",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -477,7 +477,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "22",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -537,7 +537,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "18",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -567,7 +567,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "25",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -597,7 +597,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "24",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -627,7 +627,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "23",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
@@ -657,7 +657,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "26",
 							"uri": "https://www.urssaf.fr",
 							"nodeName": "https:\/\/www.urssaf.fr",
 							"method": "GET",
