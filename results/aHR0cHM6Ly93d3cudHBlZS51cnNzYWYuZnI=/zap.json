@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 10 May 2026 02:56:35",
-	"created": "2026-05-10T02:56:35.796634476Z",
+	"@generated": "Sun, 17 May 2026 02:58:01",
+	"created": "2026-05-17T02:58:01.835796429Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -257,7 +257,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "22",
+							"id": "18",
 							"uri": "https://www.tpee.urssaf.fr",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr",
 							"method": "GET",
@@ -287,7 +287,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "19",
 							"uri": "https://www.tpee.urssaf.fr",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr",
 							"method": "GET",
@@ -317,7 +317,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "21",
+							"id": "17",
 							"uri": "https://www.tpee.urssaf.fr",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr",
 							"method": "GET",
@@ -347,7 +347,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "16",
 							"uri": "https://www.tpee.urssaf.fr",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr",
 							"method": "GET",
@@ -467,7 +467,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "17",
+							"id": "22",
 							"uri": "https://www.tpee.urssaf.fr",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr",
 							"method": "GET",
@@ -497,7 +497,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "21",
 							"uri": "https://www.tpee.urssaf.fr",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr",
 							"method": "GET",
@@ -527,7 +527,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "20",
 							"uri": "https://www.tpee.urssaf.fr",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr",
 							"method": "GET",
@@ -557,7 +557,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "18",
+							"id": "23",
 							"uri": "https://www.tpee.urssaf.fr",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr",
 							"method": "GET",
@@ -617,7 +617,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "15",
 							"uri": "https://www.tpee.urssaf.fr",
 							"nodeName": "https:\/\/www.tpee.urssaf.fr",
 							"method": "GET",
