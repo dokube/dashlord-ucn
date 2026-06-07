@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 31 May 2026 01:21:14",
-	"created": "2026-05-31T01:21:14.871384310Z",
+	"@generated": "Sun, 7 Jun 2026 01:22:56",
+	"created": "2026-06-07T01:22:56.308892247Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -483,14 +483,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "com/channel/UCSjS8hOXCs5FlAnTi74rPrA",
-							"otherinfo": "r\uFFFD\uFFFDr\\x0016\uFFFD\uFFFD\uFFFDP$\uFFFDK\uFFFDN\\+9\\x0016P'N.\uFFFD\uFFFD\uFFFD\uFFFD"
+							"evidence": "/files/live/sites/urssaffr/files/illustrations/actualites/TI/627645405",
+							"otherinfo": "\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDx\uFFFD"
 						}
 					],
 					"count": "1",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>r\uFFFD\uFFFDr\\x0016\uFFFD\uFFFD\uFFFDP$\uFFFDK\uFFFDN\\+9\\x0016P'N.\uFFFD\uFFFD\uFFFD\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDx\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
