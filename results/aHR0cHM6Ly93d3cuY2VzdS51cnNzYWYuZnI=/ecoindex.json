@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cesu.urssaf.fr",
-        "size": 3632.892,
+        "size": 3462.282,
         "nodes": 427,
         "requests": 50,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-07 02:00:26.620302",
+        "date": "2026-06-14 02:02:43.467751",
         "page_type": null
     }
 ]
