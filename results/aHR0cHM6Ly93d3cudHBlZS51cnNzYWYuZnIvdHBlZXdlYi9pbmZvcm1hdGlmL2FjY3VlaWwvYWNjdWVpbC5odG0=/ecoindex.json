@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-        "size": 1266.031,
+        "size": 1263.245,
         "nodes": 93,
         "requests": 40,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-07 02:51:36.732228",
+        "date": "2026-06-14 03:13:25.382443",
         "page_type": null
     }
 ]
