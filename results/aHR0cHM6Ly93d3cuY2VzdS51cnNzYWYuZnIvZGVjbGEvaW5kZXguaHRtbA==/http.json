@@ -9,7 +9,7 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 07 Jun 2026 02:11:18 GMT",
+      "date": "Sun, 14 Jun 2026 02:12:50 GMT",
       "last-modified": "Tue, 12 May 2026 09:13:11 GMT",
       "etag": "\"237d-6519b45acd7c0\"",
       "accept-ranges": "bytes",
@@ -24,9 +24,9 @@
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "vary": "Accept-Encoding",
       "set-cookie": [
-        "TS012b5fcd=01825cd9a68335eb9cfb55f170e62e4e11a32239068357d4a9d44d08b4fff7b0c8070282bf5f8bbbf0c9ff286832565d242cf79a08; Path=/; Domain=.www.cesu.urssaf.fr",
-        "TSb8ac319d029=08864aa589ab2800147853aa422b90cce92d492f70408e6de6a4db0b15702e41e91cf55fe68a3fa9223ae2acded72918; Max-Age=30; Path=/",
-        "TS5aec2e40027=08864aa589ab200022c91c11f79430d93b25138700e6afe42618efedc0f4cbbc47541a8f8fca20e6084a07971711300026a4af61ecc1ddec41b54e75009bc9529eeb17636f8950e146a8b2305620313c9ce5e4bb47dc53055115e026c1b1b6c7; Path=/"
+        "TS012b5fcd=01825cd9a64489204f49fbcf921e9860224059a60532b1ceaeef4694c9a88a325193458cb7bbf3971bec891ee6f39fac5864eca509; Path=/; Domain=.www.cesu.urssaf.fr",
+        "TSb8ac319d029=08864aa589ab2800766ef3282883d032718f39a6a1504b4d16777e9b759e998b8009301472c55042a5ad1c29ddba9109; Max-Age=30; Path=/",
+        "TS5aec2e40027=08864aa589ab200076518be881fa2525ea88b94b516c1bc21896eb638a040dce57a249111a999685084184386a113000854baec617a11576c7398ca663edd3847116f9c9105ef3f972ccbdb34c60e3ba915a132bdbd83d70183bb41c5e10a429; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
