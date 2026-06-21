@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://autoentrepreneur.urssaf.fr/services",
-        "size": 5196.401,
+        "size": 5026.414,
         "nodes": 630,
         "requests": 70,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 2.12,
         "water": 3.18,
         "ecoindex_version": "5.4.2",
-        "date": "2026-06-14 01:40:58.235696",
+        "date": "2026-06-21 01:43:25.237298",
         "page_type": null
     }
 ]
