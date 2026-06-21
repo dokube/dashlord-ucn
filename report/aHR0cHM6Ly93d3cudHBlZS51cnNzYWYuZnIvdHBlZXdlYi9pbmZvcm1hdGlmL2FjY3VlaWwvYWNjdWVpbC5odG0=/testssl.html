@@ -19,9 +19,9 @@
 <span style="font-weight:bold;">#####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad (Mar 28 2025)</i>  [~183 ciphers]
-  on runnervm1li68:/home/testssl/bin/openssl.Linux.x86_64
+  on runnervm7b5n9:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2026-06-14 03:22:45        --&gt;&gt; 193.178.136.212:443 (www.tpee.urssaf.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-06-21 03:20:44        --&gt;&gt; 193.178.136.212:443 (www.tpee.urssaf.fr) &lt;&lt;--</span>
 
  rDNS (193.178.136.212): --
  Service detected:       Couldn&apos;t determine what&apos;s running on port 443, assuming no HTTP service =&gt; skipping all HTTP checks
@@ -93,15 +93,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>08676FA434BAD095F40BB2AD036ADA81 (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 4425FB203FA9C456FE3D32BC5BFF7420FB7FE140
-                              SHA256 84B3A86DD025A5C3396D35D464DCCB27AA7DF3120D0C11FAD9ACFEDB7793FC3E
+<span style="font-weight:bold;"> Serial                       </span>0B1F94176ECD6B7CE6AE15F4471B0727 (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 FFD46497F2ADC5776036C9C6E967A99CAE477079
+                              SHA256 4432AE764349CB9E22FABEA627579E2C611732FF03FBAC237F1EC392F39A31D5
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>www.tpee.urssaf.fr </i>
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.tpee.urssaf.fr tpee.urssaf.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (same w/o SNI)
-<span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
+<span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#e52207;font-weight:bold;">NOT ok</span> (chain incomplete)
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#e52207;">expires &lt; 30 days (17)</span> (2025-07-02 00:00 --&gt; 2026-07-01 23:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">181 &gt;= 60 days</span> (2026-06-04 00:00 --&gt; 2026-12-19 23:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://cdp.geotrust.com/GeoTrustTLSRSACAG1.crl
 <span style="font-weight:bold;"> OCSP URI                     </span>http://status.geotrust.com
@@ -111,10 +111,8 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               <i>iodef=mailto:hostmaster@acoss.fr,
                               issue=certigna.fr, issue=digicert.com</i>
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
-<span style="font-weight:bold;"> Certificates provided</span>        3
+<span style="font-weight:bold;"> Certificates provided</span>        1
 <span style="font-weight:bold;"> Issuer                       </span><i>GeoTrust TLS RSA CA G1</i> (<i>DigiCert Inc</i> from <i>US</i>)
-<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2027-11-02 12:23). <i>GeoTrust TLS RSA CA G1</i> &lt;-- <i>DigiCert Global Root G2</i>
-                              #2: <span style="color:#008817;">ok &gt; 40 days</span> (2038-01-15 12:00). <i>DigiCert Global Root G2</i> &lt;-- <i>DigiCert Global Root G2</i>
 <span style="font-weight:bold;"> Intermediate Bad OCSP</span> (exp.) <span style="color:#008817;">Ok</span>
 
 
@@ -133,7 +131,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=84B3A86DD025A5C3396D35D464DCCB27AA7DF3120D0C11FAD9ACFEDB7793FC3E" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=84B3A86DD025A5C3396D35D464DCCB27AA7DF3120D0C11FAD9ACFEDB7793FC3E</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4432AE764349CB9E22FABEA627579E2C611732FF03FBAC237F1EC392F39A31D5" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4432AE764349CB9E22FABEA627579E2C611732FF03FBAC237F1EC392F39A31D5</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses obsolete cipher block chaining ciphers with TLS, see server prefs.
@@ -191,9 +189,11 @@ Could not determine the protocol, only simulating generic clients.
 <span style="font-weight:bold;"> Key Exchange </span>    (weighted)  90 (27)
 <span style="font-weight:bold;"> Cipher Strength </span> (weighted)  60 (24)
 <span style="font-weight:bold;"> Final Score                  </span>81
-<span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
+<span style="font-weight:bold;"> Overall Grade                </span><span style="color:#c05600;">B</span>
+<span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to B. Issues with chain of trust
+                                (chain incomplete)
 
-<span style="color:white;background-color:black;"> Done 2026-06-14 03:23:38 [  55s] --&gt;&gt; 193.178.136.212:443 (www.tpee.urssaf.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-06-21 03:22:13 [  92s] --&gt;&gt; 193.178.136.212:443 (www.tpee.urssaf.fr) &lt;&lt;--</span>
 
 
 </pre>
