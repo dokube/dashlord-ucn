@@ -9,12 +9,18 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 14 Jun 2026 01:25:59 GMT",
+      "date": "Sun, 21 Jun 2026 01:28:06 GMT",
       "content-type": "text/html;charset=UTF-8",
       "connection": "close",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
       "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
       "pragma": "no-cache",
+      "set-cookie": [
+        "JSESSIONID=C7728CDE71BE5B2DB1BC91C490745BB7; Path=/; Secure; HttpOnly",
+        "TS01a8dcfe=01825cd9a6473f5a1f7960eed8f8f389719f74437056fd6cdd8a7c79e6c9a194037bcd637aa4ae496632d76d113da0c01b5a3644f9aae85877c7ce747052f1ee63203e4701; Path=/; Domain=.www.urssaf.fr",
+        "TS5f1c04a0029=08864aa589ab28002893065d7250243de40ef61ac361fb6a3581cfebe80fd31ba9a2026e0833ce32f81bf1eb1cf4ea80; Max-Age=30; Path=/",
+        "TSbd5c1b7d027=08864aa589ab2000194a4b4a83624a20999f4893f00f46b17b6dd3683d615037326747446765591008980c00de11300089919d30e9f4c6534dc5fcb5a458533d3eee8fb8c592be49ea942f82afdd36cb31f3edb5971818dd94bf97782250a044; Path=/"
+      ],
       "vary": "accept-encoding",
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "x-content-type-options": "nosniff",
@@ -24,10 +30,6 @@
       "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
       "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization",
       "access-control-max-age": "1728000",
-      "set-cookie": [
-        "TS5f1c04a0029=08864aa589ab2800bab2c674cdb1f75c714cde3050445c0fe9fdb390235c48046a45b09fdd03967e386c6589eb11aee8; Max-Age=30; Path=/",
-        "TSbd5c1b7d027=08864aa589ab200055d84d5cff6387547750672f124cfa867f8ee54ff7accb8bc2cb22200258a8f708a2702989113000e3892308c9411b4fa9fac435ed549af6113b2cfd921c1fc53e12742be40cfee423ea40926c33e740821b7f25bfd1a206; Path=/"
-      ],
       "transfer-encoding": "chunked"
     }
   },

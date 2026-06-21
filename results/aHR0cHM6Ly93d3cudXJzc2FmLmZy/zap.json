@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 14 Jun 2026 01:25:05",
-	"created": "2026-06-14T01:25:05.502819357Z",
+	"@generated": "Sun, 21 Jun 2026 01:27:10",
+	"created": "2026-06-21T01:27:10.658663794Z",
 	"site":[ 
 		{
 			"@name": "https://www.urssaf.fr",
@@ -457,14 +457,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "/files/live/sites/urssaffr/files/illustrations/actualites/PAM-pharma/024-actu-PAM-pharma-medecin",
-							"otherinfo": "\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD3\uFFFDaj\uFFFD\uFFFD\uFFFDM\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFD3\uFFFDaj\uFFFD\uFFFD\uFFFDg\uFFFDy\u0227"
+							"evidence": "/files/live/sites/urssaffr/files/illustrations/actualites/tout-public/AdobeStock_270820223",
+							"otherinfo": "\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFDh\uFFFD\u07E9\uFFFD\uFFFDbs\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD$\uFFFDn\uFFFD\uFFFDm6\uFFFD"
 						}
 					],
 					"count": "1",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFD\uFFFD3\uFFFDaj\uFFFD\uFFFD\uFFFDM\uFFFD\uFFFD\uFFFD-\uFFFD\uFFFD\uFFFD3\uFFFDaj\uFFFD\uFFFD\uFFFDg\uFFFDy\u0227</p>",
+					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+^\uFFFD\uFFFD\uFFFD\uFFFD\u019F~\uFFFD\u07CAW\uFFFD\uFFFD)e\uFFFD\uFFFDkj\u0628\uFFFD\uFFFD\uFFFDr\u06DA\uFFFD+^\uFFFD\uFFFDh\uFFFD\u07E9\uFFFD\uFFFDbs\uFFFD\\x001d\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD$\uFFFDn\uFFFD\uFFFDm6\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
