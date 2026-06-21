@@ -9,20 +9,20 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 14 Jun 2026 02:12:25 GMT",
+      "date": "Sun, 21 Jun 2026 02:14:14 GMT",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
       "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
       "pragma": "no-cache",
       "content-type": "text/html;charset=UTF-8",
-      "vary": "Accept-Encoding,User-Agent",
       "content-security-policy": "default-src 'self' *.youtube.com *.gstatic.com *.googleapis.com *.hcaptcha.com *.data.gouv.fr *.api.gouv.fr *.googletagmanager.com *.google.com voxusagers.numerique.gouv.fr *.urssaf.fr *.tagcommander.com *.commander1.com *.trustcommander.net tag.aticdn.net *.smartly.ai widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.abtasty.com *.amazonaws.com *.mopinion.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io 'unsafe-inline' 'unsafe-eval' data: wss: blob:;",
       "x-xss-protection": "1; mode=block",
       "x-content-type-options": "nosniff",
       "connection": "close",
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
+      "vary": "Accept-Encoding",
       "set-cookie": [
-        "TSb8ac319d029=08864aa589ab28001e9fe8644907375f006e2d7877d88c8510cfe47b2b49d95dfaedadae32d92bdf803926d397f55fe5; Max-Age=30; Path=/",
-        "TS5aec2e40027=08864aa589ab200006bc19a570ba5fea92abf45924e8c701d3274fac1f7c6e80d115ba6aafa16800082b8d4d861130008c6f20db60a1d82d6c9653157f573810cc3216d45cbdad6cdcf83896279bc5f6e02707c6c99e8c9f9df35ff2b72a72c5; Path=/"
+        "TSb8ac319d029=08864aa589ab2800a42c501d7582dff242e500a6214258165f32ad29aadafd063899ba875d2565e102ad39ab3757a0dd; Max-Age=30; Path=/",
+        "TS5aec2e40027=08864aa589ab20001e56befa5be3ad33173e38160f5ad2cbd352ee43ca178533f239bd7c3430779708619986a711300050e9b566abeb8cd279874dea2781d844819946635a6012ac4253571e56b6933a4a1814896c6a17d1d7a8242df4d01e27; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
