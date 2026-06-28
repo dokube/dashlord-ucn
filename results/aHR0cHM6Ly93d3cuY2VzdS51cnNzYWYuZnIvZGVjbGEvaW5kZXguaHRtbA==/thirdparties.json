@@ -1,5 +1,836 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null
+  "trackers": [
+    {
+      "type": "unknown",
+      "url": "https://cdn.tagcommander.com/4736/tc_Acoss_60.js?cachebuster"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.tagcommander.com/4736/tc_Acoss_56.js?cachebuster"
+    },
+    {
+      "type": "unknown",
+      "url": "https://res.tmg.urssaf.fr/acoss_piano.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007/loader.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://res.tmg.urssaf.fr/privacy/4736/privacy_v2_24.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/bundle.min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/bot.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/configuration.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/en/translation.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/fr/translation.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/theme.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/style.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/custom.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/chatboxHomepage.css"
+    },
+    {
+      "type": "google tag manager",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KXMKW5M&gtm_auth=HKg5GNGhVJNtOZLO6QKBrw&gtm_preview=env-2&gtm_cookies_win=x",
+      "details": {
+        "id": "google tag manager",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google tag manager",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5WMCC7G&gtm_auth=AzNZ1eVDfcLLmq-RtS199w&gtm_preview=env-2&gtm_cookies_win=x",
+      "details": {
+        "id": "google tag manager",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google tag manager",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PSHV5RJ&gtm_auth=GHsHb03kaNVKmuaSF7jsCQ&gtm_preview=env-1&gtm_cookies_win=x",
+      "details": {
+        "id": "google tag manager",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007/loader.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/bundle.min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/bot.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/configuration.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/en/translation.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/fr/translation.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/theme.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/style.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/custom.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/chatboxHomepage.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://res.tmg.urssaf.fr/privacy/4736/privacy_v2_24.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/649.chatbox_edge_2026-04-14.1221aa5e.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/737.chatbox_edge_2026-04-14.1221aa5e.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/assets/dydu-teaser.svg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
+    },
+    {
+      "type": "unknown",
+      "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/serverstatus"
+    },
+    {
+      "type": "unknown",
+      "url": "https://res.tmg.urssaf.fr/acoss_piano.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tm.urssaf.fr/event?s=615296&idclient=mqx52zfz82a3nrr9"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/assets/dydu-logo.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977//assets/dydu-poweredby.svg"
+    },
+    {
+      "type": "unknown",
+      "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/chat/pushrules/00cc0f9d-3627-4469-8680-b7c9dc28004a"
+    }
+  ],
+  "cookies": [
+    {
+      "name": "_pprv",
+      "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im42bGswZG03fG1xeDUyd2E3In0%3D",
+      "domain": ".urssaf.fr",
+      "path": "/",
+      "expires": 1816739867,
+      "size": 163,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TS012b5fcd",
+      "value": "01825cd9a6ce162c96d941decc0826f7752b8598f2f759d6e6bbc5f94446cceb5e7822c6793dc6a78da170ab384b4cb26ddd4f4066",
+      "domain": ".www.cesu.urssaf.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TCPID",
+      "value": "126601574711044593402",
+      "domain": ".urssaf.fr",
+      "path": "/",
+      "expires": 1816567067,
+      "size": 26,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TSb8ac319d029",
+      "value": "08864aa589ab28003568fd696088f047631b6d0492ad9df7b19c3888c646129be9ab2a8cdd120f7e3f400c6808dab485",
+      "domain": "www.cesu.urssaf.fr",
+      "path": "/",
+      "expires": 1782611899.799761,
+      "size": 109,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TS5aec2e40027",
+      "value": "08864aa589ab20007596953cba28d08950aa5d32cb30fafdf0f71a9ceed35d46602118cccd5e102208824704c6113000e0f390974475db1378c2ad7ec5f80c26310f7e326d1a0f6c103382c1d5665b5ba0a279f3241ed74a16b59e8c9c62cf66",
+      "domain": "www.cesu.urssaf.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 205,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TS00000000076",
+      "value": "08864aa589ab28005eeb89484f269d40fd8d5df6a3d557cfe7694b4a12be2543896c61b05f7ffa379df2f6b6209e7570084f20561309d00064a0beb7c7ff4d3e738fb3a9347e0dfe1db3c4f2c6d67dff7beb342938f8a649f4d1c0fc3748612ee6b0ac081e7bfdbc71d8c7093268c68ee724fdb5e41231edf1a400b3be69d4c58d3eecc314bb932a4c728a42eb89173bbd4f3d4d27d2042a6221b9f0b50c16d470bef6bd605568971c193a0a8ff622108c949932700f4dfae0976c1e7f2694765444f6002fd708b22cf547470d9a69d5c5ed3a9d51f0f2c56afec6ea6d66deba98c99b6725284323cbc39acf69ab6396b92fdc2ec461dd60b2772b760785489f3d3b864efc68268c",
+      "domain": "www.cesu.urssaf.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 541,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    }
+  ],
+  "headers": {
+    "accept-ranges": "bytes",
+    "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+    "connection": "Keep-Alive",
+    "content-security-policy": "default-src 'self' *.youtube.com *.gstatic.com *.googleapis.com *.hcaptcha.com *.data.gouv.fr *.api.gouv.fr *.googletagmanager.com *.google.com voxusagers.numerique.gouv.fr *.urssaf.fr *.tagcommander.com *.commander1.com *.trustcommander.net tag.aticdn.net *.smartly.ai widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.abtasty.com *.amazonaws.com *.mopinion.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io 'unsafe-inline' 'unsafe-eval' data: wss: blob:;",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Sun, 28 Jun 2026 01:57:42 GMT",
+    "etag": "\"237a-652ca53bc8880\"",
+    "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+    "keep-alive": "timeout=60",
+    "last-modified": "Wed, 27 May 2026 10:46:42 GMT",
+    "pragma": "no-cache",
+    "set-cookie": "TS012b5fcd=01825cd9a6ce162c96d941decc0826f7752b8598f2f759d6e6bbc5f94446cceb5e7822c6793dc6a78da170ab384b4cb26ddd4f4066; Path=/; Domain=.www.cesu.urssaf.fr\nTSb8ac319d029=08864aa589ab2800b0689aa03687ac61427839d58d2f24266356debd0baf35f08567e8c74e72bd378a150988b21134fa; Max-Age=30; Path=/\nTS5aec2e40027=08864aa589ab2000272918bdf2829264b791f3d26c0a49677d54a416923e288b499aa581bfcbfb8808974db647113000470ed8ed9b1c8b4b0863d06e2b2b6a79a54bbae4a12cb2eaeb6a650666ad96bcada0753e4316b5cfa1eb1d898bed4b19; Path=/",
+    "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block"
+  },
+  "endpoints": [
+    {
+      "hostname": "www.cesu.urssaf.fr",
+      "ip": "193.178.136.193",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "cdn.tagcommander.com",
+      "ip": "151.101.42.132",
+      "geoip": {
+        "city": {
+          "geoname_id": 5392171,
+          "names": {
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 37.3388,
+          "longitude": -121.8916,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "95025"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "res.tmg.urssaf.fr",
+      "ip": "3.169.183.115",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "cdn.doyoudreamup.com",
+      "ip": "195.154.69.38",
+      "geoip": {
+        "city": {
+          "geoname_id": 2988507,
+          "names": {
+            "de": "Paris",
+            "en": "Paris",
+            "es": "París",
+            "fr": "Paris",
+            "ja": "パリ",
+            "pt-BR": "Paris",
+            "ru": "Париж",
+            "zh-CN": "巴黎"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 5,
+          "latitude": 48.8558,
+          "longitude": 2.3494,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "75001"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2968815,
+            "iso_code": "75",
+            "names": {
+              "de": "Département Paris",
+              "en": "Paris Department",
+              "es": "Departamento de París",
+              "fr": "Département de Paris"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "privacy.trustcommander.net",
+      "ip": "15.224.110.139",
+      "geoip": {
+        "city": {
+          "geoname_id": 2988507,
+          "names": {
+            "de": "Paris",
+            "en": "Paris",
+            "es": "París",
+            "fr": "Paris",
+            "ja": "パリ",
+            "pt-BR": "Paris",
+            "ru": "Париж",
+            "zh-CN": "巴黎"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 48.8558,
+          "longitude": 2.3494,
+          "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "75001"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 3012874,
+            "iso_code": "IDF",
+            "names": {
+              "de": "Île-de-France",
+              "en": "Île-de-France",
+              "es": "Isla de Francia",
+              "fr": "Île-de-France",
+              "ja": "イル・ド・フランス",
+              "pt-BR": "Ilha de França",
+              "ru": "Иль-де-Франс",
+              "zh-CN": "法兰西岛"
+            }
+          },
+          {
+            "geoname_id": 2968815,
+            "iso_code": "75",
+            "names": {
+              "de": "Département Paris",
+              "en": "Paris Department",
+              "es": "Departamento de París",
+              "fr": "Département de Paris"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "www.googletagmanager.com",
+      "ip": "142.251.218.72",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "app1.urssaf.doyoudreamup.com",
+      "ip": "51.38.58.179",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "tm.urssaf.fr",
+      "ip": "13.249.74.51",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    }
+  ]
 }
