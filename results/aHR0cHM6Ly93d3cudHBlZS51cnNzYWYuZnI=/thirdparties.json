@@ -1,5 +1,118 @@
 {
-  "trackers": null,
-  "cookies": null,
-  "headers": null
+  "trackers": [],
+  "cookies": [
+    {
+      "name": "TS331ba057027",
+      "value": "08864aa589ab20001dffbe73c51cef605c45c6ac520959d265e0cafebbaa10e387126f5021fb569508db10bb3a11300019535d4a30181782f537437a159dde88a49c060b317a5f547c27eb664f66faa001b01111f8ba7cf524c1269f9e2b491c",
+      "domain": "www.tpee.urssaf.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 205,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TS0175fd60",
+      "value": "01825cd9a6eefd4e1edb475ae997f4ea6c248485405d0c9275cee033877124404f05505562686aa3fb881a69d502df9d2dc2982650",
+      "domain": ".www.tpee.urssaf.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "TSd15bbf8a029",
+      "value": "08864aa589ab2800ca218d05baee2d934c484341b3c52122142c97b67648a3c603c543b74007eb2604f8ca9d6fe4887a",
+      "domain": "www.tpee.urssaf.fr",
+      "path": "/",
+      "expires": 1782614868.607983,
+      "size": 109,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    }
+  ],
+  "headers": {
+    "accept-ranges": "bytes",
+    "connection": "Keep-Alive",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Sun, 28 Jun 2026 02:47:18 GMT",
+    "etag": "\"72-bb4ca480\"",
+    "keep-alive": "timeout=30, max=200",
+    "last-modified": "Tue, 24 Feb 2026 12:07:30 GMT",
+    "set-cookie": "TS0175fd60=01825cd9a6eefd4e1edb475ae997f4ea6c248485405d0c9275cee033877124404f05505562686aa3fb881a69d502df9d2dc2982650; Path=/; Domain=.www.tpee.urssaf.fr\nTSd15bbf8a029=08864aa589ab28008a437042bf0bdad90305f079fe6b8374af1812cae49e3f0be9babf24aa394a1e0a1820f0eeb76342; Max-Age=30; Path=/\nTS331ba057027=08864aa589ab20008938dcb1dcb6f8808168702050f455c5c948a0a59c6fcad0c1c04061c8fc1d0808d7189360113000a97068bddad85e45f537437a159dde88a49c060b317a5f547c27eb664f66faa001b01111f8ba7cf524c1269f9e2b491c; Path=/",
+    "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding"
+  },
+  "endpoints": [
+    {
+      "hostname": "www.tpee.urssaf.fr",
+      "ip": "193.178.136.212",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    }
+  ]
 }
