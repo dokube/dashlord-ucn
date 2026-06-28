@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 21 Jun 2026 01:51:32",
-	"created": "2026-06-21T01:51:32.147979531Z",
+	"@generated": "Sun, 28 Jun 2026 01:44:40",
+	"created": "2026-06-28T01:44:40.236730819Z",
 	"site":[ 
 		{
 			"@name": "https://www.autoentrepreneur.urssaf.fr",
@@ -245,7 +245,7 @@
 					"systemic": false,
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
-					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
+					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
 					"sourceid": "1"
