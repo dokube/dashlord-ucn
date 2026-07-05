@@ -126,10 +126,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://res.tmg.urssaf.fr/privacy/4736/privacy_v2_24.js"
-    },
-    {
-      "type": "unknown",
       "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/649.chatbox_edge_2026-04-14.1221aa5e.js"
     },
     {
@@ -142,11 +138,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
+      "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/serverstatus"
     },
     {
       "type": "unknown",
-      "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/serverstatus"
+      "url": "https://res.tmg.urssaf.fr/privacy/4736/privacy_v2_24.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
     },
     {
       "type": "unknown",
@@ -154,7 +154,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://tm.urssaf.fr/event?s=615296&idclient=mqx52zfz82a3nrr9"
+      "url": "https://tm.urssaf.fr/event?s=615296&idclient=mr74ooe5g6em4h8y"
     },
     {
       "type": "unknown",
@@ -171,11 +171,25 @@
   ],
   "cookies": [
     {
+      "name": "TS00000000076",
+      "value": "08864aa589ab2800e5c837b811baa1697b70121281c36be44bc699f4cfee01dca327d996bd04589d48ecf53bbcf84f99080d078df009d000a55c62b122f7db4164b344297baf4730c0ef69d4a1f15beefb36d2b82f926ee76138c6afeb262e945967fff97fb066c731ca4f27e2916c52972817f979ef5b34465e0d3cb39fc7d1b09f45849ce92ccff8d829093762e06cdf0f2e3d3c7ed11cf4460629d12bc2c3ceae6067ca2bf7a07aee8373c43dee5dabba38d1b6f96ef7c78e225e54b6be78f1e7977d60fc48765815da34af99ed4fb951bda32d194ca9b7e34c4fc7f55db32b6de03d591d6283e690b1536e611a2e7aa58da6580df004bd91bf3e4dcf9e7fa7f4d8c217575d09",
+      "domain": "www.cesu.urssaf.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 541,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
       "name": "_pprv",
-      "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im42bGswZG03fG1xeDUyd2E3In0%3D",
+      "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im42dmptM3lifG1yNzRvbW1iIn0%3D",
       "domain": ".urssaf.fr",
       "path": "/",
-      "expires": 1816739867,
+      "expires": 1817343863,
       "size": 163,
       "httpOnly": false,
       "secure": true,
@@ -187,7 +201,7 @@
     },
     {
       "name": "TS012b5fcd",
-      "value": "01825cd9a6ce162c96d941decc0826f7752b8598f2f759d6e6bbc5f94446cceb5e7822c6793dc6a78da170ab384b4cb26ddd4f4066",
+      "value": "01825cd9a6fc7d8fb9aaf353a307e14ba13e7ead4e496bc6ffc8b1363a116861fb144a649b3f15609bbc347a237541a8511c54edfa",
       "domain": ".www.cesu.urssaf.fr",
       "path": "/",
       "expires": -1,
@@ -200,26 +214,11 @@
       "sameParty": false
     },
     {
-      "name": "TCPID",
-      "value": "126601574711044593402",
-      "domain": ".urssaf.fr",
-      "path": "/",
-      "expires": 1816567067,
-      "size": 26,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameSite": "Lax",
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
-    },
-    {
       "name": "TSb8ac319d029",
-      "value": "08864aa589ab28003568fd696088f047631b6d0492ad9df7b19c3888c646129be9ab2a8cdd120f7e3f400c6808dab485",
+      "value": "08864aa589ab280066eb62f0bd1035871bbec728944e010f810bce69d4e8709191eb5dccbb098a80afb83160581f89f1",
       "domain": "www.cesu.urssaf.fr",
       "path": "/",
-      "expires": 1782611899.799761,
+      "expires": 1783215893.292143,
       "size": 109,
       "httpOnly": false,
       "secure": false,
@@ -229,8 +228,22 @@
       "sameParty": false
     },
     {
+      "name": "TSPD_101_DID",
+      "value": "08864aa589ab28009af8b6036b993a899ce958b8bf9e2ccad13a69245ad8425c2d8f018d9034e7f79d83ad878b3526f9084810ac890638000a899ab5dea40452cea77db0b6cb197ed5bc469effd496b37b18dfe486213a04c8a3b5bfa1050056f3c21c4a3282e3e2808cc389b8a88e70",
+      "domain": "www.cesu.urssaf.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 236,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
       "name": "TS5aec2e40027",
-      "value": "08864aa589ab20007596953cba28d08950aa5d32cb30fafdf0f71a9ceed35d46602118cccd5e102208824704c6113000e0f390974475db1378c2ad7ec5f80c26310f7e326d1a0f6c103382c1d5665b5ba0a279f3241ed74a16b59e8c9c62cf66",
+      "value": "08864aa589ab2000f39b7f32bf2b82d2256ac9acc3857aec1ecc3de8aa0f78e4af0d5f49658fd013085a2bb883113000765b36ab8c57fb2a1761d0daa1eed903999b6846e12c92203a2ec51a72fc949f3661c54a471064231c4905d7b817ec92",
       "domain": "www.cesu.urssaf.fr",
       "path": "/",
       "expires": -1,
@@ -243,15 +256,16 @@
       "sameParty": false
     },
     {
-      "name": "TS00000000076",
-      "value": "08864aa589ab28005eeb89484f269d40fd8d5df6a3d557cfe7694b4a12be2543896c61b05f7ffa379df2f6b6209e7570084f20561309d00064a0beb7c7ff4d3e738fb3a9347e0dfe1db3c4f2c6d67dff7beb342938f8a649f4d1c0fc3748612ee6b0ac081e7bfdbc71d8c7093268c68ee724fdb5e41231edf1a400b3be69d4c58d3eecc314bb932a4c728a42eb89173bbd4f3d4d27d2042a6221b9f0b50c16d470bef6bd605568971c193a0a8ff622108c949932700f4dfae0976c1e7f2694765444f6002fd708b22cf547470d9a69d5c5ed3a9d51f0f2c56afec6ea6d66deba98c99b6725284323cbc39acf69ab6396b92fdc2ec461dd60b2772b760785489f3d3b864efc68268c",
-      "domain": "www.cesu.urssaf.fr",
+      "name": "TCPID",
+      "value": "126701442310972143263",
+      "domain": ".urssaf.fr",
       "path": "/",
-      "expires": -1,
-      "size": 541,
+      "expires": 1817171063,
+      "size": 26,
       "httpOnly": false,
       "secure": false,
-      "session": true,
+      "session": false,
+      "sameSite": "Lax",
       "priority": "Medium",
       "sourceScheme": "Secure",
       "sameParty": false
@@ -263,13 +277,13 @@
     "connection": "Keep-Alive",
     "content-security-policy": "default-src 'self' *.youtube.com *.gstatic.com *.googleapis.com *.hcaptcha.com *.data.gouv.fr *.api.gouv.fr *.googletagmanager.com *.google.com voxusagers.numerique.gouv.fr *.urssaf.fr *.tagcommander.com *.commander1.com *.trustcommander.net tag.aticdn.net *.smartly.ai widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.abtasty.com *.amazonaws.com *.mopinion.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io 'unsafe-inline' 'unsafe-eval' data: wss: blob:;",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 28 Jun 2026 01:57:42 GMT",
+    "date": "Sun, 05 Jul 2026 01:44:19 GMT",
     "etag": "\"237a-652ca53bc8880\"",
     "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
     "keep-alive": "timeout=60",
     "last-modified": "Wed, 27 May 2026 10:46:42 GMT",
     "pragma": "no-cache",
-    "set-cookie": "TS012b5fcd=01825cd9a6ce162c96d941decc0826f7752b8598f2f759d6e6bbc5f94446cceb5e7822c6793dc6a78da170ab384b4cb26ddd4f4066; Path=/; Domain=.www.cesu.urssaf.fr\nTSb8ac319d029=08864aa589ab2800b0689aa03687ac61427839d58d2f24266356debd0baf35f08567e8c74e72bd378a150988b21134fa; Max-Age=30; Path=/\nTS5aec2e40027=08864aa589ab2000272918bdf2829264b791f3d26c0a49677d54a416923e288b499aa581bfcbfb8808974db647113000470ed8ed9b1c8b4b0863d06e2b2b6a79a54bbae4a12cb2eaeb6a650666ad96bcada0753e4316b5cfa1eb1d898bed4b19; Path=/",
+    "set-cookie": "TS012b5fcd=01825cd9a6fc7d8fb9aaf353a307e14ba13e7ead4e496bc6ffc8b1363a116861fb144a649b3f15609bbc347a237541a8511c54edfa; Path=/; Domain=.www.cesu.urssaf.fr\nTSb8ac319d029=08864aa589ab28002dc596cd30d7809cd5c7219b011849378a7c840a75bcd336b8fe227a2a3c22b298ef2fb82c4047a0; Max-Age=30; Path=/\nTS5aec2e40027=08864aa589ab200050d884317c5172e89ad48f94d1e65f4a5734f796c177611f24b9feb9e305dc2b08c8f21f8211300011df556d170d725a1b03d8f48a5427b4c339c42fbc285687b914a55762c5e7591e067c3ac5f1ddd19dffc95d362cb564; Path=/",
     "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
     "transfer-encoding": "chunked",
     "vary": "Accept-Encoding",
@@ -335,18 +349,19 @@
     },
     {
       "hostname": "cdn.tagcommander.com",
-      "ip": "151.101.42.132",
+      "ip": "146.75.30.132",
       "geoip": {
         "city": {
-          "geoname_id": 5392171,
+          "geoname_id": 4744870,
           "names": {
-            "de": "San José",
-            "en": "San Jose",
-            "es": "San José",
-            "fr": "San José",
-            "ja": "サンノゼ",
-            "pt-BR": "San José",
-            "ru": "Сан-Хосе"
+            "de": "Ashburn",
+            "en": "Ashburn",
+            "es": "Ashburn",
+            "fr": "Ashburn",
+            "ja": "アッシュバーン",
+            "pt-BR": "Ashburn",
+            "ru": "Ашберн",
+            "zh-CN": "阿什本"
           }
         },
         "continent": {
@@ -379,13 +394,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.3388,
-          "longitude": -121.8916,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "95025"
+          "code": "20149"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -403,17 +418,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 6254928,
+            "iso_code": "VA",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "de": "Virginia",
+              "en": "Virginia",
+              "es": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
             }
           }
         ]
@@ -421,7 +436,7 @@
     },
     {
       "hostname": "res.tmg.urssaf.fr",
-      "ip": "3.169.183.115",
+      "ip": "3.170.3.124",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -573,7 +588,7 @@
     },
     {
       "hostname": "privacy.trustcommander.net",
-      "ip": "15.224.110.139",
+      "ip": "13.39.53.115",
       "geoip": {
         "city": {
           "geoname_id": 2988507,
@@ -670,7 +685,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.218.72",
+      "ip": "142.251.16.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -780,7 +795,7 @@
     },
     {
       "hostname": "tm.urssaf.fr",
-      "ip": "13.249.74.51",
+      "ip": "3.170.3.78",
       "geoip": {
         "continent": {
           "code": "NA",

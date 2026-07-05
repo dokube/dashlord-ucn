@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 28 Jun 2026 02:03:10",
-	"created": "2026-06-28T02:03:10.694078824Z",
+	"@generated": "Sun, 5 Jul 2026 01:49:27",
+	"created": "2026-07-05T01:49:27.140107878Z",
 	"site":[ 
 		{
 			"@name": "https://www.cesu.urssaf.fr",
@@ -31,7 +31,7 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "2",
+							"id": "4",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -71,7 +71,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined:\nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src"
 						},
 						{
-							"id": "3",
+							"id": "5",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -111,7 +111,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "4",
+							"id": "6",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -151,7 +151,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "5",
+							"id": "7",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -181,7 +181,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "3",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -241,7 +241,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "6",
+							"id": "8",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -431,7 +431,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "56",
+							"id": "47",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -441,7 +441,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "46",
+							"id": "56",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -471,7 +471,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "57",
+							"id": "48",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -481,7 +481,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "57",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -511,7 +511,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "55",
+							"id": "46",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -521,7 +521,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "55",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -551,7 +551,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "54",
+							"id": "45",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -561,7 +561,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "44",
+							"id": "54",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -591,7 +591,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "48",
+							"id": "39",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -701,7 +701,7 @@
 					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
 					"instances":[ 
 						{
-							"id": "53",
+							"id": "44",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -711,7 +711,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "53",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -741,7 +741,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "51",
+							"id": "42",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -751,7 +751,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "51",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -781,7 +781,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "50",
+							"id": "41",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -791,7 +791,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "50",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -821,7 +821,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "49",
+							"id": "40",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -831,7 +831,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "49",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -861,7 +861,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "52",
+							"id": "43",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
@@ -871,7 +871,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "42",
+							"id": "52",
 							"uri": "https://www.cesu.urssaf.fr/decla/index.html",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/decla\/index.html",
 							"method": "GET",
@@ -901,7 +901,7 @@
 					"desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>",
 					"instances":[ 
 						{
-							"id": "7",
+							"id": "2",
 							"uri": "https://www.cesu.urssaf.fr/",
 							"nodeName": "https:\/\/www.cesu.urssaf.fr\/",
 							"method": "GET",
