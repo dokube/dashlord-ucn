@@ -18,11 +18,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://tm.urssaf.fr/event?s=614848&idclient=mqx3ee7p7uzk6s2a"
+      "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
     },
     {
       "type": "unknown",
-      "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
+      "url": "https://tm.urssaf.fr/event?s=614848&idclient=mr72zc67c2qpastq"
     },
     {
       "type": "unknown",
@@ -91,50 +91,38 @@
   ],
   "cookies": [
     {
-      "name": "TS00000000076",
-      "value": "08864aa589ab28007ec0a16e5f377b04dff4392b650c30cbadc7574c67fa571d2cd1abeff3d62852a28484bad0a5204c0814347c1809d000f3dea3e37ae0fe38e9b11e962b120b975e012b2db614d3944df6bd4a329fe0c037d4bf156b5d4394c1c65e5b0e055b1dc669562e455a8de00797d3fbe558cf1b59ca2101d15bdf1144fdc00c0dba1472a28b5087ae2148c4ae05b1f80689d0824fa007b5d54e65728f185789709b8f4e0b6276e68307b545a619a3233f8bc7f6ce0cc43fd17b26217de42fe54d5cfc675776dc820c7a9490ddb2feca5021769d46594e777cae097a306641bf6a42c2559b03e011df3f19a08f348549f449a5f28bc1e4b440727bd63de44b6b1a7a6a11",
-      "domain": "www.urssaf.fr",
+      "name": "TCPID",
+      "value": "1267005644923491572",
+      "domain": ".urssaf.fr",
       "path": "/",
-      "expires": -1,
-      "size": 541,
-      "httpOnly": false,
-      "secure": false,
-      "session": true,
-      "priority": "Medium",
-      "sourceScheme": "Secure",
-      "sameParty": false
-    },
-    {
-      "name": "TS5f1c04a0029",
-      "value": "08864aa589ab2800d2b66d4eac5b1806bdb07837c344dc3df96b5fb87412fa7a918c4aa57fc2b3664c0b54079185220b",
-      "domain": "www.urssaf.fr",
-      "path": "/",
-      "expires": 1782609075.250454,
-      "size": 109,
+      "expires": 1817168204,
+      "size": 24,
       "httpOnly": false,
       "secure": false,
       "session": false,
+      "sameSite": "Lax",
       "priority": "Medium",
       "sourceScheme": "Secure",
       "sameParty": false
     },
     {
-      "name": "TS01a8dcfe",
-      "value": "01825cd9a601285b92b7aa6c4770e5024b7e227e1efbdf24c88d2eddf1088599f0e68ec22fc058874c4c0df50de9332e8b7d74f89fe0107a172b5a8e6e85e8ad83168c6f66",
-      "domain": ".www.urssaf.fr",
+      "name": "_pprv",
+      "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im42dmh3dGljfG1yNzJ6YzZjIn0%3D",
+      "domain": ".urssaf.fr",
       "path": "/",
-      "expires": -1,
-      "size": 148,
+      "expires": 1817341004,
+      "size": 163,
       "httpOnly": false,
-      "secure": false,
-      "session": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
       "priority": "Medium",
       "sourceScheme": "Secure",
       "sameParty": false
     },
     {
       "name": "JSESSIONID",
-      "value": "288DFA2C2BAE3EB5A932C83D28C264D6",
+      "value": "7EDF745CFC61B6CE19816C112D23FA66",
       "domain": "www.urssaf.fr",
       "path": "/",
       "expires": -1,
@@ -147,27 +135,26 @@
       "sameParty": false
     },
     {
-      "name": "_pprv",
-      "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im42bGlidmp2fG1xeDNlZTd2In0%3D",
-      "domain": ".urssaf.fr",
+      "name": "TS01a8dcfe",
+      "value": "01825cd9a665c9353ed5108d3d4fe25d2de794a4ae5113044c1a4b08a1d0012d30c454a12a3b9c86785ee810be8d6e887572512c77772c6eacbae8b78779811341eb3f669d",
+      "domain": ".www.urssaf.fr",
       "path": "/",
-      "expires": 1816737045,
-      "size": 163,
+      "expires": -1,
+      "size": 148,
       "httpOnly": false,
-      "secure": true,
-      "session": false,
-      "sameSite": "Lax",
+      "secure": false,
+      "session": true,
       "priority": "Medium",
       "sourceScheme": "Secure",
       "sameParty": false
     },
     {
       "name": "_pctx",
-      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18ykAbKnoAjAG4BrAAwAfALYBHAB4BmKFAAcUkAF8gA",
+      "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18ykAbADcAFgHd89EQB8AtjADsAJgBeAYwEiQAXyA",
       "domain": ".urssaf.fr",
       "path": "/",
-      "expires": 1816737045,
-      "size": 114,
+      "expires": 1817341004,
+      "size": 112,
       "httpOnly": false,
       "secure": true,
       "session": false,
@@ -177,26 +164,25 @@
       "sameParty": false
     },
     {
-      "name": "TCPID",
-      "value": "12660110458412343857",
-      "domain": ".urssaf.fr",
+      "name": "TS5f1c04a0029",
+      "value": "08864aa589ab28006fca20b52fbdfa6ad5d45de35d02429f11facbd50582dc6d21335471bc123be233aab4df9bda5d37",
+      "domain": "www.urssaf.fr",
       "path": "/",
-      "expires": 1816564245,
-      "size": 25,
+      "expires": 1783213034.528818,
+      "size": 109,
       "httpOnly": false,
       "secure": false,
       "session": false,
-      "sameSite": "Lax",
       "priority": "Medium",
       "sourceScheme": "Secure",
       "sameParty": false
     },
     {
       "name": "_pcid",
-      "value": "%7B%22browserId%22%3A%22mqx3ee7p7uzk6s2a%22%2C%22_t%22%3A%22n6libvjz%7Cmqx3ee7z%22%7D",
+      "value": "%7B%22browserId%22%3A%22mr72zc67c2qpastq%22%2C%22_t%22%3A%22n6vhwtig%7Cmr72zc6g%22%7D",
       "domain": ".urssaf.fr",
       "path": "/",
-      "expires": 1816737045,
+      "expires": 1817341004,
       "size": 90,
       "httpOnly": false,
       "secure": true,
@@ -207,8 +193,22 @@
       "sameParty": false
     },
     {
+      "name": "TS00000000076",
+      "value": "08864aa589ab2800eead5038dd837b154ce0920c013450a406233692301f81e0509fcf4ceca6ffbd52d56e7597ef2e89080d72d56909d00074ae8a27b220b86fdfc822b1e453dd0d1f49282b37d0eb4379ee7789f9458078e64f9b252d15ef04dcee3dbbdc22b9ad558ee927a7897d78b1a6752927ac82ea0fd5f073ca1f5eb1c99a7fb1d91b274fd2c0574dfaefa5dbd94a77b8e470733d9abc3fdd5665ff071fb3e8786974d81d24e39dca57037afb12b248075aad3dc145fef07816d078365dbeb831b50190feddfa15cb8eecd9f0c63d8c936a9a726ab96b3dd4b46fc7eebae81a595a89d8904be99390d653f15d5d74f9a7e29762ae0f939d0565ee0eb193ca092e1c74ce48",
+      "domain": "www.urssaf.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 541,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
       "name": "TSbd5c1b7d027",
-      "value": "08864aa589ab200035f79d33c430c89890db65a32b848baf1deb91194960f5d92dc9e35c04bbe16d0863bfb1c2113000b8f5a6efec4109c30b1f2b8d2d5e9aa1e52bb4c36d44814931c9d904b441b235e709428c75cf1178d3702fe2c1f67ab5",
+      "value": "08864aa589ab2000dad2d94452118172e8adb10fa14376c07d72e415707bfd5a7a8e4ce8e0b14ab1088f86c9a1113000cc5903686038c6126e308ddbda32cec3457c460a3129d3036a897d65788f6429824e4dd4b5be36365f2fea15d7cafb27",
       "domain": "www.urssaf.fr",
       "path": "/",
       "expires": -1,
@@ -230,10 +230,10 @@
     "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
     "connection": "keep-alive",
     "content-type": "text/html;charset=UTF-8",
-    "date": "Sun, 28 Jun 2026 01:10:43 GMT",
+    "date": "Sun, 05 Jul 2026 00:56:41 GMT",
     "expires": "Wed, 09 May 1979 05:30:00 GMT",
     "pragma": "no-cache",
-    "set-cookie": "TS5f1c04a0029=08864aa589ab2800f5174ee2efd936c79a958836d6606a2f843fadeff167571bafc14e258170469f015e1258a3838187; Max-Age=30; Path=/\nTSbd5c1b7d027=08864aa589ab2000e2c69624cc5fe1f74a203bdf1ba14b56e85037433e86a9cfcfa9adb063f3f6e908927c8cce1130000dd481305af55b4e3b15cb473991653123ef74f576910a0295f1fb7e1b5979fbb2d79167cc9477fc8f997b77777818c9; Path=/",
+    "set-cookie": "JSESSIONID=3BE1004E31835BEB8A195D7BA95B630C; Path=/; Secure; HttpOnly\nTS01a8dcfe=01825cd9a6a19568361e44ee45c3040b075853e3495113044c1a4b08a1d0012d30c454a12a3b9c86785ee810be8d6e887572512c77aeefaa86a2598f134b7ef4af481c0d99; Path=/; Domain=.www.urssaf.fr\nTS5f1c04a0029=08864aa589ab2800e99c1b7a1d617ca84bf876c88e28b27c6fc222e32f488675e7d09f6a96b24c5b4d9d62f4bb023080; Max-Age=30; Path=/\nTSbd5c1b7d027=08864aa589ab200083a0cc9917fc71fa76f2058ef9cd2ea63b5681e3657e356e3777ba98da832b9108efef51e8113000c09f4a13ae0ea33beac0644be961c018bad74691b4802794f00fdb42c8e084475a9421eef0494bdc7b5a8910e97db9d4; Path=/",
     "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
     "transfer-encoding": "chunked",
     "x-content-type-options": "nosniff",
@@ -299,7 +299,7 @@
     },
     {
       "hostname": "res.tmg.urssaf.fr",
-      "ip": "3.168.40.5",
+      "ip": "3.169.183.19",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -450,62 +450,8 @@
       }
     },
     {
-      "hostname": "tm.urssaf.fr",
-      "ip": "143.204.204.85",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États-Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États-Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
       "hostname": "privacy.trustcommander.net",
-      "ip": "15.224.110.139",
+      "ip": "35.180.222.132",
       "geoip": {
         "city": {
           "geoname_id": 2988507,
@@ -598,6 +544,60 @@
             }
           }
         ]
+      }
+    },
+    {
+      "hostname": "tm.urssaf.fr",
+      "ip": "13.249.74.47",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
       }
     },
     {
