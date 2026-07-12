@@ -18,17 +18,17 @@
         "testsPassed": 7,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 05 Jul 2026 01:03:05 GMT",
+          "date": "Sun, 12 Jul 2026 03:38:07 GMT",
           "content-type": "text/html;charset=UTF-8",
           "connection": "close",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
           "pragma": "no-cache",
           "set-cookie": [
-            "JSESSIONID=7795E2F48A8CA736295EC286EB1E5D10; Path=/; Secure; HttpOnly",
-            "TS01a8dcfe=01825cd9a6fc4824c5ecf4e21ed8cad27939060ca6840d6063e3b08427f3bbe94137cd6a708d584c1f40c154392b5e9a3ad49d51f3ac627b6d6b5537d84060fbdd8b994806; Path=/; Domain=.www.urssaf.fr",
-            "TS5f1c04a0029=08864aa589ab2800cd9f6aee0b4000732487346df22960610cb50e6f94eb11855c1e525e3c38a7934d7893c194d26cfb; Max-Age=30; Path=/",
-            "TSbd5c1b7d027=08864aa589ab20009627c86250306b284639a207507615c1c5d9d9b8d063527b837e13176e87c5de080d86565011300066268c3a273655b91bfeff88737d7baafda5fa6631a02542a510aea11c993f0834a8d2a44ab890d8c50b6359ac3c80fd; Path=/"
+            "JSESSIONID=BB7B02DED8E535DA6BE8C3AC527BD20D; Path=/; Secure; HttpOnly",
+            "TS01a8dcfe=01825cd9a6569f6a52b947e789732bd15e9f25194c7a14a3d770e5086925020f8b755abfc8c851a98cae5c7c1f51edd3fb2178495e227a21b3f8e842163aa05812d33051fd; Path=/; Domain=.www.urssaf.fr",
+            "TS5f1c04a0029=08864aa589ab2800f503885418748738e46f00959266e624e4814bfe90c022d0bdce5502af4394d0b22a92a096526169; Max-Age=30; Path=/",
+            "TSbd5c1b7d027=08864aa589ab2000aa84b87bb39a261393521c9ed2aa7ab0180385010f6be7d9e7e79f3451addb0308e8ca08bf113000110d916be7d03bb531e918e7c054c7f2d0a4fbecf223c6b80012eadfaa74a422484bb0b483858d9b9e81f2213ef2aa5b; Path=/"
           ],
           "vary": "accept-encoding",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
@@ -518,7 +518,7 @@
         "ip": "www.urssaf.fr/193.178.136.246",
         "port": "443",
         "severity": "OK",
-        "finding": "87 >= 60 days"
+        "finding": "80 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -1148,668 +1148,13 @@
         "ip": "www.urssaf.fr/193.178.136.246",
         "port": "443",
         "severity": "INFO",
-        "finding": "98"
+        "finding": "58"
       }
     ],
     "thirdparties": {
-      "trackers": [
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/tc_Acoss_48.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/acoss_piano.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075/loader.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/privacy/4736/privacy_v2_24.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
-        },
-        {
-          "type": "unknown",
-          "url": "https://tm.urssaf.fr/event?s=614848&idclient=mr72zc67c2qpastq"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/bundle.min.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/override/bot.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/override/configuration.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/locales/en/translation.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/locales/fr/translation.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/override/theme.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/override/style.css"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/override/custom.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/chatboxHomepage.css"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/649.chatbox_edge_2026-04-14.1221aa5e.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/737.chatbox_edge_2026-04-14.1221aa5e.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/assets/dydu-teaser.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/serverstatus"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349/assets/dydu-logo.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e/0af40004-9ac9-1f3b-819a-fd9756c70075//1776923666349//assets/dydu-poweredby.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/chat/pushrules/f1ff6ad9-0402-46f8-ab2b-9dc5484ac60e"
-        }
-      ],
-      "cookies": [
-        {
-          "name": "TCPID",
-          "value": "1267005644923491572",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817168204,
-          "size": 24,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pprv",
-          "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im42dmh3dGljfG1yNzJ6YzZjIn0%3D",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817341004,
-          "size": 163,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "JSESSIONID",
-          "value": "7EDF745CFC61B6CE19816C112D23FA66",
-          "domain": "www.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 42,
-          "httpOnly": true,
-          "secure": true,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS01a8dcfe",
-          "value": "01825cd9a665c9353ed5108d3d4fe25d2de794a4ae5113044c1a4b08a1d0012d30c454a12a3b9c86785ee810be8d6e887572512c77772c6eacbae8b78779811341eb3f669d",
-          "domain": ".www.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 148,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pctx",
-          "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18ykAbADcAFgHd89EQB8AtjADsAJgBeAYwEiQAXyA",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817341004,
-          "size": 112,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS5f1c04a0029",
-          "value": "08864aa589ab28006fca20b52fbdfa6ad5d45de35d02429f11facbd50582dc6d21335471bc123be233aab4df9bda5d37",
-          "domain": "www.urssaf.fr",
-          "path": "/",
-          "expires": 1783213034.528818,
-          "size": 109,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pcid",
-          "value": "%7B%22browserId%22%3A%22mr72zc67c2qpastq%22%2C%22_t%22%3A%22n6vhwtig%7Cmr72zc6g%22%7D",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817341004,
-          "size": 90,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS00000000076",
-          "value": "08864aa589ab2800eead5038dd837b154ce0920c013450a406233692301f81e0509fcf4ceca6ffbd52d56e7597ef2e89080d72d56909d00074ae8a27b220b86fdfc822b1e453dd0d1f49282b37d0eb4379ee7789f9458078e64f9b252d15ef04dcee3dbbdc22b9ad558ee927a7897d78b1a6752927ac82ea0fd5f073ca1f5eb1c99a7fb1d91b274fd2c0574dfaefa5dbd94a77b8e470733d9abc3fdd5665ff071fb3e8786974d81d24e39dca57037afb12b248075aad3dc145fef07816d078365dbeb831b50190feddfa15cb8eecd9f0c63d8c936a9a726ab96b3dd4b46fc7eebae81a595a89d8904be99390d653f15d5d74f9a7e29762ae0f939d0565ee0eb193ca092e1c74ce48",
-          "domain": "www.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 541,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TSbd5c1b7d027",
-          "value": "08864aa589ab2000dad2d94452118172e8adb10fa14376c07d72e415707bfd5a7a8e4ce8e0b14ab1088f86c9a1113000cc5903686038c6126e308ddbda32cec3457c460a3129d3036a897d65788f6429824e4dd4b5be36365f2fea15d7cafb27",
-          "domain": "www.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 205,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        }
-      ],
-      "headers": {
-        "access-control-allow-credentials": "true",
-        "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization",
-        "access-control-allow-methods": "GET, PUT, POST, DELETE, PATCH, OPTIONS",
-        "access-control-allow-origin": "*",
-        "access-control-max-age": "1728000",
-        "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
-        "connection": "keep-alive",
-        "content-type": "text/html;charset=UTF-8",
-        "date": "Sun, 05 Jul 2026 00:56:41 GMT",
-        "expires": "Wed, 09 May 1979 05:30:00 GMT",
-        "pragma": "no-cache",
-        "set-cookie": "JSESSIONID=3BE1004E31835BEB8A195D7BA95B630C; Path=/; Secure; HttpOnly\nTS01a8dcfe=01825cd9a6a19568361e44ee45c3040b075853e3495113044c1a4b08a1d0012d30c454a12a3b9c86785ee810be8d6e887572512c77aeefaa86a2598f134b7ef4af481c0d99; Path=/; Domain=.www.urssaf.fr\nTS5f1c04a0029=08864aa589ab2800e99c1b7a1d617ca84bf876c88e28b27c6fc222e32f488675e7d09f6a96b24c5b4d9d62f4bb023080; Max-Age=30; Path=/\nTSbd5c1b7d027=08864aa589ab200083a0cc9917fc71fa76f2058ef9cd2ea63b5681e3657e356e3777ba98da832b9108efef51e8113000c09f4a13ae0ea33beac0644be961c018bad74691b4802794f00fdb42c8e084475a9421eef0494bdc7b5a8910e97db9d4; Path=/",
-        "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
-        "transfer-encoding": "chunked",
-        "x-content-type-options": "nosniff",
-        "x-xss-protection": "1; mode=block",
-        "vary": "accept-encoding"
-      },
-      "endpoints": [
-        {
-          "hostname": "www.urssaf.fr",
-          "ip": "193.178.136.246",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "res.tmg.urssaf.fr",
-          "ip": "3.169.183.19",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "cdn.doyoudreamup.com",
-          "ip": "195.154.69.38",
-          "geoip": {
-            "city": {
-              "geoname_id": 2988507,
-              "names": {
-                "de": "Paris",
-                "en": "Paris",
-                "es": "París",
-                "fr": "Paris",
-                "ja": "パリ",
-                "pt-BR": "Paris",
-                "ru": "Париж",
-                "zh-CN": "巴黎"
-              }
-            },
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 5,
-              "latitude": 48.8558,
-              "longitude": 2.3494,
-              "time_zone": "Europe/Paris"
-            },
-            "postal": {
-              "code": "75001"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
-                "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
-                }
-              },
-              {
-                "geoname_id": 2968815,
-                "iso_code": "75",
-                "names": {
-                  "de": "Département Paris",
-                  "en": "Paris Department",
-                  "es": "Departamento de París",
-                  "fr": "Département de Paris"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "hostname": "privacy.trustcommander.net",
-          "ip": "35.180.222.132",
-          "geoip": {
-            "city": {
-              "geoname_id": 2988507,
-              "names": {
-                "de": "Paris",
-                "en": "Paris",
-                "es": "París",
-                "fr": "Paris",
-                "ja": "パリ",
-                "pt-BR": "Paris",
-                "ru": "Париж",
-                "zh-CN": "巴黎"
-              }
-            },
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 20,
-              "latitude": 48.8558,
-              "longitude": 2.3494,
-              "time_zone": "Europe/Paris"
-            },
-            "postal": {
-              "code": "75001"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
-                "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
-                }
-              },
-              {
-                "geoname_id": 2968815,
-                "iso_code": "75",
-                "names": {
-                  "de": "Département Paris",
-                  "en": "Paris Department",
-                  "es": "Departamento de París",
-                  "fr": "Département de Paris"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "hostname": "tm.urssaf.fr",
-          "ip": "13.249.74.47",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "app1.urssaf.doyoudreamup.com",
-          "ip": "51.38.58.179",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        }
-      ]
+      "trackers": null,
+      "cookies": null,
+      "headers": null
     },
     "wappalyzer": {
       "urls": {
@@ -1842,8 +1187,34 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 5 Jul 2026 01:02:04",
-      "created": "2026-07-05T01:02:04.802291698Z",
+      "@generated": "Sun, 12 Jul 2026 03:37:11",
+      "created": "2026-07-12T03:37:11.076675429Z",
+      "insights": [
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "",
+          "key": "insight.network.failure",
+          "description": "Percentage of network failures",
+          "statistic": "30"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.urssaf.fr",
+          "key": "insight.code.2xx",
+          "description": "Percentage of responses with status code 2xx",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.urssaf.fr",
+          "key": "insight.response.slow",
+          "description": "Percentage of slow responses",
+          "statistic": "100"
+        }
+      ],
       "site": [
         {
           "@name": "https://www.urssaf.fr",
@@ -1947,7 +1318,7 @@
               "riskcode": "0",
               "confidence": "2",
               "riskdesc": "Informational (Medium)",
-              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>"
             },
             {
               "name": "Non-Storable Content",
@@ -2001,7 +1372,7 @@
       {
         "requestedUrl": "https://www.urssaf.fr/",
         "finalUrl": "https://www.urssaf.fr/accueil.html",
-        "fetchTime": "2026-07-05T01:02:25.924Z",
+        "fetchTime": "2026-07-12T03:37:27.667Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.urssaf.fr/) was redirected to https://www.urssaf.fr/accueil.html. Try testing the second URL directly."
         ],
@@ -2014,7 +1385,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.17
+            "score": 0.15
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2066,53 +1437,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 27345,
+            "numericValue": 30002,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 13323,
-                  "firstMeaningfulPaint": 13323,
-                  "largestContentfulPaint": 14365,
-                  "interactive": 27345,
-                  "speedIndex": 14110,
-                  "totalBlockingTime": 1967,
-                  "maxPotentialFID": 2553,
-                  "cumulativeLayoutShift": 0.043010498046875,
-                  "cumulativeLayoutShiftMainFrame": 0.043010498046875,
-                  "totalCumulativeLayoutShift": 0.043010498046875,
+                  "firstContentfulPaint": 12912,
+                  "firstMeaningfulPaint": 21247,
+                  "largestContentfulPaint": 24883,
+                  "interactive": 30002,
+                  "speedIndex": 12912,
+                  "totalBlockingTime": 4545,
+                  "maxPotentialFID": 2663,
+                  "cumulativeLayoutShift": 0.053880289713541675,
+                  "cumulativeLayoutShiftMainFrame": 0.053880289713541675,
+                  "totalCumulativeLayoutShift": 0.053880289713541675,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 410769182,
+                  "observedTimeOriginTs": 663974833,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 410769182,
-                  "observedFirstPaint": 2141,
-                  "observedFirstPaintTs": 412909791,
-                  "observedFirstContentfulPaint": 2141,
-                  "observedFirstContentfulPaintTs": 412909791,
-                  "observedFirstContentfulPaintAllFrames": 2141,
-                  "observedFirstContentfulPaintAllFramesTs": 412909791,
-                  "observedFirstMeaningfulPaint": 2193,
-                  "observedFirstMeaningfulPaintTs": 412961718,
-                  "observedLargestContentfulPaint": 2193,
-                  "observedLargestContentfulPaintTs": 412961718,
-                  "observedLargestContentfulPaintAllFrames": 2193,
-                  "observedLargestContentfulPaintAllFramesTs": 412961718,
-                  "observedTraceEnd": 7172,
-                  "observedTraceEndTs": 417941076,
-                  "observedLoad": 4862,
-                  "observedLoadTs": 415631563,
+                  "observedNavigationStartTs": 663974833,
+                  "observedFirstPaint": 1685,
+                  "observedFirstPaintTs": 665659742,
+                  "observedFirstContentfulPaint": 1685,
+                  "observedFirstContentfulPaintTs": 665659742,
+                  "observedFirstContentfulPaintAllFrames": 1685,
+                  "observedFirstContentfulPaintAllFramesTs": 665659742,
+                  "observedFirstMeaningfulPaint": 2063,
+                  "observedFirstMeaningfulPaintTs": 666037588,
+                  "observedLargestContentfulPaint": 2063,
+                  "observedLargestContentfulPaintTs": 666037588,
+                  "observedLargestContentfulPaintAllFrames": 2063,
+                  "observedLargestContentfulPaintAllFramesTs": 666037588,
+                  "observedTraceEnd": 7829,
+                  "observedTraceEndTs": 671803896,
+                  "observedLoad": 4445,
+                  "observedLoadTs": 668419407,
                   "observedDomContentLoaded": 1,
-                  "observedDomContentLoadedTs": 410770464,
-                  "observedCumulativeLayoutShift": 0.043010498046875,
-                  "observedCumulativeLayoutShiftMainFrame": 0.043010498046875,
-                  "observedTotalCumulativeLayoutShift": 0.043010498046875,
-                  "observedFirstVisualChange": 2140,
-                  "observedFirstVisualChangeTs": 412909182,
-                  "observedLastVisualChange": 5694,
-                  "observedLastVisualChangeTs": 416463182,
-                  "observedSpeedIndex": 2388,
-                  "observedSpeedIndexTs": 413157351
+                  "observedDomContentLoadedTs": 663975349,
+                  "observedCumulativeLayoutShift": 0.053880289713541675,
+                  "observedCumulativeLayoutShiftMainFrame": 0.053880289713541675,
+                  "observedTotalCumulativeLayoutShift": 0.053880289713541675,
+                  "observedFirstVisualChange": 1685,
+                  "observedFirstVisualChangeTs": 665659833,
+                  "observedLastVisualChange": 5001,
+                  "observedLastVisualChangeTs": 668975833,
+                  "observedSpeedIndex": 1978,
+                  "observedSpeedIndexTs": 665952523
                 },
                 {
                   "lcpInvalidated": false
@@ -2134,19 +1505,19 @@
                   "numScripts": 15,
                   "numStylesheets": 5,
                   "numFonts": 5,
-                  "numTasks": 3624,
-                  "numTasksOver10ms": 19,
-                  "numTasksOver25ms": 8,
-                  "numTasksOver50ms": 4,
+                  "numTasks": 4170,
+                  "numTasksOver10ms": 32,
+                  "numTasksOver25ms": 12,
+                  "numTasksOver50ms": 6,
                   "numTasksOver100ms": 3,
-                  "numTasksOver500ms": 1,
-                  "rtt": 0.8039999999999985,
-                  "throughput": 14329531.397561342,
-                  "maxRtt": 148.12,
-                  "maxServerLatency": 176.954,
-                  "totalByteWeight": 6465541,
-                  "totalTaskTime": 1653.036000000005,
-                  "mainDocumentTransferSize": 373043
+                  "numTasksOver500ms": 2,
+                  "rtt": 2.259999999999991,
+                  "throughput": 23434864.586753014,
+                  "maxRtt": 102.628,
+                  "maxServerLatency": 7.920999999999992,
+                  "totalByteWeight": 6623252,
+                  "totalTaskTime": 2479.7629999999986,
+                  "mainDocumentTransferSize": 374342
                 }
               ]
             }
@@ -2159,8 +1530,7 @@
     "github_repository": null,
     "budget_page": null,
     "declaration-a11y": {
-      "mention": "Accessibilité : partiellement conforme",
-      "declarationUrl": "https://www.urssaf.fr/accueil/accessibilite/urssaf-fr.html"
+      "mention": null
     },
     "declaration-rgpd": null,
     "betagouv": null,
@@ -2169,15 +1539,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.urssaf.fr",
-        "size": 7868.217,
-        "nodes": 4578,
+        "size": 7853.542,
+        "nodes": 4588,
         "requests": 77,
         "grade": "F",
         "score": 20,
         "ges": 2.6,
         "water": 3.9,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-05 00:58:01.332963",
+        "date": "2026-07-12 03:28:34.174132",
         "page_type": null
       }
     ],
@@ -2189,14 +1559,14 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-09-30T23:59:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "E",
-      "cookiesCount": 9,
-      "trackersGrade": "F",
-      "trackersCount": 22,
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
       "zapCount": 12,
       "zapGrade": "D",
-      "lighthouse_performance": 0.17,
-      "lighthouse_performanceGrade": "E",
+      "lighthouse_performance": 0.15,
+      "lighthouse_performanceGrade": "F",
       "lighthouse_accessibility": 0.91,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
@@ -2205,7 +1575,7 @@
       "lighthouse_seoGrade": "A",
       "lighthouse_pwa": 0.5,
       "lighthouse_pwaGrade": "D",
-      "declaration-a11y": "A",
+      "declaration-a11y": "F",
       "ecoindexGrade": "F"
     }
   },
@@ -2227,7 +1597,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 05 Jul 2026 01:31:53 GMT",
+          "date": "Sun, 12 Jul 2026 04:02:19 GMT",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache,no-store,must-revalidate",
           "pragma": "no-cache, no-cache",
@@ -2239,8 +1609,8 @@
           "connection": "close",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "set-cookie": [
-            "TSeb68a781029=08864aa589ab2800f19839ab2edd4fb527c30e3fdc68580d93d0c0aae51c93a66d2ac60d137ea40a6a874e74365a3ac5; Max-Age=30; Path=/",
-            "TSb4494f8b027=08864aa589ab2000a747fa2ad52f78ce7af5e49a867da8363bfd516515128efd595a61068125eb1008c7b53982113000005ac6d101cabf0bca6d1b70cd79c6f77572c6f4d9d41c7088217dbac9dd533f31eec0c7016a0db36b05c1f12d03fb08; Path=/"
+            "TSeb68a781029=08864aa589ab2800d44f507d6331be154c547031dcbfba35436a9db4969705330c58fa548e0460bafaf829f7a02c4393; Max-Age=30; Path=/",
+            "TSb4494f8b027=08864aa589ab200009cb894f4b4d1b754b44906e1b13a56f357a2d2554d465621af63fbfb304909808bcdb33781130002527f53a7def5f4c0ba1104c24f289405bde0a83fc2af220451a5cc65f947d1cb4667c94fdbfa3b8b4be81f521091fea; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -2809,7 +2179,7 @@
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "OK",
-        "finding": "80 >= 60 days"
+        "finding": "73 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -3439,7 +2809,7 @@
         "ip": "www.autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "90"
+        "finding": "74"
       }
     ],
     "thirdparties": {
@@ -3459,8 +2829,34 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 5 Jul 2026 01:31:02",
-      "created": "2026-07-05T01:31:02.737618717Z",
+      "@generated": "Sun, 12 Jul 2026 04:01:28",
+      "created": "2026-07-12T04:01:28.528315885Z",
+      "insights": [
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "",
+          "key": "insight.network.failure",
+          "description": "Percentage of network failures",
+          "statistic": "27"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.autoentrepreneur.urssaf.fr",
+          "key": "insight.code.2xx",
+          "description": "Percentage of responses with status code 2xx",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.autoentrepreneur.urssaf.fr",
+          "key": "insight.response.slow",
+          "description": "Percentage of slow responses",
+          "statistic": "100"
+        }
+      ],
       "site": [
         {
           "@name": "https://www.autoentrepreneur.urssaf.fr",
@@ -3592,7 +2988,7 @@
               "riskcode": "0",
               "confidence": "2",
               "riskdesc": "Informational (Medium)",
-              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>"
             },
             {
               "name": "Sec-Fetch-Dest Header is Missing",
@@ -3646,7 +3042,7 @@
       {
         "requestedUrl": "https://www.autoentrepreneur.urssaf.fr/",
         "finalUrl": "https://www.autoentrepreneur.urssaf.fr/portail/accueil.html",
-        "fetchTime": "2026-07-05T01:31:17.299Z",
+        "fetchTime": "2026-07-12T04:01:44.085Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.autoentrepreneur.urssaf.fr/) was redirected to https://www.autoentrepreneur.urssaf.fr/portail/accueil.html. Try testing the second URL directly."
         ],
@@ -3659,7 +3055,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.16
+            "score": 0.17
           },
           "accessibility": {
             "title": "Accessibility",
@@ -3711,53 +3107,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 19673,
+            "numericValue": 19000,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6334,
-                  "firstMeaningfulPaint": 6334,
-                  "largestContentfulPaint": 27004,
-                  "interactive": 19673,
-                  "speedIndex": 9031,
-                  "totalBlockingTime": 6927,
-                  "maxPotentialFID": 3945,
+                  "firstContentfulPaint": 6219,
+                  "firstMeaningfulPaint": 6219,
+                  "largestContentfulPaint": 24449,
+                  "interactive": 19000,
+                  "speedIndex": 8071,
+                  "totalBlockingTime": 7131,
+                  "maxPotentialFID": 3861,
                   "cumulativeLayoutShift": 0.06939893722534181,
                   "cumulativeLayoutShiftMainFrame": 0.06939893722534181,
                   "totalCumulativeLayoutShift": 0.06939893722534181,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 659929330,
+                  "observedTimeOriginTs": 951877865,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 659929330,
-                  "observedFirstPaint": 1586,
-                  "observedFirstPaintTs": 661515773,
-                  "observedFirstContentfulPaint": 1586,
-                  "observedFirstContentfulPaintTs": 661515773,
-                  "observedFirstContentfulPaintAllFrames": 1586,
-                  "observedFirstContentfulPaintAllFramesTs": 661515773,
-                  "observedFirstMeaningfulPaint": 1586,
-                  "observedFirstMeaningfulPaintTs": 661515773,
-                  "observedLargestContentfulPaint": 4541,
-                  "observedLargestContentfulPaintTs": 664469981,
-                  "observedLargestContentfulPaintAllFrames": 4541,
-                  "observedLargestContentfulPaintAllFramesTs": 664469981,
-                  "observedTraceEnd": 7856,
-                  "observedTraceEndTs": 667785555,
-                  "observedLoad": 4532,
-                  "observedLoadTs": 664461346,
-                  "observedDomContentLoaded": 3,
-                  "observedDomContentLoadedTs": 659932116,
+                  "observedNavigationStartTs": 951877865,
+                  "observedFirstPaint": 1346,
+                  "observedFirstPaintTs": 953224278,
+                  "observedFirstContentfulPaint": 1346,
+                  "observedFirstContentfulPaintTs": 953224278,
+                  "observedFirstContentfulPaintAllFrames": 1346,
+                  "observedFirstContentfulPaintAllFramesTs": 953224278,
+                  "observedFirstMeaningfulPaint": 1346,
+                  "observedFirstMeaningfulPaintTs": 953224278,
+                  "observedLargestContentfulPaint": 3647,
+                  "observedLargestContentfulPaintTs": 955525273,
+                  "observedLargestContentfulPaintAllFrames": 3647,
+                  "observedLargestContentfulPaintAllFramesTs": 955525273,
+                  "observedTraceEnd": 6869,
+                  "observedTraceEndTs": 958746534,
+                  "observedLoad": 3638,
+                  "observedLoadTs": 955516087,
+                  "observedDomContentLoaded": 0,
+                  "observedDomContentLoadedTs": 951878156,
                   "observedCumulativeLayoutShift": 0.06939893722534181,
                   "observedCumulativeLayoutShiftMainFrame": 0.06939893722534181,
                   "observedTotalCumulativeLayoutShift": 0.06939893722534181,
-                  "observedFirstVisualChange": 1587,
-                  "observedFirstVisualChangeTs": 661516330,
-                  "observedLastVisualChange": 5327,
-                  "observedLastVisualChangeTs": 665256330,
-                  "observedSpeedIndex": 2814,
-                  "observedSpeedIndexTs": 662743626
+                  "observedFirstVisualChange": 1346,
+                  "observedFirstVisualChangeTs": 953223865,
+                  "observedLastVisualChange": 4563,
+                  "observedLastVisualChangeTs": 956440865,
+                  "observedSpeedIndex": 2447,
+                  "observedSpeedIndexTs": 954325156
                 },
                 {
                   "lcpInvalidated": false
@@ -3779,19 +3175,19 @@
                   "numScripts": 12,
                   "numStylesheets": 4,
                   "numFonts": 3,
-                  "numTasks": 4241,
+                  "numTasks": 3933,
                   "numTasksOver10ms": 23,
                   "numTasksOver25ms": 11,
-                  "numTasksOver50ms": 6,
+                  "numTasksOver50ms": 4,
                   "numTasksOver100ms": 3,
                   "numTasksOver500ms": 2,
-                  "rtt": 6.769999999999996,
-                  "throughput": 15317392.652872141,
-                  "maxRtt": 108.019,
-                  "maxServerLatency": 13.346000000000018,
-                  "totalByteWeight": 5490609,
-                  "totalTaskTime": 2613.969000000016,
-                  "mainDocumentTransferSize": 111175
+                  "rtt": 5.032,
+                  "throughput": 20200362.82988677,
+                  "maxRtt": 90.468,
+                  "maxServerLatency": 8.449000000000012,
+                  "totalByteWeight": 5194120,
+                  "totalTaskTime": 2687.928000000011,
+                  "mainDocumentTransferSize": 112108
                 }
               ]
             }
@@ -3813,15 +3209,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.autoentrepreneur.urssaf.fr",
-        "size": 6398.503,
-        "nodes": 629,
+        "size": 6103.829,
+        "nodes": 632,
         "requests": 70,
         "grade": "D",
         "score": 44,
         "ges": 2.12,
         "water": 3.18,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-05 01:22:16.787582",
+        "date": "2026-07-12 03:52:40.303914",
         "page_type": null
       }
     ],
@@ -3839,8 +3235,8 @@
       "trackersCount": null,
       "zapCount": 16,
       "zapGrade": "D",
-      "lighthouse_performance": 0.16,
-      "lighthouse_performanceGrade": "F",
+      "lighthouse_performance": 0.17,
+      "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.88,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
@@ -3871,7 +3267,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 05 Jul 2026 01:31:53 GMT",
+          "date": "Sun, 12 Jul 2026 04:02:48 GMT",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache,no-store,must-revalidate",
           "pragma": "no-cache, no-cache",
@@ -3883,8 +3279,8 @@
           "connection": "close",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "set-cookie": [
-            "TSeb68a781029=08864aa589ab280074cc1e9ed1382822695fe5e3ea7f35f5079f88ff9da2f4961662f14b9c1603711be4809362ed3f6a; Max-Age=30; Path=/",
-            "TSb4494f8b027=08864aa589ab2000c307d3844e858591586ff0aac3dc230df35cba5ccece4653b08c8a5e2da8ad9508a987478011300064bfb43a6301069eca6d1b70cd79c6f7e1f2fb5c1b9951766cfc91bed4992352c10426f1193246595bb67b7980ccba50; Path=/"
+            "TSeb68a781029=08864aa589ab2800fee3c3c8e8e3b2894ea2510fc5b711373c464761fc18eb357a1be274324290732a50859ede54585e; Max-Age=30; Path=/",
+            "TSb4494f8b027=08864aa589ab2000349b5343739d5bc7ce3444b3a2c4952b4bf9f6c7895c8f3f7ba2be059096867908160a179c11300056ffe7a513218dc3c4fe0684b5c7fa7d58af2bfaab8cc1dd1b02e7024e6ca7eaf90bb871ccb1cf7a1edb7cb3be231d5c; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -4459,7 +3855,7 @@
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "OK",
-        "finding": "80 >= 60 days"
+        "finding": "73 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -5089,7 +4485,7 @@
         "ip": "autoentrepreneur.urssaf.fr/193.178.136.237",
         "port": "443",
         "severity": "INFO",
-        "finding": "119"
+        "finding": "112"
       }
     ],
     "thirdparties": {
@@ -5109,8 +4505,58 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 5 Jul 2026 01:31:00",
-      "created": "2026-07-05T01:31:00.169934630Z",
+      "@generated": "Sun, 12 Jul 2026 04:01:52",
+      "created": "2026-07-12T04:01:52.091755507Z",
+      "insights": [
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "",
+          "key": "insight.network.failure",
+          "description": "Percentage of network failures",
+          "statistic": "23"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://autoentrepreneur.urssaf.fr",
+          "key": "insight.code.2xx",
+          "description": "Percentage of responses with status code 2xx",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://autoentrepreneur.urssaf.fr",
+          "key": "insight.endpoint.ctype.text/html",
+          "description": "Percentage of endpoints with content type text/html",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://autoentrepreneur.urssaf.fr",
+          "key": "insight.endpoint.method.GET",
+          "description": "Percentage of endpoints with method GET",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://autoentrepreneur.urssaf.fr",
+          "key": "insight.endpoint.total",
+          "description": "Count of total endpoints",
+          "statistic": "2"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://autoentrepreneur.urssaf.fr",
+          "key": "insight.response.slow",
+          "description": "Percentage of slow responses",
+          "statistic": "50"
+        }
+      ],
       "site": [
         {
           "@name": "https://autoentrepreneur.urssaf.fr",
@@ -5242,7 +4688,7 @@
               "riskcode": "0",
               "confidence": "2",
               "riskdesc": "Informational (Medium)",
-              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>"
             },
             {
               "name": "Sec-Fetch-Dest Header is Missing",
@@ -5296,7 +4742,7 @@
       {
         "requestedUrl": "https://autoentrepreneur.urssaf.fr/services",
         "finalUrl": "https://www.autoentrepreneur.urssaf.fr/portail/accueil.html",
-        "fetchTime": "2026-07-05T01:31:15.654Z",
+        "fetchTime": "2026-07-12T04:02:07.569Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://autoentrepreneur.urssaf.fr/services) was redirected to https://www.autoentrepreneur.urssaf.fr/portail/accueil.html. Try testing the second URL directly."
         ],
@@ -5361,53 +4807,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 18667,
+            "numericValue": 20166,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7227,
-                  "firstMeaningfulPaint": 7227,
-                  "largestContentfulPaint": 27674,
-                  "interactive": 18667,
-                  "speedIndex": 10043,
-                  "totalBlockingTime": 3437,
-                  "maxPotentialFID": 2403,
+                  "firstContentfulPaint": 7494,
+                  "firstMeaningfulPaint": 7494,
+                  "largestContentfulPaint": 27320,
+                  "interactive": 20166,
+                  "speedIndex": 9932,
+                  "totalBlockingTime": 7369,
+                  "maxPotentialFID": 3915,
                   "cumulativeLayoutShift": 0.06939893722534181,
                   "cumulativeLayoutShiftMainFrame": 0.06939893722534181,
                   "totalCumulativeLayoutShift": 0.06939893722534181,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 716052212,
+                  "observedTimeOriginTs": 651761538,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 716052212,
-                  "observedFirstPaint": 2190,
-                  "observedFirstPaintTs": 718242107,
-                  "observedFirstContentfulPaint": 2190,
-                  "observedFirstContentfulPaintTs": 718242107,
-                  "observedFirstContentfulPaintAllFrames": 2190,
-                  "observedFirstContentfulPaintAllFramesTs": 718242107,
-                  "observedFirstMeaningfulPaint": 2190,
-                  "observedFirstMeaningfulPaintTs": 718242107,
-                  "observedLargestContentfulPaint": 4476,
-                  "observedLargestContentfulPaintTs": 720527833,
-                  "observedLargestContentfulPaintAllFrames": 4476,
-                  "observedLargestContentfulPaintAllFramesTs": 720527833,
-                  "observedTraceEnd": 7916,
-                  "observedTraceEndTs": 723967800,
-                  "observedLoad": 4467,
-                  "observedLoadTs": 720518858,
+                  "observedNavigationStartTs": 651761538,
+                  "observedFirstPaint": 2020,
+                  "observedFirstPaintTs": 653781282,
+                  "observedFirstContentfulPaint": 2020,
+                  "observedFirstContentfulPaintTs": 653781282,
+                  "observedFirstContentfulPaintAllFrames": 2020,
+                  "observedFirstContentfulPaintAllFramesTs": 653781282,
+                  "observedFirstMeaningfulPaint": 2020,
+                  "observedFirstMeaningfulPaintTs": 653781282,
+                  "observedLargestContentfulPaint": 5450,
+                  "observedLargestContentfulPaintTs": 657211303,
+                  "observedLargestContentfulPaintAllFrames": 5450,
+                  "observedLargestContentfulPaintAllFramesTs": 657211303,
+                  "observedTraceEnd": 7749,
+                  "observedTraceEndTs": 659510533,
+                  "observedLoad": 5438,
+                  "observedLoadTs": 657199140,
                   "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 716052606,
+                  "observedDomContentLoadedTs": 651761995,
                   "observedCumulativeLayoutShift": 0.06939893722534181,
                   "observedCumulativeLayoutShiftMainFrame": 0.06939893722534181,
                   "observedTotalCumulativeLayoutShift": 0.06939893722534181,
-                  "observedFirstVisualChange": 2190,
-                  "observedFirstVisualChangeTs": 718242212,
-                  "observedLastVisualChange": 5342,
-                  "observedLastVisualChangeTs": 721394212,
-                  "observedSpeedIndex": 3172,
-                  "observedSpeedIndexTs": 719223974
+                  "observedFirstVisualChange": 2020,
+                  "observedFirstVisualChangeTs": 653781538,
+                  "observedLastVisualChange": 6276,
+                  "observedLastVisualChangeTs": 658037538,
+                  "observedSpeedIndex": 3608,
+                  "observedSpeedIndexTs": 655369144
                 },
                 {
                   "lcpInvalidated": false
@@ -5429,19 +4875,19 @@
                   "numScripts": 12,
                   "numStylesheets": 4,
                   "numFonts": 3,
-                  "numTasks": 3680,
-                  "numTasksOver10ms": 12,
-                  "numTasksOver25ms": 8,
-                  "numTasksOver50ms": 3,
+                  "numTasks": 3016,
+                  "numTasksOver10ms": 24,
+                  "numTasksOver25ms": 12,
+                  "numTasksOver50ms": 5,
                   "numTasksOver100ms": 3,
-                  "numTasksOver500ms": 1,
-                  "rtt": 11.694000000000003,
-                  "throughput": 14662688.705066776,
-                  "maxRtt": 118.393,
-                  "maxServerLatency": 90.24199999999999,
-                  "totalByteWeight": 5359428,
-                  "totalTaskTime": 1506.8010000000145,
-                  "mainDocumentTransferSize": 111181
+                  "numTasksOver500ms": 2,
+                  "rtt": 9.295000000000016,
+                  "throughput": 13293650.030876191,
+                  "maxRtt": 111.239,
+                  "maxServerLatency": 64.41199999999998,
+                  "totalByteWeight": 5064561,
+                  "totalTaskTime": 2747.0689999999827,
+                  "mainDocumentTransferSize": 112101
                 }
               ]
             }
@@ -5463,15 +4909,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://autoentrepreneur.urssaf.fr/services",
-        "size": 6266.124,
-        "nodes": 629,
+        "size": 6272.042,
+        "nodes": 632,
         "requests": 70,
         "grade": "D",
         "score": 44,
         "ges": 2.12,
         "water": 3.18,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-05 01:22:14.732107",
+        "date": "2026-07-12 03:53:07.940715",
         "page_type": null
       }
     ],
@@ -5521,20 +4967,20 @@
         "testsPassed": 7,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 05 Jul 2026 01:45:44 GMT",
+          "date": "Sun, 12 Jul 2026 04:24:43 GMT",
           "expires": "Wed, 09 May 1979 05:30:00 GMT",
           "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
           "pragma": "no-cache",
           "content-type": "text/html;charset=UTF-8",
+          "vary": "Accept-Encoding,User-Agent",
           "content-security-policy": "default-src 'self' *.youtube.com *.gstatic.com *.googleapis.com *.hcaptcha.com *.data.gouv.fr *.api.gouv.fr *.googletagmanager.com *.google.com voxusagers.numerique.gouv.fr *.urssaf.fr *.tagcommander.com *.commander1.com *.trustcommander.net tag.aticdn.net *.smartly.ai widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.abtasty.com *.amazonaws.com *.mopinion.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io 'unsafe-inline' 'unsafe-eval' data: wss: blob:;",
           "x-xss-protection": "1; mode=block",
           "x-content-type-options": "nosniff",
           "connection": "close",
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
-          "vary": "Accept-Encoding",
           "set-cookie": [
-            "TSb8ac319d029=08864aa589ab2800c69764d7dbce6efa03bbfe2aa4cb11791c9fc9d8eeedfd240fa5c8021392b37f6f3b6fe8c43f9633; Max-Age=30; Path=/",
-            "TS5aec2e40027=08864aa589ab2000ecde4a3724d6fe09e9bd53b1bb71b37aae7fb87bf9ac211a22ed114a09e970a708b8e4d8dc1130004ce5e78f203b7d143b09c20c24134032847b33c29a87719ed3f36cdf1a790545d0e832255b84973279434e874484ee1f; Path=/"
+            "TSb8ac319d029=08864aa589ab28002983f5b3f373ba451ac417de4f0031c76c2d8e4412385b54ca2ed3238c5091b4e76b79090ec88833; Max-Age=30; Path=/",
+            "TS5aec2e40027=08864aa589ab2000703a0adf6056c68c312a362c19c75a3e527e7dcf6fd837b764a725202caddb90089dfbf34f11300038690e8feb1ee0b868680749ae6f4ee9efae8c0b1b3f7b52b112bf146dc0b13145b1f9e4e4b2393866eaaac619fb2be9; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -6066,7 +5512,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "MEDIUM",
-        "finding": "expires < 60 days (58)"
+        "finding": "expires < 60 days (51)"
       },
       {
         "id": "cert_notBefore",
@@ -6738,753 +6184,13 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "98"
+        "finding": "99"
       }
     ],
     "thirdparties": {
-      "trackers": [
-        {
-          "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KXMKW5M&gtm_auth=HKg5GNGhVJNtOZLO6QKBrw&gtm_preview=env-2&gtm_cookies_win=x",
-          "details": {
-            "id": "google tag manager",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5WMCC7G&gtm_auth=AzNZ1eVDfcLLmq-RtS199w&gtm_preview=env-2&gtm_cookies_win=x",
-          "details": {
-            "id": "google tag manager",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PSHV5RJ&gtm_auth=GHsHb03kaNVKmuaSF7jsCQ&gtm_preview=env-1&gtm_cookies_win=x",
-          "details": {
-            "id": "google tag manager",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007/loader.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/privacy/4736/privacy_v2_24.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/acoss_piano.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://tm.urssaf.fr/event?s=615296&idclient=mr74iq2cufk0zewo"
-        },
-        {
-          "type": "unknown",
-          "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/bundle.min.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/bot.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/configuration.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/en/translation.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/fr/translation.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/theme.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/style.css"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/custom.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/chatboxHomepage.css"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/649.chatbox_edge_2026-04-14.1221aa5e.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/737.chatbox_edge_2026-04-14.1221aa5e.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/assets/dydu-teaser.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/serverstatus"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/assets/dydu-logo.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977//assets/dydu-poweredby.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/chat/pushrules/00cc0f9d-3627-4469-8680-b7c9dc28004a"
-        }
-      ],
-      "cookies": [
-        {
-          "name": "TCPID",
-          "value": "12670139484244283269",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817170788,
-          "size": 25,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pcid",
-          "value": "%7B%22browserId%22%3A%22mr74iq2cufk0zewo%22%2C%22_t%22%3A%22n6vjg7eh%7Cmr74iq2h%22%7D",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817343588,
-          "size": 90,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS011024ec",
-          "value": "01825cd9a61fd8281e5e98491884307eadbaae0d278267015e1eb114b23ff427268817964b96101713b1e3a8539518d91e5d4a5a7bdb044f9ef650ea047f6096dedfc4d5a1",
-          "domain": "www.cesu.urssaf.fr",
-          "path": "/info/",
-          "expires": -1,
-          "size": 148,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "JSESSIONID",
-          "value": "EF5E14249D359F64B706EB55388D71D9.hwi69parempfoappli8",
-          "domain": "www.cesu.urssaf.fr",
-          "path": "/info/",
-          "expires": -1,
-          "size": 62,
-          "httpOnly": true,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS012b5fcd",
-          "value": "01825cd9a676949ccd1670aca7346cd82bafe4af878267015e1eb114b23ff427268817964b3805d9a4975d5f00b0d2f9785a35aaa1",
-          "domain": ".www.cesu.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 116,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS5aec2e40027",
-          "value": "08864aa589ab2000071a006bfef3f204f9d307fd1016a64aee80d15908b432683b3b2275022d146708833b3a441130003b385fd649e106ec1a8e1b63944feb037cc2680cb2983e3f7c17688db63f6d8d23672f666c32f8c6f97cc55ddffa14d2",
-          "domain": "www.cesu.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 205,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pprv",
-          "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im42dmpnN2VmfG1yNzRpcTJmIn0%3D",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817343588,
-          "size": 163,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TSb8ac319d029",
-          "value": "08864aa589ab280073eee5f063990f42b4d4f280d00461cc7e91f3ea7f4868466c631c26db9a9e3e7bd73c81c516e557",
-          "domain": "www.cesu.urssaf.fr",
-          "path": "/",
-          "expires": 1783215617.574866,
-          "size": 109,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS00000000076",
-          "value": "08864aa589ab28008d4c012e797e8ec52d901ba8e8f0bab7df397cb5db9d17697d9f1c4242131db9771f66e7948f0d4d08e9a2104409d000a12739b2a26c09f43b67c0793ef3103d8029ead97da9db53f0734b9cda7a108984270adf5d7812cae4da428d687a0e3d4c855ca8922650187cbc43a812da08ed199960e26a37b1edaeb7eb5d455b85c8ab6dbf34560bb29303541dbb44422c3f7c807c62e92af553294bbbde1451891809ca0e84f2e41102c3fc59e7fc09f0ac9c8f99f6078354d909bc3aca6e2cc3a4d8ccf70bc8cf7889a2250a341dcee18ba639c3c83d32c69188cdfedfbd1914f8f1f0689aa06b005e417a854bf88218d5d85159e3baa12459f189bfcbb88af61a",
-          "domain": "www.cesu.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 541,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pctx",
-          "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18ykAbADcAVgHMA7FHoAfALYwJAFnoBHAEz0QAXyA",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817343588,
-          "size": 112,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        }
-      ],
-      "headers": {
-        "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
-        "connection": "Keep-Alive",
-        "content-security-policy": "default-src 'self' *.youtube.com *.gstatic.com *.googleapis.com *.hcaptcha.com *.data.gouv.fr *.api.gouv.fr *.googletagmanager.com *.google.com voxusagers.numerique.gouv.fr *.urssaf.fr *.tagcommander.com *.commander1.com *.trustcommander.net tag.aticdn.net *.smartly.ai widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.abtasty.com *.amazonaws.com *.mopinion.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io 'unsafe-inline' 'unsafe-eval' data: wss: blob:;",
-        "content-type": "text/html;charset=UTF-8",
-        "date": "Sun, 05 Jul 2026 01:39:45 GMT",
-        "expires": "Wed, 09 May 1979 05:30:00 GMT",
-        "keep-alive": "timeout=60",
-        "pragma": "no-cache",
-        "set-cookie": "TSb8ac319d029=08864aa589ab2800a4e9bb9159e521607abc113512062d602adfe7bb145eeb14b4d3278ba489a155abcdddaffa7d2595; Max-Age=30; Path=/\nTS5aec2e40027=08864aa589ab2000407a17aaf6852e8b935b919472fb7a6d08414433623fafba2680881f349b6d6a08eecbc456113000024d2e5ed927ee0962f39411ce58dd975adbf7bd671dbefefcc6528e0f6504e8665fd63d6a7e89db37108b9d7c27d1c7; Path=/",
-        "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
-        "transfer-encoding": "chunked",
-        "vary": "Accept-Encoding",
-        "x-content-type-options": "nosniff",
-        "x-xss-protection": "1; mode=block"
-      },
-      "endpoints": [
-        {
-          "hostname": "www.cesu.urssaf.fr",
-          "ip": "193.178.136.193",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "www.googletagmanager.com",
-          "ip": "173.194.206.97",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "cdn.doyoudreamup.com",
-          "ip": "195.154.69.38",
-          "geoip": {
-            "city": {
-              "geoname_id": 2988507,
-              "names": {
-                "de": "Paris",
-                "en": "Paris",
-                "es": "París",
-                "fr": "Paris",
-                "ja": "パリ",
-                "pt-BR": "Paris",
-                "ru": "Париж",
-                "zh-CN": "巴黎"
-              }
-            },
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 5,
-              "latitude": 48.8558,
-              "longitude": 2.3494,
-              "time_zone": "Europe/Paris"
-            },
-            "postal": {
-              "code": "75001"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
-                "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
-                }
-              },
-              {
-                "geoname_id": 2968815,
-                "iso_code": "75",
-                "names": {
-                  "de": "Département Paris",
-                  "en": "Paris Department",
-                  "es": "Departamento de París",
-                  "fr": "Département de Paris"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "hostname": "res.tmg.urssaf.fr",
-          "ip": "3.168.40.85",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "tm.urssaf.fr",
-          "ip": "143.204.204.9",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "privacy.trustcommander.net",
-          "ip": "35.180.222.132",
-          "geoip": {
-            "city": {
-              "geoname_id": 2988507,
-              "names": {
-                "de": "Paris",
-                "en": "Paris",
-                "es": "París",
-                "fr": "Paris",
-                "ja": "パリ",
-                "pt-BR": "Paris",
-                "ru": "Париж",
-                "zh-CN": "巴黎"
-              }
-            },
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 20,
-              "latitude": 48.8558,
-              "longitude": 2.3494,
-              "time_zone": "Europe/Paris"
-            },
-            "postal": {
-              "code": "75001"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
-                "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
-                }
-              },
-              {
-                "geoname_id": 2968815,
-                "iso_code": "75",
-                "names": {
-                  "de": "Département Paris",
-                  "en": "Paris Department",
-                  "es": "Departamento de París",
-                  "fr": "Département de Paris"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "hostname": "app1.urssaf.doyoudreamup.com",
-          "ip": "51.38.58.179",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        }
-      ]
+      "trackers": null,
+      "cookies": null,
+      "headers": null
     },
     "wappalyzer": {
       "urls": {
@@ -7498,8 +6204,34 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 5 Jul 2026 01:44:44",
-      "created": "2026-07-05T01:44:44.795222680Z",
+      "@generated": "Sun, 12 Jul 2026 04:23:49",
+      "created": "2026-07-12T04:23:49.392051918Z",
+      "insights": [
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "",
+          "key": "insight.network.failure",
+          "description": "Percentage of network failures",
+          "statistic": "27"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.cesu.urssaf.fr",
+          "key": "insight.code.2xx",
+          "description": "Percentage of responses with status code 2xx",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.cesu.urssaf.fr",
+          "key": "insight.response.slow",
+          "description": "Percentage of slow responses",
+          "statistic": "100"
+        }
+      ],
       "site": [
         {
           "@name": "https://www.cesu.urssaf.fr",
@@ -7610,7 +6342,7 @@
               "riskcode": "0",
               "confidence": "2",
               "riskdesc": "Informational (Medium)",
-              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>"
             },
             {
               "name": "Non-Storable Content",
@@ -7664,7 +6396,7 @@
       {
         "requestedUrl": "https://www.cesu.urssaf.fr/",
         "finalUrl": "https://www.cesu.urssaf.fr/info/accueil.html",
-        "fetchTime": "2026-07-05T01:45:01.926Z",
+        "fetchTime": "2026-07-12T04:24:06.910Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.cesu.urssaf.fr/) was redirected to https://www.cesu.urssaf.fr/info/accueil.html. Try testing the second URL directly."
         ],
@@ -7677,7 +6409,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.17
+            "score": 0.16
           },
           "accessibility": {
             "title": "Accessibility",
@@ -7729,53 +6461,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 19886,
+            "numericValue": 21541,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 6456,
-                  "firstMeaningfulPaint": 6456,
-                  "largestContentfulPaint": 20511,
-                  "interactive": 19886,
-                  "speedIndex": 9160,
-                  "totalBlockingTime": 3369,
-                  "maxPotentialFID": 2432,
+                  "firstContentfulPaint": 7023,
+                  "firstMeaningfulPaint": 7023,
+                  "largestContentfulPaint": 20686,
+                  "interactive": 21541,
+                  "speedIndex": 11222,
+                  "totalBlockingTime": 5897,
+                  "maxPotentialFID": 2802,
                   "cumulativeLayoutShift": 0.01499221801757812,
                   "cumulativeLayoutShiftMainFrame": 0.01499221801757812,
                   "totalCumulativeLayoutShift": 0.01499221801757812,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 447400976,
+                  "observedTimeOriginTs": 657548183,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 447400976,
-                  "observedFirstPaint": 1574,
-                  "observedFirstPaintTs": 448974855,
-                  "observedFirstContentfulPaint": 1574,
-                  "observedFirstContentfulPaintTs": 448974855,
-                  "observedFirstContentfulPaintAllFrames": 1574,
-                  "observedFirstContentfulPaintAllFramesTs": 448974855,
-                  "observedFirstMeaningfulPaint": 1574,
-                  "observedFirstMeaningfulPaintTs": 448974855,
-                  "observedLargestContentfulPaint": 3784,
-                  "observedLargestContentfulPaintTs": 451185077,
-                  "observedLargestContentfulPaintAllFrames": 3784,
-                  "observedLargestContentfulPaintAllFramesTs": 451185077,
-                  "observedTraceEnd": 7079,
-                  "observedTraceEndTs": 454479631,
-                  "observedLoad": 3761,
-                  "observedLoadTs": 451161863,
+                  "observedNavigationStartTs": 657548183,
+                  "observedFirstPaint": 2067,
+                  "observedFirstPaintTs": 659614891,
+                  "observedFirstContentfulPaint": 2067,
+                  "observedFirstContentfulPaintTs": 659614891,
+                  "observedFirstContentfulPaintAllFrames": 2067,
+                  "observedFirstContentfulPaintAllFramesTs": 659614891,
+                  "observedFirstMeaningfulPaint": 2067,
+                  "observedFirstMeaningfulPaintTs": 659614891,
+                  "observedLargestContentfulPaint": 5096,
+                  "observedLargestContentfulPaintTs": 662644095,
+                  "observedLargestContentfulPaintAllFrames": 5096,
+                  "observedLargestContentfulPaintAllFramesTs": 662644095,
+                  "observedTraceEnd": 7387,
+                  "observedTraceEndTs": 664934923,
+                  "observedLoad": 5077,
+                  "observedLoadTs": 662624705,
                   "observedDomContentLoaded": 1,
-                  "observedDomContentLoadedTs": 447401516,
+                  "observedDomContentLoadedTs": 657549171,
                   "observedCumulativeLayoutShift": 0.01499221801757812,
                   "observedCumulativeLayoutShiftMainFrame": 0.01499221801757812,
                   "observedTotalCumulativeLayoutShift": 0.01499221801757812,
-                  "observedFirstVisualChange": 1574,
-                  "observedFirstVisualChangeTs": 448974976,
-                  "observedLastVisualChange": 4402,
-                  "observedLastVisualChangeTs": 451802976,
-                  "observedSpeedIndex": 2607,
-                  "observedSpeedIndexTs": 450007753
+                  "observedFirstVisualChange": 2067,
+                  "observedFirstVisualChangeTs": 659615183,
+                  "observedLastVisualChange": 5859,
+                  "observedLastVisualChangeTs": 663407183,
+                  "observedSpeedIndex": 3601,
+                  "observedSpeedIndexTs": 661149561
                 },
                 {
                   "lcpInvalidated": false
@@ -7797,19 +6529,19 @@
                   "numScripts": 14,
                   "numStylesheets": 4,
                   "numFonts": 0,
-                  "numTasks": 3229,
-                  "numTasksOver10ms": 19,
-                  "numTasksOver25ms": 6,
+                  "numTasks": 2068,
+                  "numTasksOver10ms": 20,
+                  "numTasksOver25ms": 8,
                   "numTasksOver50ms": 3,
                   "numTasksOver100ms": 3,
-                  "numTasksOver500ms": 1,
-                  "rtt": 8.942,
-                  "throughput": 11721022.91121771,
-                  "maxRtt": 124.42099999999996,
-                  "maxServerLatency": 54.184999999999995,
-                  "totalByteWeight": 2868132,
-                  "totalTaskTime": 1524.5129999999951,
-                  "mainDocumentTransferSize": 55139
+                  "numTasksOver500ms": 2,
+                  "rtt": 0.7989999999999995,
+                  "throughput": 9234896.17258328,
+                  "maxRtt": 151.764,
+                  "maxServerLatency": 206.635,
+                  "totalByteWeight": 2693661,
+                  "totalTaskTime": 2115.8639999999978,
+                  "mainDocumentTransferSize": 55142
                 }
               ]
             }
@@ -7822,8 +6554,7 @@
     "github_repository": null,
     "budget_page": null,
     "declaration-a11y": {
-      "mention": "Accessibilité : partiellement conforme",
-      "declarationUrl": "https://www.cesu.urssaf.fr/info/accueil/accessibilite.html"
+      "mention": null
     },
     "declaration-rgpd": null,
     "betagouv": null,
@@ -7832,7 +6563,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cesu.urssaf.fr",
-        "size": 3669.148,
+        "size": 3494.76,
         "nodes": 429,
         "requests": 50,
         "grade": "C",
@@ -7840,7 +6571,7 @@
         "ges": 1.84,
         "water": 2.76,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-05 01:41:00.542396",
+        "date": "2026-07-12 04:15:06.034844",
         "page_type": null
       }
     ],
@@ -7852,14 +6583,14 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-09-01T23:59:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "E",
-      "cookiesCount": 10,
-      "trackersGrade": "F",
-      "trackersCount": 24,
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
       "zapCount": 12,
       "zapGrade": "D",
-      "lighthouse_performance": 0.17,
-      "lighthouse_performanceGrade": "E",
+      "lighthouse_performance": 0.16,
+      "lighthouse_performanceGrade": "F",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.83,
@@ -7868,7 +6599,7 @@
       "lighthouse_seoGrade": "B",
       "lighthouse_pwa": 0.3,
       "lighthouse_pwaGrade": "E",
-      "declaration-a11y": "A",
+      "declaration-a11y": "F",
       "ecoindexGrade": "C"
     }
   },
@@ -7891,7 +6622,7 @@
         "testsPassed": 7,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 05 Jul 2026 01:50:18 GMT",
+          "date": "Sun, 12 Jul 2026 04:25:16 GMT",
           "last-modified": "Wed, 27 May 2026 10:46:42 GMT",
           "etag": "\"237a-652ca53bc8880\"",
           "accept-ranges": "bytes",
@@ -7906,9 +6637,9 @@
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "set-cookie": [
-            "TS012b5fcd=01825cd9a69a39e265cb2427f7456d4cee130039b80c36b9a85c5a15b55ad4f6b44f530da12a30cc04611ecd012202741e55c797a2; Path=/; Domain=.www.cesu.urssaf.fr",
-            "TSb8ac319d029=08864aa589ab280078781096b800c6819891e8efc1b30c8b817f269ae2fbc47a4b8c07e269e63b58f46873b966c50f4c; Max-Age=30; Path=/",
-            "TS5aec2e40027=08864aa589ab2000b93b1c060fe863c4b8f17f7674c4336aaac6da4cbcb054aef3b1e587feb5412408cfa3bd99113000a53647989576afa56dc2493b013cef2cb43e835f0f05782dfba22d614239261aebb9ea3e4302b145d9477f9db11e274a; Path=/"
+            "TS012b5fcd=01825cd9a6ae6d983722356e783d95cb3c528dbe0c636cb34a48a56eac7655252c27158210654bb47827f983463aab250bfb790791; Path=/; Domain=.www.cesu.urssaf.fr",
+            "TSb8ac319d029=08864aa589ab28001514aa2dd31c4e43c886b002a50fc217736af8eab72ee25189b47ffb22c9876fb4aeaec4dc3b408d; Max-Age=30; Path=/",
+            "TS5aec2e40027=08864aa589ab2000da69a75a6646d61fec7f78496d94f0d5a3b8a6eacb2e309b877b3e3589de57da0823f5b2ed1130002620409d7d831e6ad1771b3d7868ae6f949b3815291c12aa5f13f3c6a248e5a7daaccb410c16a3b0f9f5efa032935121; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -8427,7 +7158,7 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "MEDIUM",
-        "finding": "expires < 60 days (58)"
+        "finding": "expires < 60 days (51)"
       },
       {
         "id": "cert_notBefore",
@@ -9099,859 +7830,13 @@
         "ip": "www.cesu.urssaf.fr/193.178.136.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "54"
+        "finding": "103"
       }
     ],
     "thirdparties": {
-      "trackers": [
-        {
-          "type": "unknown",
-          "url": "https://cdn.tagcommander.com/4736/tc_Acoss_60.js?cachebuster"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.tagcommander.com/4736/tc_Acoss_56.js?cachebuster"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/acoss_piano.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007/loader.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/privacy/4736/privacy_v2_24.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/bundle.min.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/bot.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/configuration.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/en/translation.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/fr/translation.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/theme.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/style.css"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/custom.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/chatboxHomepage.css"
-        },
-        {
-          "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KXMKW5M&gtm_auth=HKg5GNGhVJNtOZLO6QKBrw&gtm_preview=env-2&gtm_cookies_win=x",
-          "details": {
-            "id": "google tag manager",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5WMCC7G&gtm_auth=AzNZ1eVDfcLLmq-RtS199w&gtm_preview=env-2&gtm_cookies_win=x",
-          "details": {
-            "id": "google tag manager",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PSHV5RJ&gtm_auth=GHsHb03kaNVKmuaSF7jsCQ&gtm_preview=env-1&gtm_cookies_win=x",
-          "details": {
-            "id": "google tag manager",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007/loader.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/bundle.min.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/bot.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/configuration.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/en/translation.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/locales/fr/translation.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/theme.json"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/style.css"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/override/custom.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/chatboxHomepage.css"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/649.chatbox_edge_2026-04-14.1221aa5e.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/737.chatbox_edge_2026-04-14.1221aa5e.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/assets/dydu-teaser.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/serverstatus"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/privacy/4736/privacy_v2_24.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/acoss_piano.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://tm.urssaf.fr/event?s=615296&idclient=mr74ooe5g6em4h8y"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977/assets/dydu-logo.png"
-        },
-        {
-          "type": "unknown",
-          "url": "https://cdn.doyoudreamup.com/dydubox/configurations/prod/00cc0f9d-3627-4469-8680-b7c9dc28004a/0af4024f-9321-1460-8193-253c7bc70007//1776923702977//assets/dydu-poweredby.svg"
-        },
-        {
-          "type": "unknown",
-          "url": "https://app1.urssaf.doyoudreamup.com/servlet/api/chat/pushrules/00cc0f9d-3627-4469-8680-b7c9dc28004a"
-        }
-      ],
-      "cookies": [
-        {
-          "name": "TS00000000076",
-          "value": "08864aa589ab2800e5c837b811baa1697b70121281c36be44bc699f4cfee01dca327d996bd04589d48ecf53bbcf84f99080d078df009d000a55c62b122f7db4164b344297baf4730c0ef69d4a1f15beefb36d2b82f926ee76138c6afeb262e945967fff97fb066c731ca4f27e2916c52972817f979ef5b34465e0d3cb39fc7d1b09f45849ce92ccff8d829093762e06cdf0f2e3d3c7ed11cf4460629d12bc2c3ceae6067ca2bf7a07aee8373c43dee5dabba38d1b6f96ef7c78e225e54b6be78f1e7977d60fc48765815da34af99ed4fb951bda32d194ca9b7e34c4fc7f55db32b6de03d591d6283e690b1536e611a2e7aa58da6580df004bd91bf3e4dcf9e7fa7f4d8c217575d09",
-          "domain": "www.cesu.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 541,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pprv",
-          "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im42dmptM3lifG1yNzRvbW1iIn0%3D",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817343863,
-          "size": 163,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS012b5fcd",
-          "value": "01825cd9a6fc7d8fb9aaf353a307e14ba13e7ead4e496bc6ffc8b1363a116861fb144a649b3f15609bbc347a237541a8511c54edfa",
-          "domain": ".www.cesu.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 116,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TSb8ac319d029",
-          "value": "08864aa589ab280066eb62f0bd1035871bbec728944e010f810bce69d4e8709191eb5dccbb098a80afb83160581f89f1",
-          "domain": "www.cesu.urssaf.fr",
-          "path": "/",
-          "expires": 1783215893.292143,
-          "size": 109,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TSPD_101_DID",
-          "value": "08864aa589ab28009af8b6036b993a899ce958b8bf9e2ccad13a69245ad8425c2d8f018d9034e7f79d83ad878b3526f9084810ac890638000a899ab5dea40452cea77db0b6cb197ed5bc469effd496b37b18dfe486213a04c8a3b5bfa1050056f3c21c4a3282e3e2808cc389b8a88e70",
-          "domain": "www.cesu.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 236,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS5aec2e40027",
-          "value": "08864aa589ab2000f39b7f32bf2b82d2256ac9acc3857aec1ecc3de8aa0f78e4af0d5f49658fd013085a2bb883113000765b36ab8c57fb2a1761d0daa1eed903999b6846e12c92203a2ec51a72fc949f3661c54a471064231c4905d7b817ec92",
-          "domain": "www.cesu.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 205,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TCPID",
-          "value": "126701442310972143263",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817171063,
-          "size": 26,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        }
-      ],
-      "headers": {
-        "accept-ranges": "bytes",
-        "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
-        "connection": "Keep-Alive",
-        "content-security-policy": "default-src 'self' *.youtube.com *.gstatic.com *.googleapis.com *.hcaptcha.com *.data.gouv.fr *.api.gouv.fr *.googletagmanager.com *.google.com voxusagers.numerique.gouv.fr *.urssaf.fr *.tagcommander.com *.commander1.com *.trustcommander.net tag.aticdn.net *.smartly.ai widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.abtasty.com *.amazonaws.com *.mopinion.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io 'unsafe-inline' 'unsafe-eval' data: wss: blob:;",
-        "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 05 Jul 2026 01:44:19 GMT",
-        "etag": "\"237a-652ca53bc8880\"",
-        "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
-        "keep-alive": "timeout=60",
-        "last-modified": "Wed, 27 May 2026 10:46:42 GMT",
-        "pragma": "no-cache",
-        "set-cookie": "TS012b5fcd=01825cd9a6fc7d8fb9aaf353a307e14ba13e7ead4e496bc6ffc8b1363a116861fb144a649b3f15609bbc347a237541a8511c54edfa; Path=/; Domain=.www.cesu.urssaf.fr\nTSb8ac319d029=08864aa589ab28002dc596cd30d7809cd5c7219b011849378a7c840a75bcd336b8fe227a2a3c22b298ef2fb82c4047a0; Max-Age=30; Path=/\nTS5aec2e40027=08864aa589ab200050d884317c5172e89ad48f94d1e65f4a5734f796c177611f24b9feb9e305dc2b08c8f21f8211300011df556d170d725a1b03d8f48a5427b4c339c42fbc285687b914a55762c5e7591e067c3ac5f1ddd19dffc95d362cb564; Path=/",
-        "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
-        "transfer-encoding": "chunked",
-        "vary": "Accept-Encoding",
-        "x-content-type-options": "nosniff",
-        "x-xss-protection": "1; mode=block"
-      },
-      "endpoints": [
-        {
-          "hostname": "www.cesu.urssaf.fr",
-          "ip": "193.178.136.193",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "cdn.tagcommander.com",
-          "ip": "146.75.30.132",
-          "geoip": {
-            "city": {
-              "geoname_id": 4744870,
-              "names": {
-                "de": "Ashburn",
-                "en": "Ashburn",
-                "es": "Ashburn",
-                "fr": "Ashburn",
-                "ja": "アッシュバーン",
-                "pt-BR": "Ashburn",
-                "ru": "Ашберн",
-                "zh-CN": "阿什本"
-              }
-            },
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 20,
-              "latitude": 39.0469,
-              "longitude": -77.4903,
-              "metro_code": 511,
-              "time_zone": "America/New_York"
-            },
-            "postal": {
-              "code": "20149"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 6254928,
-                "iso_code": "VA",
-                "names": {
-                  "de": "Virginia",
-                  "en": "Virginia",
-                  "es": "Virginia",
-                  "fr": "Virginie",
-                  "ja": "バージニア州",
-                  "pt-BR": "Virgínia",
-                  "ru": "Вирджиния",
-                  "zh-CN": "弗吉尼亚州"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "hostname": "res.tmg.urssaf.fr",
-          "ip": "3.170.3.124",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "cdn.doyoudreamup.com",
-          "ip": "195.154.69.38",
-          "geoip": {
-            "city": {
-              "geoname_id": 2988507,
-              "names": {
-                "de": "Paris",
-                "en": "Paris",
-                "es": "París",
-                "fr": "Paris",
-                "ja": "パリ",
-                "pt-BR": "Paris",
-                "ru": "Париж",
-                "zh-CN": "巴黎"
-              }
-            },
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 5,
-              "latitude": 48.8558,
-              "longitude": 2.3494,
-              "time_zone": "Europe/Paris"
-            },
-            "postal": {
-              "code": "75001"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
-                "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
-                }
-              },
-              {
-                "geoname_id": 2968815,
-                "iso_code": "75",
-                "names": {
-                  "de": "Département Paris",
-                  "en": "Paris Department",
-                  "es": "Departamento de París",
-                  "fr": "Département de Paris"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "hostname": "privacy.trustcommander.net",
-          "ip": "13.39.53.115",
-          "geoip": {
-            "city": {
-              "geoname_id": 2988507,
-              "names": {
-                "de": "Paris",
-                "en": "Paris",
-                "es": "París",
-                "fr": "Paris",
-                "ja": "パリ",
-                "pt-BR": "Paris",
-                "ru": "Париж",
-                "zh-CN": "巴黎"
-              }
-            },
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 20,
-              "latitude": 48.8558,
-              "longitude": 2.3494,
-              "time_zone": "Europe/Paris"
-            },
-            "postal": {
-              "code": "75001"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
-                "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
-                }
-              },
-              {
-                "geoname_id": 2968815,
-                "iso_code": "75",
-                "names": {
-                  "de": "Département Paris",
-                  "en": "Paris Department",
-                  "es": "Departamento de París",
-                  "fr": "Département de Paris"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "hostname": "www.googletagmanager.com",
-          "ip": "142.251.16.97",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "app1.urssaf.doyoudreamup.com",
-          "ip": "51.38.58.179",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "tm.urssaf.fr",
-          "ip": "3.170.3.78",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        }
-      ]
+      "trackers": null,
+      "cookies": null,
+      "headers": null
     },
     "wappalyzer": {
       "urls": {
@@ -9965,8 +7850,58 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 5 Jul 2026 01:49:27",
-      "created": "2026-07-05T01:49:27.140107878Z",
+      "@generated": "Sun, 12 Jul 2026 04:24:20",
+      "created": "2026-07-12T04:24:20.739513518Z",
+      "insights": [
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "",
+          "key": "insight.network.failure",
+          "description": "Percentage of network failures",
+          "statistic": "35"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.cesu.urssaf.fr",
+          "key": "insight.code.2xx",
+          "description": "Percentage of responses with status code 2xx",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.cesu.urssaf.fr",
+          "key": "insight.endpoint.ctype.text/html",
+          "description": "Percentage of endpoints with content type text/html",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.cesu.urssaf.fr",
+          "key": "insight.endpoint.method.GET",
+          "description": "Percentage of endpoints with method GET",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.cesu.urssaf.fr",
+          "key": "insight.endpoint.total",
+          "description": "Count of total endpoints",
+          "statistic": "2"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.cesu.urssaf.fr",
+          "key": "insight.response.slow",
+          "description": "Percentage of slow responses",
+          "statistic": "100"
+        }
+      ],
       "site": [
         {
           "@name": "https://www.cesu.urssaf.fr",
@@ -10077,7 +8012,7 @@
               "riskcode": "0",
               "confidence": "2",
               "riskdesc": "Informational (Medium)",
-              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>"
             },
             {
               "name": "Non-Storable Content",
@@ -10131,7 +8066,7 @@
       {
         "requestedUrl": "https://www.cesu.urssaf.fr/decla/index.html",
         "finalUrl": "https://www.cesu.urssaf.fr/info/accueil.html",
-        "fetchTime": "2026-07-05T01:49:43.970Z",
+        "fetchTime": "2026-07-12T04:24:38.357Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.cesu.urssaf.fr/decla/index.html) was redirected to https://www.cesu.urssaf.fr/info/accueil.html. Try testing the second URL directly."
         ],
@@ -10196,53 +8131,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 40413,
+            "numericValue": 42667,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 29052,
-                  "firstMeaningfulPaint": 29052,
-                  "largestContentfulPaint": 42024,
-                  "interactive": 40413,
-                  "speedIndex": 29052,
-                  "totalBlockingTime": 4526,
-                  "maxPotentialFID": 1711,
+                  "firstContentfulPaint": 30355,
+                  "firstMeaningfulPaint": 30355,
+                  "largestContentfulPaint": 42621,
+                  "interactive": 42667,
+                  "speedIndex": 30355,
+                  "totalBlockingTime": 5310,
+                  "maxPotentialFID": 1523,
                   "cumulativeLayoutShift": 0.01499221801757812,
                   "cumulativeLayoutShiftMainFrame": 0.01499221801757812,
                   "totalCumulativeLayoutShift": 0.01499221801757812,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 395349067,
+                  "observedTimeOriginTs": 674034627,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 395349067,
-                  "observedFirstPaint": 505,
-                  "observedFirstPaintTs": 395853590,
-                  "observedFirstContentfulPaint": 505,
-                  "observedFirstContentfulPaintTs": 395853590,
-                  "observedFirstContentfulPaintAllFrames": 505,
-                  "observedFirstContentfulPaintAllFramesTs": 395853590,
-                  "observedFirstMeaningfulPaint": 505,
-                  "observedFirstMeaningfulPaintTs": 395853590,
-                  "observedLargestContentfulPaint": 1194,
-                  "observedLargestContentfulPaintTs": 396542631,
-                  "observedLargestContentfulPaintAllFrames": 1194,
-                  "observedLargestContentfulPaintAllFramesTs": 396542631,
-                  "observedTraceEnd": 2319,
-                  "observedTraceEndTs": 397667786,
-                  "observedLoad": 1178,
-                  "observedLoadTs": 396526650,
+                  "observedNavigationStartTs": 674034627,
+                  "observedFirstPaint": 592,
+                  "observedFirstPaintTs": 674626628,
+                  "observedFirstContentfulPaint": 592,
+                  "observedFirstContentfulPaintTs": 674626628,
+                  "observedFirstContentfulPaintAllFrames": 592,
+                  "observedFirstContentfulPaintAllFramesTs": 674626628,
+                  "observedFirstMeaningfulPaint": 592,
+                  "observedFirstMeaningfulPaintTs": 674626628,
+                  "observedLargestContentfulPaint": 1326,
+                  "observedLargestContentfulPaintTs": 675360713,
+                  "observedLargestContentfulPaintAllFrames": 1326,
+                  "observedLargestContentfulPaintAllFramesTs": 675360713,
+                  "observedTraceEnd": 2328,
+                  "observedTraceEndTs": 676362477,
+                  "observedLoad": 1300,
+                  "observedLoadTs": 675334522,
                   "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 395349417,
+                  "observedDomContentLoadedTs": 674034964,
                   "observedCumulativeLayoutShift": 0.01499221801757812,
                   "observedCumulativeLayoutShiftMainFrame": 0.01499221801757812,
                   "observedTotalCumulativeLayoutShift": 0.01499221801757812,
-                  "observedFirstVisualChange": 11,
-                  "observedFirstVisualChangeTs": 395360067,
-                  "observedLastVisualChange": 1193,
-                  "observedLastVisualChangeTs": 396542067,
-                  "observedSpeedIndex": 602,
-                  "observedSpeedIndexTs": 395951539
+                  "observedFirstVisualChange": 22,
+                  "observedFirstVisualChangeTs": 674056627,
+                  "observedLastVisualChange": 1326,
+                  "observedLastVisualChangeTs": 675360627,
+                  "observedSpeedIndex": 762,
+                  "observedSpeedIndexTs": 674797103
                 },
                 {
                   "lcpInvalidated": false
@@ -10260,22 +8195,22 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 110,
-                  "numScripts": 39,
+                  "numRequests": 112,
+                  "numScripts": 40,
                   "numStylesheets": 8,
                   "numFonts": 0,
-                  "numTasks": 3579,
-                  "numTasksOver10ms": 37,
-                  "numTasksOver25ms": 17,
-                  "numTasksOver50ms": 9,
-                  "numTasksOver100ms": 7,
-                  "numTasksOver500ms": 3,
-                  "rtt": 1.838000000000008,
-                  "throughput": 19931794.750026423,
-                  "maxRtt": 88.28699999999999,
-                  "maxServerLatency": 84.61599999999999,
-                  "totalByteWeight": 6476139,
-                  "totalTaskTime": 3226.6490000000094,
+                  "numTasks": 3481,
+                  "numTasksOver10ms": 45,
+                  "numTasksOver25ms": 18,
+                  "numTasksOver50ms": 8,
+                  "numTasksOver100ms": 8,
+                  "numTasksOver500ms": 4,
+                  "rtt": 1.578000000000003,
+                  "throughput": 13879206.994731786,
+                  "maxRtt": 146.718,
+                  "maxServerLatency": 222.06199999999998,
+                  "totalByteWeight": 6349685,
+                  "totalTaskTime": 4421.7549999999965,
                   "mainDocumentTransferSize": 10923
                 }
               ]
@@ -10289,8 +8224,7 @@
     "github_repository": null,
     "budget_page": null,
     "declaration-a11y": {
-      "mention": "Accessibilité : partiellement conforme",
-      "declarationUrl": "https://www.cesu.urssaf.fr/info/accueil/accessibilite.html"
+      "mention": null
     },
     "declaration-rgpd": null,
     "betagouv": null,
@@ -10299,15 +8233,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.cesu.urssaf.fr/decla/index.html",
-        "size": 8067.542,
-        "nodes": 429,
-        "requests": 102,
+        "size": 7117.092,
+        "nodes": 426,
+        "requests": 103,
         "grade": "D",
         "score": 45,
         "ges": 2.1,
         "water": 3.15,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-05 01:45:38.723040",
+        "date": "2026-07-12 04:15:37.966265",
         "page_type": null
       }
     ],
@@ -10319,10 +8253,10 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-09-01T23:59:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "E",
-      "cookiesCount": 7,
-      "trackersGrade": "F",
-      "trackersCount": 39,
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
       "zapCount": 12,
       "zapGrade": "D",
       "lighthouse_performance": 0.15,
@@ -10335,7 +8269,7 @@
       "lighthouse_seoGrade": "B",
       "lighthouse_pwa": 0.3,
       "lighthouse_pwaGrade": "E",
-      "declaration-a11y": "A",
+      "declaration-a11y": "F",
       "ecoindexGrade": "D"
     }
   },
@@ -10357,7 +8291,7 @@
         "testsPassed": 6,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 05 Jul 2026 02:39:10 GMT",
+          "date": "Sun, 12 Jul 2026 05:14:50 GMT",
           "last-modified": "Tue, 24 Feb 2026 12:07:30 GMT",
           "etag": "\"72-bb4ca480\"",
           "accept-ranges": "bytes",
@@ -10366,9 +8300,9 @@
           "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "set-cookie": [
-            "TS0175fd60=01825cd9a6d6c50ab8db727ca83d1ba9d6d5a04ef791288dacbab5e458b261dde83eb3497e2790a89f14b26e685b1644b769b71e8d; Path=/; Domain=.www.tpee.urssaf.fr",
-            "TSd15bbf8a029=08864aa589ab2800333c80bae86565ff0ec4a8f20cdae8ff9429a3553ff2b9f4023ea42869bf436363735b7bec59a56d; Max-Age=30; Path=/",
-            "TS331ba057027=08864aa589ab20006c800ad5d79bbe53646782fd7deceab302328cd42b8cde7d017ccc615946cc4308338594161130006d689f369baeb5c8460bc69b1baee139d62f329f09ba846e9b5ac0de8fd6316aa4cb4e7a6c1f82a65bde55c7f74ef5af; Path=/"
+            "TS0175fd60=01825cd9a6e41b380aa41370bd2982377670a13856661cab136a3b1d3602c9ce1b9af7127e68140f29361709aef5692e5daab5eac7; Path=/; Domain=.www.tpee.urssaf.fr",
+            "TSd15bbf8a029=08864aa589ab2800228360c85b11d279a28e3f79118fe27bd374dae4b212a9cbfb3cb871422c3602e924c77dc781d96f; Max-Age=30; Path=/",
+            "TS331ba057027=08864aa589ab200034dff4eaa3946bb4cf9044d02640138ca554ccecf4b584ebc196b39249731b6f08993de5201130005624309432de4002be3c8994dac8bc8a4b2c8f8a1fd5b92ef3bfa984998f65ba89909369c908c06ce3c3133b0c6aa52c; Path=/"
           ],
           "transfer-encoding": "chunked"
         }
@@ -10834,7 +8768,7 @@
         "ip": "www.tpee.urssaf.fr/193.178.136.212",
         "port": "443",
         "severity": "OK",
-        "finding": "167 >= 60 days"
+        "finding": "160 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -11464,126 +9398,13 @@
         "ip": "www.tpee.urssaf.fr/193.178.136.212",
         "port": "443",
         "severity": "INFO",
-        "finding": "97"
+        "finding": "91"
       }
     ],
     "thirdparties": {
-      "trackers": [],
-      "cookies": [
-        {
-          "name": "TSd15bbf8a029",
-          "value": "08864aa589ab2800a0ea4c5e5ff8635c0c01c085db87567627558f4cdab1a4d9eb0d12a606cafadd87b7ea3fdb9e7e09",
-          "domain": "www.tpee.urssaf.fr",
-          "path": "/",
-          "expires": 1783218827.631076,
-          "size": 109,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS0175fd60",
-          "value": "01825cd9a6068c14e64bdd35ef8d73e8a9186bc3a7a61f195b90a077bb0f48b0fcee05906f38176c6d4abdb3b9a5377a796b03138f",
-          "domain": ".www.tpee.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 116,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS331ba057027",
-          "value": "08864aa589ab20007e1b6079427f0fabf6a018ec216a6aae82dcfcdeff5d33656b962d53845a439d089e9f87f511300021c1c3b11c66fe2c4531144742bedda6da375911f0338e78b5596a4c747aaad8ef31af5e0f1160edce3db44d3cf1b25e",
-          "domain": "www.tpee.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 205,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        }
-      ],
-      "headers": {
-        "accept-ranges": "bytes",
-        "connection": "Keep-Alive",
-        "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 05 Jul 2026 02:33:17 GMT",
-        "etag": "\"72-bb4ca480\"",
-        "keep-alive": "timeout=30, max=200",
-        "last-modified": "Tue, 24 Feb 2026 12:07:30 GMT",
-        "set-cookie": "TS0175fd60=01825cd9a6068c14e64bdd35ef8d73e8a9186bc3a7a61f195b90a077bb0f48b0fcee05906f38176c6d4abdb3b9a5377a796b03138f; Path=/; Domain=.www.tpee.urssaf.fr\nTSd15bbf8a029=08864aa589ab2800a280b63edb2d866fae3804a82cebbcea7918124d96cc7086029581b590524b0f07bcfed9bd2adcbb; Max-Age=30; Path=/\nTS331ba057027=08864aa589ab20002990af0b7da83a10a22f42909c665d97347317d2a5d5284a91f3ebd134572be108cbe52909113000e9eaf58ff52055df4531144742bedda6da375911f0338e78b5596a4c747aaad8ef31af5e0f1160edce3db44d3cf1b25e; Path=/",
-        "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
-        "transfer-encoding": "chunked",
-        "vary": "Accept-Encoding"
-      },
-      "endpoints": [
-        {
-          "hostname": "www.tpee.urssaf.fr",
-          "ip": "193.178.136.212",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        }
-      ]
+      "trackers": null,
+      "cookies": null,
+      "headers": null
     },
     "wappalyzer": {
       "urls": {
@@ -11597,8 +9418,34 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 5 Jul 2026 02:38:19",
-      "created": "2026-07-05T02:38:19.259635633Z",
+      "@generated": "Sun, 12 Jul 2026 05:14:05",
+      "created": "2026-07-12T05:14:05.158623131Z",
+      "insights": [
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "",
+          "key": "insight.network.failure",
+          "description": "Percentage of network failures",
+          "statistic": "33"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.tpee.urssaf.fr",
+          "key": "insight.code.2xx",
+          "description": "Percentage of responses with status code 2xx",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.tpee.urssaf.fr",
+          "key": "insight.response.slow",
+          "description": "Percentage of slow responses",
+          "statistic": "100"
+        }
+      ],
       "site": [
         {
           "@name": "https://www.tpee.urssaf.fr",
@@ -11681,7 +9528,7 @@
               "riskcode": "0",
               "confidence": "2",
               "riskdesc": "Informational (Medium)",
-              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>"
             },
             {
               "name": "Re-examine Cache-control Directives",
@@ -11742,7 +9589,7 @@
       {
         "requestedUrl": "https://www.tpee.urssaf.fr/",
         "finalUrl": "https://www.tpee.urssaf.fr/tpeewebinfo/cms/lang/fr/page200.html",
-        "fetchTime": "2026-07-05T02:38:37.420Z",
+        "fetchTime": "2026-07-12T05:14:20.749Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (https://www.tpee.urssaf.fr/) was redirected to https://www.tpee.urssaf.fr/tpeewebinfo/cms/lang/fr/page200.html. Try testing the second URL directly."
         ],
@@ -11755,7 +9602,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.41
+            "score": 0.4
           },
           "accessibility": {
             "title": "Accessibility",
@@ -11807,53 +9654,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 8996,
+            "numericValue": 7612,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 3563,
-                  "firstMeaningfulPaint": 3563,
-                  "largestContentfulPaint": 4024,
-                  "interactive": 8996,
-                  "speedIndex": 4786,
-                  "totalBlockingTime": 3429,
-                  "maxPotentialFID": 2424,
+                  "firstContentfulPaint": 3401,
+                  "firstMeaningfulPaint": 3401,
+                  "largestContentfulPaint": 4937,
+                  "interactive": 7612,
+                  "speedIndex": 4521,
+                  "totalBlockingTime": 1859,
+                  "maxPotentialFID": 1772,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 451502967,
+                  "observedTimeOriginTs": 659742314,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 451502967,
-                  "observedFirstPaint": 1466,
-                  "observedFirstPaintTs": 452969403,
-                  "observedFirstContentfulPaint": 1466,
-                  "observedFirstContentfulPaintTs": 452969403,
-                  "observedFirstContentfulPaintAllFrames": 1466,
-                  "observedFirstContentfulPaintAllFramesTs": 452969403,
-                  "observedFirstMeaningfulPaint": 1466,
-                  "observedFirstMeaningfulPaintTs": 452969403,
-                  "observedLargestContentfulPaint": 1616,
-                  "observedLargestContentfulPaintTs": 453118857,
-                  "observedLargestContentfulPaintAllFrames": 1616,
-                  "observedLargestContentfulPaintAllFramesTs": 453118857,
-                  "observedTraceEnd": 4888,
-                  "observedTraceEndTs": 456390482,
-                  "observedLoad": 2401,
-                  "observedLoadTs": 453903650,
+                  "observedNavigationStartTs": 659742314,
+                  "observedFirstPaint": 1251,
+                  "observedFirstPaintTs": 660993297,
+                  "observedFirstContentfulPaint": 1251,
+                  "observedFirstContentfulPaintTs": 660993297,
+                  "observedFirstContentfulPaintAllFrames": 1251,
+                  "observedFirstContentfulPaintAllFramesTs": 660993297,
+                  "observedFirstMeaningfulPaint": 1251,
+                  "observedFirstMeaningfulPaintTs": 660993297,
+                  "observedLargestContentfulPaint": 1384,
+                  "observedLargestContentfulPaintTs": 661126186,
+                  "observedLargestContentfulPaintAllFrames": 1384,
+                  "observedLargestContentfulPaintAllFramesTs": 661126186,
+                  "observedTraceEnd": 4324,
+                  "observedTraceEndTs": 664066059,
+                  "observedLoad": 1862,
+                  "observedLoadTs": 661604729,
                   "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 451503316,
+                  "observedDomContentLoadedTs": 659742608,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1466,
-                  "observedFirstVisualChangeTs": 452968967,
-                  "observedLastVisualChange": 2409,
-                  "observedLastVisualChangeTs": 453911967,
-                  "observedSpeedIndex": 1539,
-                  "observedSpeedIndexTs": 453041759
+                  "observedFirstVisualChange": 1251,
+                  "observedFirstVisualChangeTs": 660993314,
+                  "observedLastVisualChange": 1871,
+                  "observedLastVisualChangeTs": 661613314,
+                  "observedSpeedIndex": 1352,
+                  "observedSpeedIndexTs": 661094752
                 },
                 {
                   "lcpInvalidated": false
@@ -11875,18 +9722,18 @@
                   "numScripts": 10,
                   "numStylesheets": 16,
                   "numFonts": 0,
-                  "numTasks": 1742,
-                  "numTasksOver10ms": 12,
+                  "numTasks": 1324,
+                  "numTasksOver10ms": 9,
                   "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 4,
-                  "numTasksOver100ms": 3,
-                  "numTasksOver500ms": 2,
-                  "rtt": 147.933,
-                  "throughput": 7044859.745077603,
-                  "maxRtt": 147.933,
-                  "maxServerLatency": 3.4769999999999754,
-                  "totalByteWeight": 290996,
-                  "totalTaskTime": 1773.6190000000006,
+                  "numTasksOver50ms": 3,
+                  "numTasksOver100ms": 2,
+                  "numTasksOver500ms": 0,
+                  "rtt": 139.619,
+                  "throughput": 6764793.432066893,
+                  "maxRtt": 139.619,
+                  "maxServerLatency": 3.241000000000014,
+                  "totalByteWeight": 282348,
+                  "totalTaskTime": 1233.112999999994,
                   "mainDocumentTransferSize": 1209
                 }
               ]
@@ -11909,15 +9756,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.tpee.urssaf.fr",
-        "size": 308.922,
+        "size": 300.274,
         "nodes": 125,
         "requests": 43,
         "grade": "A",
-        "score": 82,
-        "ges": 1.36,
-        "water": 2.04,
+        "score": 83,
+        "ges": 1.34,
+        "water": 2.01,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-05 02:34:25.699220",
+        "date": "2026-07-12 05:05:22.891594",
         "page_type": null
       }
     ],
@@ -11929,13 +9776,13 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-12-19T23:59:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "C",
-      "cookiesCount": 3,
-      "trackersGrade": "A",
-      "trackersCount": 0,
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
       "zapCount": 10,
       "zapGrade": "D",
-      "lighthouse_performance": 0.41,
+      "lighthouse_performance": 0.4,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.84,
       "lighthouse_accessibilityGrade": "A",
@@ -11968,13 +9815,13 @@
         "testsPassed": 5,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 05 Jul 2026 02:53:08 GMT",
+          "date": "Sun, 12 Jul 2026 05:36:43 GMT",
           "cache-control": "no-cache=\"Set-Cookie\"",
           "set-cookie": [
-            "JSESSIONID=XJ1LqJHJCHJyX8h5nJJtw2JVf6GtwB4KbFGdQZV7rrKcGqFG0DtD!1308392278; expires=Sunday, 05-Jul-2026 03:23:08 GMT; path=/; secure",
-            "TS0175fd60=01825cd9a6c8eddca846edfcf7a32e1f06c7fa9338430cbcc6aa7be87b5bf85426dc0d19db87d4b72e8bf5c30cee363bbb6e044148abf00b698f018e88c30defe168ef6c38; Path=/; Domain=.www.tpee.urssaf.fr",
-            "TSd15bbf8a029=08864aa589ab28000ef22526f48b371ab49bb449e49f67b272f0eda7f02f1a8448ae6f192f8e5ee21f421e78d5202de6; Max-Age=30; Path=/",
-            "TS331ba057027=08864aa589ab2000eea8661b2a7dc03e0a8fbe263d36cbe6ff487cc5a1f08e4795b5640c8d5507880862b8dcc4113000164af4cab5311adcd9e80d1ce75823d442c3dadec6c490d11cfd027ef0deae63da7f8184433c491e51d015197ef72427; Path=/"
+            "JSESSIONID=Pz3hqTnLLyHt1YGF3CtNdSjKzKHTrRJ3KWwtXRVQwcg1z2cnJJ0Z!-1636311815; expires=Sunday, 12-Jul-2026 06:06:43 GMT; path=/; secure",
+            "TS0175fd60=01825cd9a61be0364d0f04ced049f73994d611a0c93d99db7ab25da09c9a80f9e0a543bf15a3138ab1aa9e96c6ddde6d6ee509851c7b7ec920df7fc267287a4182b80c4a3e; Path=/; Domain=.www.tpee.urssaf.fr",
+            "TSd15bbf8a029=08864aa589ab28009cfbf8c6ea05fa7dd0fb998b4c2ff83a29c98045468238472767eb57e1d66d06fdbbaab0f56bae97; Max-Age=30; Path=/",
+            "TS331ba057027=08864aa589ab200069e5be8886a4a2df733e13cc5e7667d21e19821585b6618ec82c1f810a7b4267086c02604f113000aa9e652a31f2181a98e7f2811cc5f51338daa85249dd9c56823ccb442efe85163c734e0b344183fd0214d1f1414ce0a4; Path=/"
           ],
           "content-language": "fr-FR",
           "content-type": "text/html; charset=ISO-8859-1",
@@ -12004,7 +9851,7 @@
           "data": {
             "JSESSIONID": {
               "domain": "www.tpee.urssaf.fr",
-              "expires": "2026-07-05T03:23:08.000Z",
+              "expires": "2026-07-12T06:06:43.000Z",
               "path": "/",
               "port": null,
               "secure": true
@@ -12457,7 +10304,7 @@
         "ip": "www.tpee.urssaf.fr/193.178.136.212",
         "port": "443",
         "severity": "OK",
-        "finding": "167 >= 60 days"
+        "finding": "160 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -13087,511 +10934,13 @@
         "ip": "www.tpee.urssaf.fr/193.178.136.212",
         "port": "443",
         "severity": "INFO",
-        "finding": "95"
+        "finding": "52"
       }
     ],
     "thirdparties": {
-      "trackers": [
-        {
-          "type": "unknown",
-          "url": "https://cdn.tagcommander.com/4736/tc_Acoss_109.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/acoss_piano.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://res.tmg.urssaf.fr/privacy/4736/privacy_v2_24.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://tm.urssaf.fr/event?s=615055&idclient=mr76xdd9my3hd6r5"
-        },
-        {
-          "type": "unknown",
-          "url": "https://privacy.trustcommander.net/privacy-consent?tc_do_not_track=true&site=4736"
-        }
-      ],
-      "cookies": [
-        {
-          "name": "TCPID",
-          "value": "126702471110490996892",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817174831,
-          "size": 26,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS331ba057027",
-          "value": "08864aa589ab2000da31b8384f7284860e5f5159f03ccce505943231f795c59f7af86f9ab8acb33908119dd7d4113000f124aec6ad30795d83182214aafd939228550f59c01bee3fff1d5a92d556dca4625505a50d2790052e3b391f9f676295",
-          "domain": "www.tpee.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 205,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TSd15bbf8a029",
-          "value": "08864aa589ab28000d621b20c24cecc87ff0c7f5fdab3bc0ca2a4909056cc7d8fb5696c5d76d4526ec9b0619f47df9af",
-          "domain": "www.tpee.urssaf.fr",
-          "path": "/",
-          "expires": 1783219660.792322,
-          "size": 109,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "JSESSIONID",
-          "value": "45qQqJFMWJwCQ34jmspS0qRzRrJjprvP1Fw4DLhrMKLG4Txl76ZN!1308392278",
-          "domain": "www.tpee.urssaf.fr",
-          "path": "/",
-          "expires": 1783221428.403978,
-          "size": 73,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "TS0175fd60",
-          "value": "01825cd9a6e55b90ee7a038eb250a2debc20a1cc50158cda2cd0fafe133e4a53580aa08822016aad877eccfe935f2bc7ff40108a6d97de18bcb238b50da2b4d9f174813b57",
-          "domain": ".www.tpee.urssaf.fr",
-          "path": "/",
-          "expires": -1,
-          "size": 148,
-          "httpOnly": false,
-          "secure": false,
-          "session": true,
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pcid",
-          "value": "%7B%22browserId%22%3A%22mr76xdd9my3hd6r5%22%2C%22_t%22%3A%22n6vluupd%7Cmr76xddd%22%7D",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817347631,
-          "size": 90,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pprv",
-          "value": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im42dmx1dXBifG1yNzZ4ZGRiIn0%3D",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817347631,
-          "size": 163,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        },
-        {
-          "name": "_pctx",
-          "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18ykAbADdUYMAAcAZgB8AtjADsAgB6tWkkAF8gA",
-          "domain": ".urssaf.fr",
-          "path": "/",
-          "expires": 1817347631,
-          "size": 110,
-          "httpOnly": false,
-          "secure": true,
-          "session": false,
-          "sameSite": "Lax",
-          "priority": "Medium",
-          "sourceScheme": "Secure",
-          "sameParty": false
-        }
-      ],
-      "headers": {
-        "cache-control": "no-cache=\"Set-Cookie\"",
-        "connection": "Keep-Alive",
-        "content-language": "fr-FR",
-        "content-type": "text/html; charset=ISO-8859-1",
-        "date": "Sun, 05 Jul 2026 02:47:08 GMT",
-        "keep-alive": "timeout=30, max=200",
-        "set-cookie": "JSESSIONID=45qQqJFMWJwCQ34jmspS0qRzRrJjprvP1Fw4DLhrMKLG4Txl76ZN!1308392278; expires=Sunday, 05-Jul-2026 03:17:08 GMT; path=/; secure\nTS0175fd60=01825cd9a6e55b90ee7a038eb250a2debc20a1cc50158cda2cd0fafe133e4a53580aa08822016aad877eccfe935f2bc7ff40108a6d97de18bcb238b50da2b4d9f174813b57; Path=/; Domain=.www.tpee.urssaf.fr\nTSd15bbf8a029=08864aa589ab2800aa9199336593ed369fd0dbcd6bd434c6041092c689dc472a80862fea3db5c73b6c541a9319703653; Max-Age=30; Path=/\nTS331ba057027=08864aa589ab20002ff30334c7b5f206c587e6f18a246963fb87152c79e42d33733754b9fe2e5833085cbedbd911300006751848afbd2bf2a4342b234114a1260622490864828383480e2e12c5ebc5b7f1ca849b3b43145f601b909998940869; Path=/",
-        "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
-        "transfer-encoding": "chunked",
-        "vary": "Accept-Encoding"
-      },
-      "endpoints": [
-        {
-          "hostname": "www.tpee.urssaf.fr",
-          "ip": "193.178.136.212",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "cdn.tagcommander.com",
-          "ip": "151.101.42.132",
-          "geoip": {
-            "city": {
-              "geoname_id": 5392171,
-              "names": {
-                "de": "San José",
-                "en": "San Jose",
-                "es": "San José",
-                "fr": "San José",
-                "ja": "サンノゼ",
-                "pt-BR": "San José",
-                "ru": "Сан-Хосе"
-              }
-            },
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 20,
-              "latitude": 37.3388,
-              "longitude": -121.8916,
-              "metro_code": 807,
-              "time_zone": "America/Los_Angeles"
-            },
-            "postal": {
-              "code": "95025"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 5332921,
-                "iso_code": "CA",
-                "names": {
-                  "de": "Kalifornien",
-                  "en": "California",
-                  "es": "California",
-                  "fr": "Californie",
-                  "ja": "カリフォルニア州",
-                  "pt-BR": "Califórnia",
-                  "ru": "Калифорния",
-                  "zh-CN": "加州"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "hostname": "res.tmg.urssaf.fr",
-          "ip": "3.169.183.19",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "tm.urssaf.fr",
-          "ip": "13.249.74.60",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "privacy.trustcommander.net",
-          "ip": "13.39.53.115",
-          "geoip": {
-            "city": {
-              "geoname_id": 2988507,
-              "names": {
-                "de": "Paris",
-                "en": "Paris",
-                "es": "París",
-                "fr": "Paris",
-                "ja": "パリ",
-                "pt-BR": "Paris",
-                "ru": "Париж",
-                "zh-CN": "巴黎"
-              }
-            },
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 20,
-              "latitude": 48.8558,
-              "longitude": 2.3494,
-              "time_zone": "Europe/Paris"
-            },
-            "postal": {
-              "code": "75001"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "USA",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États-Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 3012874,
-                "iso_code": "IDF",
-                "names": {
-                  "de": "Île-de-France",
-                  "en": "Île-de-France",
-                  "es": "Isla de Francia",
-                  "fr": "Île-de-France",
-                  "ja": "イル・ド・フランス",
-                  "pt-BR": "Ilha de França",
-                  "ru": "Иль-де-Франс",
-                  "zh-CN": "法兰西岛"
-                }
-              },
-              {
-                "geoname_id": 2968815,
-                "iso_code": "75",
-                "names": {
-                  "de": "Département Paris",
-                  "en": "Paris Department",
-                  "es": "Departamento de París",
-                  "fr": "Département de Paris"
-                }
-              }
-            ]
-          }
-        }
-      ]
+      "trackers": null,
+      "cookies": null,
+      "headers": null
     },
     "wappalyzer": {
       "urls": {
@@ -13605,8 +10954,58 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 5 Jul 2026 02:52:22",
-      "created": "2026-07-05T02:52:22.766204205Z",
+      "@generated": "Sun, 12 Jul 2026 05:35:52",
+      "created": "2026-07-12T05:35:52.757642655Z",
+      "insights": [
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "",
+          "key": "insight.network.failure",
+          "description": "Percentage of network failures",
+          "statistic": "50"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.tpee.urssaf.fr",
+          "key": "insight.code.2xx",
+          "description": "Percentage of responses with status code 2xx",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.tpee.urssaf.fr",
+          "key": "insight.endpoint.ctype.text/html",
+          "description": "Percentage of endpoints with content type text/html",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.tpee.urssaf.fr",
+          "key": "insight.endpoint.method.GET",
+          "description": "Percentage of endpoints with method GET",
+          "statistic": "100"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.tpee.urssaf.fr",
+          "key": "insight.endpoint.total",
+          "description": "Count of total endpoints",
+          "statistic": "2"
+        },
+        {
+          "level": "Info",
+          "reason": "Informational",
+          "site": "https://www.tpee.urssaf.fr",
+          "key": "insight.response.slow",
+          "description": "Percentage of slow responses",
+          "statistic": "100"
+        }
+      ],
       "site": [
         {
           "@name": "https://www.tpee.urssaf.fr",
@@ -13706,6 +11105,13 @@
               "desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>"
             },
             {
+              "name": "Timestamp Disclosure - Unix",
+              "riskcode": "1",
+              "confidence": "1",
+              "riskdesc": "Low (Low)",
+              "desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>"
+            },
+            {
               "name": "X-Content-Type-Options Header Missing",
               "riskcode": "1",
               "confidence": "2",
@@ -13724,7 +11130,7 @@
               "riskcode": "0",
               "confidence": "2",
               "riskdesc": "Informational (Medium)",
-              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>"
+              "desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Client Spider may well be more effective than the standard one.</p>"
             },
             {
               "name": "Re-examine Cache-control Directives",
@@ -13785,7 +11191,7 @@
       {
         "requestedUrl": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
         "finalUrl": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-        "fetchTime": "2026-07-05T02:52:40.136Z",
+        "fetchTime": "2026-07-12T05:36:08.779Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -13796,7 +11202,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.22
+            "score": 0.2
           },
           "accessibility": {
             "title": "Accessibility",
@@ -13848,53 +11254,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 12710,
+            "numericValue": 24213,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5989,
-                  "firstMeaningfulPaint": 5989,
-                  "largestContentfulPaint": 8684,
-                  "interactive": 12710,
-                  "speedIndex": 6913,
-                  "totalBlockingTime": 2096,
-                  "maxPotentialFID": 2351,
+                  "firstContentfulPaint": 5759,
+                  "firstMeaningfulPaint": 5759,
+                  "largestContentfulPaint": 8016,
+                  "interactive": 24213,
+                  "speedIndex": 6411,
+                  "totalBlockingTime": 15689,
+                  "maxPotentialFID": 10000,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 518854164,
+                  "observedTimeOriginTs": 658670094,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 518854164,
-                  "observedFirstPaint": 1751,
-                  "observedFirstPaintTs": 520604864,
-                  "observedFirstContentfulPaint": 1751,
-                  "observedFirstContentfulPaintTs": 520604864,
-                  "observedFirstContentfulPaintAllFrames": 1751,
-                  "observedFirstContentfulPaintAllFramesTs": 520604864,
-                  "observedFirstMeaningfulPaint": 1751,
-                  "observedFirstMeaningfulPaintTs": 520604864,
-                  "observedLargestContentfulPaint": 1897,
-                  "observedLargestContentfulPaintTs": 520751284,
-                  "observedLargestContentfulPaintAllFrames": 1897,
-                  "observedLargestContentfulPaintAllFramesTs": 520751284,
-                  "observedTraceEnd": 5498,
-                  "observedTraceEndTs": 524352472,
-                  "observedLoad": 2330,
-                  "observedLoadTs": 521184625,
+                  "observedNavigationStartTs": 658670094,
+                  "observedFirstPaint": 1607,
+                  "observedFirstPaintTs": 660276739,
+                  "observedFirstContentfulPaint": 1782,
+                  "observedFirstContentfulPaintTs": 660451689,
+                  "observedFirstContentfulPaintAllFrames": 1782,
+                  "observedFirstContentfulPaintAllFramesTs": 660451689,
+                  "observedFirstMeaningfulPaint": 1782,
+                  "observedFirstMeaningfulPaintTs": 660451689,
+                  "observedLargestContentfulPaint": 1824,
+                  "observedLargestContentfulPaintTs": 660493919,
+                  "observedLargestContentfulPaintAllFrames": 1824,
+                  "observedLargestContentfulPaintAllFramesTs": 660493919,
+                  "observedTraceEnd": 8397,
+                  "observedTraceEndTs": 667067359,
+                  "observedLoad": 2613,
+                  "observedLoadTs": 661282776,
                   "observedDomContentLoaded": 1,
-                  "observedDomContentLoadedTs": 518855135,
+                  "observedDomContentLoadedTs": 658670745,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1751,
-                  "observedFirstVisualChangeTs": 520605164,
-                  "observedLastVisualChange": 2044,
-                  "observedLastVisualChangeTs": 520898164,
-                  "observedSpeedIndex": 1787,
-                  "observedSpeedIndexTs": 520640861
+                  "observedFirstVisualChange": 1607,
+                  "observedFirstVisualChangeTs": 660277094,
+                  "observedLastVisualChange": 1824,
+                  "observedLastVisualChangeTs": 660494094,
+                  "observedSpeedIndex": 1660,
+                  "observedSpeedIndexTs": 660330226
                 },
                 {
                   "lcpInvalidated": false
@@ -13916,19 +11322,19 @@
                   "numScripts": 18,
                   "numStylesheets": 9,
                   "numFonts": 0,
-                  "numTasks": 1031,
-                  "numTasksOver10ms": 10,
-                  "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 3,
-                  "numTasksOver100ms": 2,
-                  "numTasksOver500ms": 1,
-                  "rtt": 1.113999999999976,
-                  "throughput": 8803509.04049917,
-                  "maxRtt": 147.384,
-                  "maxServerLatency": 179.22500000000008,
-                  "totalByteWeight": 849104,
-                  "totalTaskTime": 1004.8210000000001,
-                  "mainDocumentTransferSize": 10525
+                  "numTasks": 1078,
+                  "numTasksOver10ms": 18,
+                  "numTasksOver25ms": 15,
+                  "numTasksOver50ms": 12,
+                  "numTasksOver100ms": 7,
+                  "numTasksOver500ms": 2,
+                  "rtt": 1.3649999999999949,
+                  "throughput": 9063853.239058828,
+                  "maxRtt": 84.433,
+                  "maxServerLatency": 5.535999999999987,
+                  "totalByteWeight": 845807,
+                  "totalTaskTime": 4782.113999999999,
+                  "mainDocumentTransferSize": 10983
                 }
               ]
             }
@@ -13950,7 +11356,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm",
-        "size": 1095.466,
+        "size": 1092.42,
         "nodes": 93,
         "requests": 40,
         "grade": "B",
@@ -13958,7 +11364,7 @@
         "ges": 1.4,
         "water": 2.1,
         "ecoindex_version": "5.4.2",
-        "date": "2026-07-05 02:48:19.209224",
+        "date": "2026-07-12 05:27:16.507087",
         "page_type": null
       }
     ],
@@ -13970,13 +11376,13 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-12-19T23:59:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "E",
-      "cookiesCount": 8,
-      "trackersGrade": "C",
-      "trackersCount": 5,
-      "zapCount": 14,
+      "cookiesGrade": null,
+      "cookiesCount": null,
+      "trackersGrade": null,
+      "trackersCount": null,
+      "zapCount": 15,
       "zapGrade": "D",
-      "lighthouse_performance": 0.22,
+      "lighthouse_performance": 0.2,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
