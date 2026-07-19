@@ -1,9 +1,17 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 12 Jul 2026 04:23:49",
-	"created": "2026-07-12T04:23:49.392051918Z",
+	"@generated": "Sun, 19 Jul 2026 04:19:39",
+	"created": "2026-07-19T04:19:39.653102723Z",
 	"insights":[
+		{
+			"level": "Low",
+			"reason": "Warning",
+			"site": "",
+			"key": "insight.log.error",
+			"description": "ZAP errors logged - see the zap.log file for details",
+			"statistic": "1"
+		},
 		{
 			"level": "Info",
 			"reason": "Informational",
