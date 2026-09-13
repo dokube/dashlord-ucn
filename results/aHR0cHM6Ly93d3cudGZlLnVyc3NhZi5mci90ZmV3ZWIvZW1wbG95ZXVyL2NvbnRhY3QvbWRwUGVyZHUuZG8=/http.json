@@ -1,0 +1,146 @@
+{
+  "scan": {
+    "algorithmVersion": 4,
+    "grade": "D",
+    "error": null,
+    "score": 35,
+    "statusCode": 200,
+    "testsFailed": 5,
+    "testsPassed": 5,
+    "testsQuantity": 10,
+    "responseHeaders": {
+      "date": "Sun, 13 Sep 2026 05:34:17 GMT",
+      "content-language": "fr-FR",
+      "content-type": "text/html; charset=ISO-8859-1",
+      "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
+      "vary": "Accept-Encoding",
+      "set-cookie": [
+        "JSESSIONID=H2HTqm1Zs1tkVGMdPyBvHGq1T19CMNhW1gLp2Zqzq225LcQj2pkw!-1118667577; path=/; HttpOnly=",
+        "TS01ed8266=01825cd9a69e257c41777e04ef1a583063e45ba642df18ab2e2cc3adadc5641641dada38bafb1e6e1136c99c787f8a56b0c07ceb73b5eb0dec2ec758a2be0c3c0d8c0120f3; Path=/; Domain=.www.tfe.urssaf.fr",
+        "TS757e037c029=08864aa589ab28000e0ae893893b8b56e22f58e637cbd36d431aec4f9086d6e0f574b924e868bdc15dbbc3c7926c3ea0; Max-Age=30; Path=/",
+        "TS973e1ca1027=08864aa589ab2000bdc2583144033998b6ccbb0db47b0adea04dbba3ae9aad040929885d7ff48935088c2310c0113000b5d21a58d116d29ac244956c08d8b358271ecba6dc55fd20687e329dcd8cea2fb972b92e493f3c3f94af379b97909b57; Path=/"
+      ],
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    }
+  },
+  "tests": {
+    "content-security-policy": {
+      "expectation": "csp-implemented-with-no-unsafe",
+      "pass": false,
+      "result": "csp-not-implemented",
+      "scoreModifier": -25,
+      "data": null,
+      "http": false,
+      "meta": false,
+      "policy": null,
+      "numPolicies": 0
+    },
+    "cookies": {
+      "expectation": "cookies-secure-with-httponly-sessions",
+      "pass": false,
+      "result": "cookies-session-without-secure-flag-but-protected-by-hsts",
+      "scoreModifier": -10,
+      "data": {
+        "JSESSIONID": {
+          "domain": "www.tfe.urssaf.fr",
+          "httponly": true,
+          "path": "/",
+          "port": null
+        },
+        "TS01ed8266": {
+          "domain": "www.tfe.urssaf.fr",
+          "path": "/",
+          "port": null
+        },
+        "TS757e037c029": {
+          "domain": "www.tfe.urssaf.fr",
+          "max-age": 30,
+          "path": "/",
+          "port": null
+        },
+        "TS973e1ca1027": {
+          "domain": "www.tfe.urssaf.fr",
+          "path": "/",
+          "port": null
+        }
+      },
+      "sameSite": false
+    },
+    "cross-origin-resource-sharing": {
+      "expectation": "cross-origin-resource-sharing-not-implemented",
+      "pass": true,
+      "result": "cross-origin-resource-sharing-not-implemented",
+      "scoreModifier": 0,
+      "data": null
+    },
+    "redirection": {
+      "expectation": "redirection-to-https",
+      "pass": true,
+      "result": "redirection-to-https",
+      "scoreModifier": 0,
+      "destination": "https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "redirects": true,
+      "route": [
+        "http://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      ],
+      "statusCode": 200
+    },
+    "referrer-policy": {
+      "expectation": "referrer-policy-private",
+      "pass": true,
+      "result": "referrer-policy-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    },
+    "strict-transport-security": {
+      "expectation": "hsts-implemented-max-age-at-least-six-months",
+      "pass": true,
+      "result": "hsts-implemented-max-age-at-least-six-months",
+      "scoreModifier": 0,
+      "data": "max-age=16070400; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "maxAge": 16070400,
+      "preload": true,
+      "preloaded": false
+    },
+    "subresource-integrity": {
+      "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+      "pass": false,
+      "result": "sri-not-implemented-but-external-scripts-loaded-securely",
+      "scoreModifier": -5,
+      "data": {
+        "https://cdn.tagcommander.com/4736/tc_Acoss_44.js": {
+          "crossorigin": null,
+          "integrity": null
+        }
+      }
+    },
+    "x-content-type-options": {
+      "expectation": "x-content-type-options-nosniff",
+      "pass": false,
+      "result": "x-content-type-options-not-implemented",
+      "scoreModifier": -5,
+      "data": null
+    },
+    "x-frame-options": {
+      "expectation": "x-frame-options-sameorigin-or-deny",
+      "pass": false,
+      "result": "x-frame-options-not-implemented",
+      "scoreModifier": -20,
+      "data": null
+    },
+    "cross-origin-resource-policy": {
+      "expectation": "corp-implemented-with-same-site",
+      "pass": true,
+      "result": "corp-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    }
+  }
+}

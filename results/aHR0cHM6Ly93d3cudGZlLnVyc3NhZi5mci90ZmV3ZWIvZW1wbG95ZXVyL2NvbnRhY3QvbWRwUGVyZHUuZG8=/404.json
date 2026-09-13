@@ -1,0 +1,385 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.tfe.urssaf.fr",
+        "port": null,
+        "hostname": "www.tfe.urssaf.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:24:49--  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:%202)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:%202)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:%202)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try: 2)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:24:51--  (try: 2)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:%203)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:%203)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:%203)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try: 3)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:24:53--  (try: 3)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:%204)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:%204)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:%204)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try: 4)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:24:56--  (try: 4)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:%205)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:%205)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:%205)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try: 5)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:25:01--  (try: 5)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:%206)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:%206)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:%206)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try: 6)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:25:06--  (try: 6)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:%207)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:%207)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:%207)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try: 7)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:25:13--  (try: 7)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:%208)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:%208)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:%208)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try: 8)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:25:20--  (try: 8)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:%209)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:%209)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:%209)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try: 9)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:25:29--  (try: 9)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:10)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:10)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:10)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:10)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:25:38--  (try:10)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:11)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:11)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:11)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:11)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:25:49--  (try:11)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:12)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:12)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:12)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:12)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:25:59--  (try:12)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:13)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:13)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:13)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:13)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:26:10--  (try:13)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:14)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:14)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:14)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:14)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:26:20--  (try:14)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:15)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:15)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:15)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:15)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:26:31--  (try:15)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:16)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:16)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:16)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:16)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:26:41--  (try:16)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:17)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:17)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:17)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:17)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:26:51--  (try:17)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:18)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:18)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:18)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:18)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:27:02--  (try:18)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:19)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:19)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:19)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:19)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:27:12--  (try:19)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": null,
+        "slashes": null,
+        "auth": null,
+        "host": null,
+        "port": null,
+        "hostname": null,
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "(try:20)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "path": "(try:20)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "href": "(try:20)%20%20https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do"
+      },
+      "link": "(try:20)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "line": "--2026-09-13 05:27:23--  (try:20)  https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+      "broken": false
+    }
+  ],
+  "broken": []
+}

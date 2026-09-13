@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.tfe.urssaf.fr/tfeweb/employeur/contact/mdpPerdu.do",
+        "size": 1239.758,
+        "nodes": 158,
+        "requests": 37,
+        "grade": "B",
+        "score": 78.0,
+        "ges": 1.44,
+        "water": 2.16,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-09-13 05:24:48.343852",
+        "page_type": null
+    }
+]
