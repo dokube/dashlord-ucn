@@ -9,7 +9,7 @@
     "testsPassed": 6,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 06 Sep 2026 05:43:35 GMT",
+      "date": "Sun, 13 Sep 2026 05:57:28 GMT",
       "last-modified": "Tue, 24 Feb 2026 12:07:30 GMT",
       "etag": "\"72-bb4ca480\"",
       "accept-ranges": "bytes",
@@ -18,9 +18,9 @@
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "vary": "Accept-Encoding",
       "set-cookie": [
-        "TS0175fd60=01825cd9a62dd8543cd629a53e8f3fb2be0a77fb4b6c78142a654306f3ff35a00f39fef9ef1622a66294a581efee811093bffdd776; Path=/; Domain=.www.tpee.urssaf.fr",
-        "TSd15bbf8a029=08864aa589ab28004c632c5572f4a21ba0869c63e2ba147627fe48a7e936d9583998c54dd8d8107ebfbfeda9ae37dafb; Max-Age=30; Path=/",
-        "TS331ba057027=08864aa589ab2000a1e242501c2de8b517a6fbf0b99109b8d436dfb6f0aaf8f2944e2851f358c9020808269940113000433ec803af5212a25f2086b88d97f503591272a34902f350daa7ad07f488efa7f4b09c6c1a4e9958a5d384f87126e9c7; Path=/"
+        "TS0175fd60=01825cd9a604cebfd172a78a2a66d55d97fd464262c1b8ad72a9c2ca8feb9a47b9efb5581a23a4bd3abe514eedffe542eb47db0088; Path=/; Domain=.www.tpee.urssaf.fr",
+        "TSd15bbf8a029=08864aa589ab28007d8f872a450649d41d87f344a71acf45b30d5b66055bacb37ef01b8b8e303d0e0fc89706fbfe330e; Max-Age=30; Path=/",
+        "TS331ba057027=08864aa589ab2000ff08b1228b433beb4454959b2d1c6a5c5cdeae12050ee6bbec3bf2d832a78dae086b668592113000ad03f248d1332d25ec3456256c47d8a11533b2a28418ed35af6200157b79cd39b87a7a7c2e208d6fd4eca2d01e8965f3; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
