@@ -269,7 +269,7 @@
               "ip"           : "www.urssaf.fr/193.178.136.246",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0AFC020910A26A51669A2A3BF8DCD9C7"
+              "finding"      : "0E043DD04F7A8C4268394F5698A3FFE0"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "www.urssaf.fr/193.178.136.246",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F5260662857168189749CF8078D0E6D6B93F83B7"
+              "finding"      : "37862851CEAEC4C2144C562E4593D092F7F840B6"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.urssaf.fr/193.178.136.246",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "493C46634EA1C8D095A9E038CD96893B0F4518E122F6A88C169CEE730C61D957"
+              "finding"      : "43A6CA5AB61DD78CE05163E39F8BE188A8BE0F4AE0160701F4DEF7CBF9968C20"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.urssaf.fr/193.178.136.246",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIGmTCCBYGgAwIBAgIQCvwCCRCialFmmio7+NzZxzANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR8wHQYDVQQDExZHZW9UcnVzdCBUTFMgUlNBIENBIEcxMB4XDTI1MTAwMTAwMDAwMFoXDTI2MDkzMDIzNTk1OVowgY8xCzAJBgNVBAYTAkZSMRcwFQYDVQQIDA7DjmxlLWRlLUZyYW5jZTESMBAGA1UEBxMJTW9udHJldWlsMT0wOwYDVQQKDDRBZ2VuY2UgQ2VudHJhbGUgRGVzIE9yZ2FuaXNtZXMgRGUgU8OpY3VyaXTDqSBTb2NpYWxlMRQwEgYDVQQDDAsqLnVyc3NhZi5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMpJopok4IuCKAtiECBedvUONk4qaihgZzhKU76DlmQLSaAVjvJqY7LVbBi8Yh47YPotWGr5DzCU18+YOa3EjPE1FlOtJcLo1FyH0RfGFLV1j2jCUt4E+FDuka8Pmy1VhRtuK8A+BuU18hoKnnEsY5ns9ocEI/5MufODzSVOQ3KlxBVZfiCa1WdTtb9ouXs/mHCUS1oFqGZiu6Dh84n/VGwJ88TFaFKaoXWxSJf885gHo8rFlCv9HVIM+upSwnRlKbbZs1uk3sS/ESqUdF1erLXcTHuNFFOivNB86uQOFKQzx3EsnDbWCx1XQQL47eeiCT1Q9JPbmzWEieo+8Snf1TMCAwEAAaOCAx0wggMZMB8GA1UdIwQYMBaAFJRP1F2L5KTipoD+/dj5AO+jvgJXMB0GA1UdDgQWBBQam/iCUsi53BS/U9SPqMsbrhbjyTAhBgNVHREEGjAYggsqLnVyc3NhZi5mcoIJdXJzc2FmLmZyMD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHA6Ly9jZHAuZ2VvdHJ1c3QuY29tL0dlb1RydXN0VExTUlNBQ0FHMS5jcmwwdgYIKwYBBQUHAQEEajBoMCYGCCsGAQUFBzABhhpodHRwOi8vc3RhdHVzLmdlb3RydXN0LmNvbTA+BggrBgEFBQcwAoYyaHR0cDovL2NhY2VydHMuZ2VvdHJ1c3QuY29tL0dlb1RydXN0VExTUlNBQ0FHMS5jcnQwDAYDVR0TAQH/BAIwADCCAXwGCisGAQQB1nkCBAIEggFsBIIBaAFmAHYA1219ENGn9XfCx+lf1wC/+YLJM1pl4dCzAXMXwMjFaXcAAAGZnwG23gAABAMARzBFAiBBnUgEF1ePjktlxW0mGkjif4m/l+2ePzcnAoAPhmi6vwIhAJzjrCdeYRhMGc6gB0P9dThU0iqIS3tvogePHnE/z266AHUAwjF+V0UZo0XufzjespBB68fCIVoiv3/Vta12mtkOUs0AAAGZnwG3DQAABAMARjBEAiAsofPnVbBPrcDnPuENieS5xa9jeA9D+2PCeH+3TOKKpwIgMk8npu+YaRgmacepBqsY0ME/yHSECywNFNLfCTPyB5gAdQCUTkOH+uzB74HzGSQmqBhlAcfTXzgCAT9yZ31VNy4Z2AAAAZmfAbcjAAAEAwBGMEQCIDCIxu6GMrrdF5HmDph+XGiC+YZawgTwKcvkRgqenie2AiA2zb9byryMdB1k3obMMQhN3LLLtnccHbQoKIpiVcluLDANBgkqhkiG9w0BAQsFAAOCAQEAQQGUITfWKlDy+rVGRrHKpemr5exvnKUVNgj1fdxIowkqnA3HZUgZwdSMFTAxELnSo/DSLOA7i0KaegBwdPSOFTGIG9uw3yO7o3uVXVmCYY7yR+fAGuOhJEi0he36dlS/ORRO6/DoActiVxDgQFE7f6qtti9sILzoaDT+KBnot5UDD8dC9o/XbtCo7SuWJfOCK9Mm9jMV3pceOaRadcT0sdyugU28dXom6BR+8ZwvHqk7HR9wpIETe7iDMerZIThth2mZNnvkKQayvBGmI1PTngNRmvue6Q8gx5K7KCWOJa+gxh0JRGK7epx6LmUFEoDWZOhB8g60GmLAcc2zmh0jVg==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -318,7 +318,7 @@
               "ip"           : "www.urssaf.fr/193.178.136.246",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "*.urssaf.fr urssaf.fr"
+              "finding"      : "*.urssaf.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -352,22 +352,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.urssaf.fr/193.178.136.246",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (24)"
+              "severity"     : "OK",
+              "finding"      : "187 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.urssaf.fr/193.178.136.246",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2025-10-01 00:00"
+              "finding"      : "2026-09-02 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.urssaf.fr/193.178.136.246",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2026-09-30 23:59"
+              "severity"     : "OK",
+              "finding"      : "2027-03-19 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -607,7 +607,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=493C46634EA1C8D095A9E038CD96893B0F4518E122F6A88C169CEE730C61D957"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=43A6CA5AB61DD78CE05163E39F8BE188A8BE0F4AE0160701F4DEF7CBF9968C20"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -983,6 +983,6 @@
               "ip"           : "www.urssaf.fr/193.178.136.246",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "97"
+              "finding"      : "60"
           }
 ]
