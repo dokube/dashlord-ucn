@@ -21,9 +21,9 @@
 <span style="font-weight:bold;">#####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad (Mar 28 2025)</i>  [~183 ciphers]
-  on runnervmlun5p:/home/testssl/bin/openssl.Linux.x86_64
+  on runnervmtr4k5:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2026-09-20 04:32:23        --&gt;&gt; 193.178.136.246:443 (www.urssaf.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-09-27 04:54:14        --&gt;&gt; 193.178.136.246:443 (www.urssaf.fr) &lt;&lt;--</span>
 
  rDNS (193.178.136.246): --
  Service detected:       Couldn&apos;t determine what&apos;s running on port 443, assuming no HTTP service =&gt; skipping all HTTP checks
@@ -93,17 +93,17 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>0E043DD04F7A8C4268394F5698A3FFE0 (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 37862851CEAEC4C2144C562E4593D092F7F840B6
-                              SHA256 43A6CA5AB61DD78CE05163E39F8BE188A8BE0F4AE0160701F4DEF7CBF9968C20
-<span style="font-weight:bold;"> Common Name (CN)             </span><i>*.urssaf.fr </i>
-<span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>*.urssaf.fr </i>
-<span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN wildcard and CN wildcard</span> (same w/o SNI)
+<span style="font-weight:bold;"> Serial                       </span>0374547D467151D0259A065380026705 (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 F0C2CC65746A0DFBE1B25ED397ED29EAEFA2B997
+                              SHA256 92A79ED61E746D55D336ACAE130C41411AFCB2BF47C6F954BD5CEFB9ED5A1C2A
+<span style="font-weight:bold;"> Common Name (CN)             </span><i>urssaf.fr </i> (CN in response to request w/o SNI: <i>*.urssaf.fr </i>)
+<span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>urssaf.fr www.urssaf.fr </i>
+<span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN</span> (works w/o SNI)
                               <span style="color:#a86437;">wildcard certificate</span> could be problematic, see other hosts at
-                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=43A6CA5AB61DD78CE05163E39F8BE188A8BE0F4AE0160701F4DEF7CBF9968C20
+                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=92A79ED61E746D55D336ACAE130C41411AFCB2BF47C6F954BD5CEFB9ED5A1C2A
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">180 &gt;= 60 days</span> (2026-09-02 00:00 --&gt; 2027-03-19 23:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#e52207;">expires &lt; 30 days (19)</span> (2026-04-01 00:00 --&gt; 2026-10-16 23:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://cdp.geotrust.com/GeoTrustTLSRSACAG1.crl
 <span style="font-weight:bold;"> OCSP URI                     </span>http://status.geotrust.com
@@ -134,7 +134,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=43A6CA5AB61DD78CE05163E39F8BE188A8BE0F4AE0160701F4DEF7CBF9968C20" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=43A6CA5AB61DD78CE05163E39F8BE188A8BE0F4AE0160701F4DEF7CBF9968C20</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=92A79ED61E746D55D336ACAE130C41411AFCB2BF47C6F954BD5CEFB9ED5A1C2A" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=92A79ED61E746D55D336ACAE130C41411AFCB2BF47C6F954BD5CEFB9ED5A1C2A</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
@@ -156,8 +156,8 @@ Could not determine the protocol, only simulating generic clients.
  Android 15 (native)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">X25519MLKEM768</span>
  Chrome 101 (Win 10)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Chromium 137 (Win 11)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">X25519MLKEM768</span>
- Firefox 100 (Win 10)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">256 bit ECDH (P-256)</span>
- Firefox 137 (Win 11)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">256 bit ECDH (P-256)</span>
+ Firefox 100 (Win 10)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Firefox 137 (Win 11)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">X25519MLKEM768</span>
  IE 8 Win 7                   No connection
  IE 11 Win 7                  No connection
  IE 11 Win 8.1                No connection
@@ -170,10 +170,10 @@ Could not determine the protocol, only simulating generic clients.
  Safari 15.4 (macOS 12.3.1)   TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Safari 18.4 (macOS 15.4)     TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Java 7u25                    No connection
- Java 8u442 (OpenJDK)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">256 bit ECDH (P-256)</span>
+ Java 8u442 (OpenJDK)         TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  Java 11.0.2 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">256 bit ECDH (P-256)</span>
- Java 17.0.3 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">256 bit ECDH (P-256)</span>
- Java 21.0.6 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">256 bit ECDH (P-256)</span>
+ Java 17.0.3 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
+ Java 21.0.6 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  go 1.17.8                    TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  LibreSSL 3.3.6 (macOS)       TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  OpenSSL 1.0.2e               TLSv1.2   ECDHE-RSA-AES256-GCM-SHA384       <span style="color:#008817;">384 bit ECDH (P-384)</span>
@@ -181,7 +181,7 @@ Could not determine the protocol, only simulating generic clients.
  OpenSSL 3.0.15 (Debian)      TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
  OpenSSL 3.5.0 (git)          TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">X25519MLKEM768</span>
  Apple Mail (16.0)            TLSv1.2   ECDHE-RSA-AES256-GCM-SHA384       <span style="color:#008817;">384 bit ECDH (P-384)</span>
- Thunderbird (91.9)           TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">256 bit ECDH (P-256)</span>
+ Thunderbird (91.9)           TLSv1.3   TLS_AES_256_GCM_SHA384            <span style="color:#008817;">253 bit ECDH (X25519)</span>
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Rating (experimental) </span>
@@ -194,7 +194,7 @@ Could not determine the protocol, only simulating generic clients.
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2026-09-20 04:33:46 [  86s] --&gt;&gt; 193.178.136.246:443 (www.urssaf.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-09-27 04:55:50 [ 103s] --&gt;&gt; 193.178.136.246:443 (www.urssaf.fr) &lt;&lt;--</span>
 
 
 </pre>
