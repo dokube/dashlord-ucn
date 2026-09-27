@@ -9,9 +9,9 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 20 Sep 2026 05:09:22 GMT",
-      "last-modified": "Wed, 27 May 2026 10:46:42 GMT",
-      "etag": "\"237a-652ca53bc8880\"",
+      "date": "Sun, 27 Sep 2026 05:31:31 GMT",
+      "last-modified": "Fri, 11 Sep 2026 10:54:13 GMT",
+      "etag": "\"1680-65b32e7a35f40\"",
       "accept-ranges": "bytes",
       "content-security-policy": "default-src 'self' *.youtube.com *.gstatic.com *.googleapis.com *.hcaptcha.com *.data.gouv.fr *.api.gouv.fr *.googletagmanager.com *.google.com voxusagers.numerique.gouv.fr *.urssaf.fr *.tagcommander.com *.commander1.com *.trustcommander.net tag.aticdn.net *.smartly.ai widget.rogervoice.com production-rogeraccess.rogervoice.com production-rogeraccess-webapp.rogervoice.com *.abtasty.com *.amazonaws.com *.mopinion.com *.mouseflow.com *.doyoudreamup.com *.dydu.ai *.cobrowse.io 'unsafe-inline' 'unsafe-eval' data: wss: blob:;",
       "x-xss-protection": "1; mode=block",
@@ -24,9 +24,9 @@
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
       "vary": "Accept-Encoding",
       "set-cookie": [
-        "TS012b5fcd=01825cd9a6cc5e44edf80e5675b4adec57d3868e3050d025798a962e6ec3b58e4fc4fec669e5baab47f2f8c28bb21ca3f1805b5d30; Path=/; Domain=.www.cesu.urssaf.fr",
-        "TSb8ac319d029=08864aa589ab280089bdcb7a8f5c675ccc2f5f58bb8be014e56f2fd1921e5aba0664ea36a7479801bc7c47c24cc54c49; Max-Age=30; Path=/",
-        "TS5aec2e40027=08864aa589ab2000d33228087b1eaf0697916e2414bf5138ec9dc0dfb6bccf286141a9404874ea9a08acc955231130003f9f2a2bbd9e190fd712b0510f7c3187d2fae2643715a09c77263a7b73ff770462fe7c9fad063772a64bed40b5c08e9f; Path=/"
+        "TS012b5fcd=01825cd9a664e409b16c72009aba2287beab6cd88e944a41c143930f782f1630bb6a5248d40ac5377f64a5100255f1acfab0ce58a8; Path=/; Domain=.www.cesu.urssaf.fr",
+        "TSb8ac319d029=08864aa589ab2800c0c864cfd6df4368fc0c9392dd00986280c6384e39a366fd70473ec304aeb93a7bf79129d1f99509; Max-Age=30; Path=/",
+        "TS5aec2e40027=08864aa589ab20004f5baf0039353f897c8cb7e4b7b2091322541700e7ae6e00b00d4551a4cd2c0608e9940610113000c2026778d72fc8634cc0e37c6ecb036dded9b65698f721a08e632e937202c58f001b94281e27b49c4eb5ec0fa333c452; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
