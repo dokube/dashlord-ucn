@@ -1,23 +1,28 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "F",
+    "grade": "C-",
     "error": null,
-    "score": 15,
+    "score": 45,
     "statusCode": 200,
-    "testsFailed": 5,
-    "testsPassed": 5,
+    "testsFailed": 3,
+    "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 20 Sep 2026 06:10:30 GMT",
+      "date": "Sun, 27 Sep 2026 06:32:03 GMT",
       "cache-control": "no-cache=\"Set-Cookie\"",
+      "content-security-policy": "object-src 'self'",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
       "set-cookie": [
-        "JSESSIONID=nMlLqv4WsnzMhL3Tnhn7BjKGxnGjmpvk2yS0DKtlG13DYbzCzJnh!-1510688052; expires=Sunday, 20-Sep-2026 06:40:30 GMT; path=/; secure",
-        "TS0175fd60=01825cd9a68b87a80fb7d3078dbd707788b60e0f245de80ad020e5c7d7dca57cb308d86cc1697939d3cd37b99c0e96e506eda7e39cc1f4b48c0b2a0fd33eda5d940272efed; Path=/; Domain=.www.tpee.urssaf.fr",
-        "TSd15bbf8a029=08864aa589ab2800789ff0b26fe7ee59a41c7c072d8709ddf421ca8161937b46e10c43c52f5abe42581ab1b17d669e55; Max-Age=30; Path=/",
-        "TS331ba057027=08864aa589ab200017d2ddcab4e3b5ff3972621fdcc163a2a6d634c5506e6a864a0738d19cd87a01087a3ceba5113000c43940b85f32200ed304a377588d52120d0802067835c0f16cf8cb9bd8fc6fa91269d02abc7581f64c492b6354850dc7; Path=/"
+        "JSESSIONID=6J06q44D5QcZ2QQTQqcVRS27H1hc80wCNG4fcn5nTQ5h2By392Lt!-1235791109; expires=Sunday, 27-Sep-2026 07:02:03 GMT; path=/; secure",
+        "TS0175fd60=01825cd9a61554c2026832e98fbf5e70b65835f7c6490596ce4c06496614042b2c3bb25d732eb3a7f5089af5a9f14166c5c95740a1604185519924c43f64b25ceef8ec07e6; Path=/; Domain=.www.tpee.urssaf.fr",
+        "TSd15bbf8a029=08864aa589ab2800c696df13815ab6944e0c75082941b627560559dd129b3e026e64c43d85646380271cd56cae0580a8; Max-Age=30; Path=/",
+        "TS331ba057027=08864aa589ab2000e22958475d693086e450a46a6ecab31763fe150063877ba3e96be5dbc8946bab08a21897ef11300094a8c11c4a6bcba58fd33fa8028b271ea68bd4b8f1634c7189e38a08d63fb157334111a450cfdf3722ed81d74780cdf0; Path=/"
       ],
       "content-language": "fr-FR",
+      "x-content-security-policy": "object-src 'self'",
+      "x-frame-options": "SAMEORIGIN",
       "content-type": "text/html; charset=ISO-8859-1",
       "connection": "close",
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
@@ -29,13 +34,29 @@
     "content-security-policy": {
       "expectation": "csp-implemented-with-no-unsafe",
       "pass": false,
-      "result": "csp-not-implemented",
-      "scoreModifier": -25,
-      "data": null,
-      "http": false,
+      "result": "csp-implemented-with-unsafe-inline",
+      "scoreModifier": -20,
+      "data": {
+        "object-src": [
+          "'self'"
+        ]
+      },
+      "http": true,
       "meta": false,
-      "policy": null,
-      "numPolicies": 0
+      "policy": {
+        "antiClickjacking": false,
+        "defaultNone": false,
+        "insecureBaseUri": true,
+        "insecureFormAction": true,
+        "insecureSchemeActive": false,
+        "insecureSchemePassive": false,
+        "strictDynamic": false,
+        "unsafeEval": false,
+        "unsafeInline": true,
+        "unsafeInlineStyle": true,
+        "unsafeObjects": false
+      },
+      "numPolicies": 1
     },
     "cookies": {
       "expectation": "cookies-secure-with-httponly-sessions",
@@ -45,7 +66,7 @@
       "data": {
         "JSESSIONID": {
           "domain": "www.tpee.urssaf.fr",
-          "expires": "2026-09-20T06:40:30.000Z",
+          "expires": "2026-09-27T07:02:03.000Z",
           "path": "/",
           "port": null,
           "secure": true
@@ -92,10 +113,10 @@
     "referrer-policy": {
       "expectation": "referrer-policy-private",
       "pass": true,
-      "result": "referrer-policy-not-implemented",
-      "scoreModifier": 0,
-      "data": null,
-      "http": false,
+      "result": "referrer-policy-private",
+      "scoreModifier": 5,
+      "data": "strict-origin-when-cross-origin",
+      "http": true,
       "meta": false
     },
     "strict-transport-security": {
@@ -123,17 +144,17 @@
     },
     "x-content-type-options": {
       "expectation": "x-content-type-options-nosniff",
-      "pass": false,
-      "result": "x-content-type-options-not-implemented",
-      "scoreModifier": -5,
-      "data": null
+      "pass": true,
+      "result": "x-content-type-options-nosniff",
+      "scoreModifier": 0,
+      "data": "nosniff"
     },
     "x-frame-options": {
       "expectation": "x-frame-options-sameorigin-or-deny",
-      "pass": false,
-      "result": "x-frame-options-not-implemented",
-      "scoreModifier": -20,
-      "data": null
+      "pass": true,
+      "result": "x-frame-options-sameorigin-or-deny",
+      "scoreModifier": 0,
+      "data": "SAMEORIGIN"
     },
     "cross-origin-resource-policy": {
       "expectation": "corp-implemented-with-same-site",
