@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://www.tfe.urssaf.fr",
+        "size": 1550.152,
+        "nodes": 360,
+        "requests": 26,
+        "grade": "B",
+        "score": 71.0,
+        "ges": 1.58,
+        "water": 2.37,
+        "ecoindex_version": "5.4.2",
+        "date": "2026-10-04 06:07:18.378775",
+        "page_type": null
+    }
+]
