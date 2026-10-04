@@ -218,7 +218,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 27 Sept 2026 06:31:19
+		Generated on Sun, 4 Oct 2026 06:52:43
 	</h3>
 
 	<h3>
@@ -259,7 +259,7 @@ td {
 					<div>Low</div>
 				</td>
 				<td align="center">
-					<div>10</div>
+					<div>11</div>
 				</td>
 			</tr>
 			<tr>
@@ -559,6 +559,14 @@ td {
 			</tr>
 			<tr>
 				<td><a href="#10063">Permissions Policy Header Not Set</a></td>
+				<td align="center" class="risk-1">Low</td>
+				
+				
+				<td align="center">2</td>
+				
+			</tr>
+			<tr>
+				<td><a href="#10096">Timestamp Disclosure - Unix</a></td>
 				<td align="center" class="risk-1">Low</td>
 				
 				
@@ -2988,6 +2996,140 @@ td {
 			<table class="results">
 				<tr height="24">
 					<th width="20%" class="risk-1"><a
+						id="10096"></a>
+						<div>Low</div></th>
+					<th class="risk-1">Timestamp Disclosure - Unix</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>A timestamp was disclosed by the application/web server. - Unix</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm">https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">1530189779</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>1530189779, which evaluates to: 2018-06-28 12:42:59.</div>
+							
+						</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm">https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Node Name</td>
+						<td width="80%">https://www.tpee.urssaf.fr/tpeeweb/informatif/accueil/accueil.htm</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Set-Cookie</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">1530189779</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+							<div>1530189779, which evaluates to: 2018-06-28 12:42:59.</div>
+							
+						</td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					
+					
+					<td width="80%">2</td>
+					
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://cwe.mitre.org/data/definitions/200.html">https://cwe.mitre.org/data/definitions/200.html</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">13</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10096/">10096</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-1"><a
 						id="10021"></a>
 						<div>Low</div></th>
 					<th class="risk-1">X-Content-Type-Options Header Missing</th>
@@ -3135,13 +3277,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Y4MHq44T6tvxnTb7LLq0cXBw7QHNskFJfmq3YkdqFQG2GX8JgztV</td>
+						<td width="80%">LLRfqB3WcxpCYpV5WwYkJL4dVc7fFBMzhnC4pvL1mgnj9KGYlp0n</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">
-							<div>c������6�,��qpp�ͲAI~j�bGj�	�;U</div>
+							<div>,�_��sBb�y[$$�U��3�p�����	������&#39;</div>
 							
 						</td>
 					</tr>
@@ -3381,7 +3523,7 @@ window[&quot;loaderConfig&quot;] = &quot;/TSPD/?type=21&quot;;
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;a href=&quot;/tpeeweb/adhesion/create/createAdhesion.htm;jsessionid=MN2Lq0MFTJ9TQnWNx9BJyGT0LQBwPQQHQhkyxjZQ1M53CNrr46Ls!-1235791109&quot; title=&quot;Adhésion&quot; alt=&quot;Adhésion&quot; target=&quot;_self&quot;&gt;Adhésion&lt;/a&gt;</td>
+						<td width="80%">&lt;a href=&quot;/tpeeweb/adhesion/create/createAdhesion.htm;jsessionid=ghKdq5KVnBTr32JfNCddvtGyK3l3Q1sCSnD7lM7MmhlHF5GjXg6M!-1530189779&quot; title=&quot;Adhésion&quot; alt=&quot;Adhésion&quot; target=&quot;_self&quot;&gt;Adhésion&lt;/a&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
