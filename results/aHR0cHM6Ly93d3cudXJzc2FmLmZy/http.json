@@ -9,7 +9,7 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 27 Sep 2026 04:54:02 GMT",
+      "date": "Sun, 04 Oct 2026 05:26:42 GMT",
       "content-type": "text/html;charset=UTF-8",
       "connection": "close",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
@@ -25,8 +25,8 @@
       "access-control-allow-headers": "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization",
       "access-control-max-age": "1728000",
       "set-cookie": [
-        "TS5f1c04a0029=08864aa589ab280005114f835d8056d87a141e57b4b86bd001644927516c4981f53ebb3a8814548635afb46c812b68bb; Max-Age=30; Path=/",
-        "TSbd5c1b7d027=08864aa589ab20006aa5a2846c0116b216cb0daafd9c1666167ae98ab3776f8fae7f0af78d97a167083ab6e179113000023624799244b905d73547941004fead64ac46b5c9817ee88f94521309495221f8d53783411283d72fee1309474d4f55; Path=/"
+        "TS5f1c04a0029=08864aa589ab280055efba80b86de48d96a5dc1225c726448e535b69860f0842741abb6eabef9960798da38b394e4eaf; Max-Age=30; Path=/",
+        "TSbd5c1b7d027=08864aa589ab2000934ff962ce80cbc33df7857f8a48eb0d3136b112dcbf0cd6f29f8a9a290772ff089c5cb1bf11300096574e063f611e119b94f5142314d4768bc78b36f07f27926e842c4844cc8558cd57e891cbe30a40e476fbb8d8e43166; Path=/"
       ],
       "transfer-encoding": "chunked"
     }
