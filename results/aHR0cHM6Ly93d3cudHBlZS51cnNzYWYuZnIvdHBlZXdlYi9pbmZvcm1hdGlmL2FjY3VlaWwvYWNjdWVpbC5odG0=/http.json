@@ -9,16 +9,16 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 11 Oct 2026 06:54:57 GMT",
+      "date": "Sun, 18 Oct 2026 05:45:34 GMT",
       "cache-control": "no-cache=\"Set-Cookie\"",
       "content-security-policy": "object-src 'self'",
       "referrer-policy": "strict-origin-when-cross-origin",
       "x-content-type-options": "nosniff",
       "set-cookie": [
-        "JSESSIONID=8pxhqLyBp0wvdrvk9M9ZGnhQD9zpTRjJJJrBqnJ2tJ8Vt2tZ6ss0!-915348116; expires=Sunday, 11-Oct-2026 07:24:57 GMT; path=/; secure",
-        "TS0175fd60=01825cd9a6a248eda6ca63c0ae3113b57954477418e8fc1f10260e1622bed98ebe6bc05c473f2a3e898827ece63d38797fe957859aea369bf26db75e97e2925bfa5cb69138; Path=/; Domain=.www.tpee.urssaf.fr",
-        "TSd15bbf8a029=08864aa589ab2800abd57b6c9180efa3cfb0ecfd1faf1fd0bd7de05d8f077d114b7a1639eb7028501e61ff8c4137bb9c; Max-Age=30; Path=/",
-        "TS331ba057027=08864aa589ab200048ea169fc09e94640019707f2f0ee8641f83bba270765cfd94d181b1f68d2db9085a6a6a37113000854310b4e4fc5bfac483b10e129c3f52556f03df0e9d5de67e922b88cff2662b843c1e0a64cbae9d7e71b99074ad32a7; Path=/"
+        "JSESSIONID=LjDnqJcpgRFR30NmThyy8sTtVw8yp7ptsRbmG722GFcvnd3z196p!-1133593805; expires=Sunday, 18-Oct-2026 06:15:34 GMT; path=/; secure",
+        "TS0175fd60=01825cd9a66c61092b93f8471caa06f150ba7512223af600e348fd8712b7889dcc259a087891fc74ed6e5b18f54771776e3c30cb62b3f448450f23c358bc4ace48c8726ac2; Path=/; Domain=.www.tpee.urssaf.fr",
+        "TSd15bbf8a029=08864aa589ab2800367bbbdc278c7a70e0eae8861e6bec24bf1152d9140b106d3afae0d3c1095fc47cc75e28ecbfa003; Max-Age=30; Path=/",
+        "TS331ba057027=08864aa589ab2000138daa7388df4d934988d6cba003eb912f4545e49f8486aefc4259793961ae94083f48782d11300063c6b23ebff25f9f26cc8f80ba40a6846e4accadf4172c532f4ef2c401c0f921e3d96e5c9cd87be4eac1d4391d02c194; Path=/"
       ],
       "content-language": "fr-FR",
       "x-content-security-policy": "object-src 'self'",
@@ -66,7 +66,7 @@
       "data": {
         "JSESSIONID": {
           "domain": "www.tpee.urssaf.fr",
-          "expires": "2026-10-11T07:24:57.000Z",
+          "expires": "2026-10-18T06:15:34.000Z",
           "path": "/",
           "port": null,
           "secure": true
