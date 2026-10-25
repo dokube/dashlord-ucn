@@ -120,9 +120,9 @@
               "id"           : "cipherlist_OBSOLETED",
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
-              "severity"     : "LOW",
+              "severity"     : "INFO",
               "cwe"          : "CWE-310",
-              "finding"      : "offered"
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "cipherlist_STRONG_NOFS",
@@ -171,7 +171,7 @@
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DHE-RSA-AES256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "FS_KEMs",
@@ -192,14 +192,14 @@
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'server name/#0' 'EC point formats/#11' 'extended master secret/#23' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+              "finding"      : "'server name/#0' 'EC point formats/#11' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "no -- no lifetime advertised"
+              "finding"      : "valid for 300 seconds only (<daily)"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
@@ -213,7 +213,7 @@
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -367,7 +367,7 @@
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "167 >= 60 days"
+              "finding"      : "160 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -557,10 +557,10 @@
               "id"           : "secure_client_renego",
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "OK",
               "cve"          : "CVE-2011-1473",
               "cwe"          : "CWE-310",
-              "finding"      : "VULNERABLE, potential DoS threat"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "CRIME_TLS",
@@ -624,15 +624,6 @@
               "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=7152961245316D622033212F2EEDB8FC111748AE3E21BFAC7F444AFD6AF0144D"
           }
 ,         {
-              "id"           : "LOGJAM-common_primes",
-              "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cve"          : "CVE-2015-4000",
-              "cwe"          : "CWE-310",
-              "finding"      : "RFC7919/ffdhe2048"
-          }
-,         {
               "id"           : "LOGJAM",
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
@@ -640,6 +631,15 @@
               "cve"          : "CVE-2015-4000",
               "cwe"          : "CWE-310",
               "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
           }
 ,         {
               "id"           : "BEAST",
@@ -654,10 +654,10 @@
               "id"           : "LUCKY13",
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
-              "severity"     : "LOW",
+              "severity"     : "OK",
               "cve"          : "CVE-2013-0169",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially vulnerable, uses obsolete TLS CBC ciphers"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "winshock",
@@ -766,14 +766,14 @@
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
@@ -997,6 +997,6 @@
               "ip"           : "www.autoentrepreneur.urssaf.fr/193.178.136.237",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "88"
+              "finding"      : "97"
           }
 ]

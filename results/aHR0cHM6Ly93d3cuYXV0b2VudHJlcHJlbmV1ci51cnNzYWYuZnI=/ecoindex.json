@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.autoentrepreneur.urssaf.fr",
-        "size": 4691.987,
-        "nodes": 650,
+        "size": 3888.655,
+        "nodes": 649,
         "requests": 70,
         "grade": "D",
-        "score": 44.0,
-        "ges": 2.12,
-        "water": 3.18,
+        "score": 45.0,
+        "ges": 2.1,
+        "water": 3.15,
         "ecoindex_version": "5.4.2",
-        "date": "2026-10-18 04:21:24.787364",
+        "date": "2026-10-25 04:29:48.575971",
         "page_type": null
     }
 ]
