@@ -50,7 +50,7 @@
 "cert_trust_wildcard","www.urssaf.fr/193.178.136.246","443","LOW","trust is via wildcard","",""
 "cert_chain_of_trust","www.urssaf.fr/193.178.136.246","443","OK","passed.","",""
 "cert_certificatePolicies_EV","www.urssaf.fr/193.178.136.246","443","INFO","no","",""
-"cert_expirationStatus","www.urssaf.fr/193.178.136.246","443","OK","180 >= 60 days","",""
+"cert_expirationStatus","www.urssaf.fr/193.178.136.246","443","OK","173 >= 60 days","",""
 "cert_notBefore","www.urssaf.fr/193.178.136.246","443","INFO","2026-09-30 00:00","",""
 "cert_notAfter","www.urssaf.fr/193.178.136.246","443","OK","2027-04-16 23:59","",""
 "cert_extlifeSpan","www.urssaf.fr/193.178.136.246","443","OK","certificate has no extended life time according to browser forum","",""
