@@ -9,17 +9,17 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 01 Nov 2026 05:34:55 GMT",
+      "date": "Sun, 08 Nov 2026 05:37:38 GMT",
       "content-type": "text/html;charset=UTF-8",
       "connection": "close",
       "expires": "Wed, 09 May 1979 05:30:00 GMT",
       "cache-control": "no-cache, no-store, must-revalidate, proxy-revalidate, max-age=0",
       "pragma": "no-cache",
       "set-cookie": [
-        "JSESSIONID=D40BEA313765D69C0C3A7F4E82A5EE14; Path=/; Secure; HttpOnly",
-        "TS01a8dcfe=01825cd9a605a8abf4753c2f47633452d23758ff8d0d4e2e29abfbea28e1f25cd01fa2a9d909f6c3f3e406a6d827bc06688f55f2a57f66abe479f6d6ac134e60f9c1e05dc0; Path=/; Domain=.www.urssaf.fr",
-        "TS5f1c04a0029=08864aa589ab2800b67095fc71fb97ba9be2e929fba7d20c243d2fa36ace152d9283e6ebbb161ce46d42d6d8ce256136; Max-Age=30; Path=/",
-        "TSbd5c1b7d027=08864aa589ab20009cf38f79509c1acfa12b87fe4d2bd98453698a6611595db3934d9e79b766bf8a0877a058df113000bad76a34c9fee89e965a34fd934038bc3170b158dca750fc0df28415b1bf9130af5f33c9081b3f01d1de33c1ddf92166; Path=/"
+        "JSESSIONID=0A5E6BB9F1F033B073D5F6C7E77BBFEE; Path=/; Secure; HttpOnly",
+        "TS01a8dcfe=01825cd9a610cf307cc4b7a5a8535644c36773d8d69a9bdecded5dcd58552a86f83ab9a1a91f96b7857f6d3bfb11866038140b0c9716b2cadb3e8d3c27958b514e8e3f70bf; Path=/; Domain=.www.urssaf.fr",
+        "TS5f1c04a0029=08864aa589ab2800c9a4a7b353be87929bd83511222119ad890b9072de542a99e8fcb7c2d9ab7fc709f91b42e6e42e71; Max-Age=30; Path=/",
+        "TSbd5c1b7d027=08864aa589ab200049151eb085e06d1f000ae26a241679b3d14678456cc684ad658cf49d03cb781708db079aa1113000786b451acb9a6618034d1a7ec98ac73ed7640091e16ce34aca0fea96dc21c16f5dbe36c6b9f4ad5745062cda977a3b0b; Path=/"
       ],
       "vary": "accept-encoding",
       "strict-transport-security": "max-age=16070400; includeSubDomains; preload",
