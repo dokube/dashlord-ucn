@@ -9,16 +9,16 @@
     "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "date": "Sun, 01 Nov 2026 07:12:31 GMT",
+      "date": "Sun, 08 Nov 2026 07:15:16 GMT",
       "cache-control": "no-cache=\"Set-Cookie\"",
       "content-security-policy": "object-src 'self'",
       "referrer-policy": "strict-origin-when-cross-origin",
       "x-content-type-options": "nosniff",
       "set-cookie": [
-        "JSESSIONID=640Jqmmf9LvwLGc1fd7ngLz2QLxZLTXBPxLRmyqqJHmpcQ01nVH2!1304116915; expires=Sunday, 01-Nov-2026 07:42:31 GMT; path=/; secure",
-        "TS0175fd60=01825cd9a6bd1c69afc007ac01e1482511d3b39a996ad393606c18e9cc28dff702ba60ad92e5b8e9eaecdf6b226ce19b5704878ba1834abc7f8a7123433fc698d85d596f2f; Path=/; Domain=.www.tpee.urssaf.fr",
-        "TSd15bbf8a029=08864aa589ab280022fdc916a929cf3105a8b4744d556063af093b49c6a74672e5c4ec41a4a61db5001cc45d9e67c030; Max-Age=30; Path=/",
-        "TS331ba057027=08864aa589ab2000ff9b80123ec4d75a0eeef7abe56fe6cc0eb77fcc5d3c2b009421e0ee35d3d34608231a8362113000806e82f1a0407668a40c1f2039104838e74bde51d051b5837993f9e6cec253fdbf44995ce2bfa480947a6421c7ee6394; Path=/"
+        "JSESSIONID=cSlFqwhGH7DNpLcLYtGRs1KNLPcg1yl5mzvSPDvMywWSCn31j7W3!-55323159; expires=Sunday, 08-Nov-2026 07:45:17 GMT; path=/; secure",
+        "TS0175fd60=01825cd9a641c4d8ad9c45636f84b44e3035ca0c5c84cf42cb3651e06d9ef7b3c85eb61b0c6ca210f42fcc745923593cfa82d04d0281f7bd20b01cdf78be8d44748045bb19; Path=/; Domain=.www.tpee.urssaf.fr",
+        "TSd15bbf8a029=08864aa589ab2800480dcd4b32be956e91a124efd393258d3efb19dc220eb7533facb1f6be7f09e5bc0ab31714125aa2; Max-Age=30; Path=/",
+        "TS331ba057027=08864aa589ab2000fe1f0b687d78858c4a050261658203c3061e08bd4f649e0713e00b4252bde973084608d7401130003bc361fbf9210e96ca40495625c4d5e08e4473f689c5f4ac2cd4cb970915520a075e1ef6f9f64223864b6d17f41b852a; Path=/"
       ],
       "content-language": "fr-FR",
       "x-content-security-policy": "object-src 'self'",
@@ -66,7 +66,7 @@
       "data": {
         "JSESSIONID": {
           "domain": "www.tpee.urssaf.fr",
-          "expires": "2026-11-01T07:42:31.000Z",
+          "expires": "2026-11-08T07:45:17.000Z",
           "path": "/",
           "port": null,
           "secure": true
