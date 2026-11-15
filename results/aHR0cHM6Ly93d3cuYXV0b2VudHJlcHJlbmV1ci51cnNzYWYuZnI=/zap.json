@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 8 Nov 2026 06:00:46",
-	"created": "2026-11-08T06:00:46.918645135Z",
+	"@generated": "Sun, 15 Nov 2026 06:19:58",
+	"created": "2026-11-15T06:19:58.353345048Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -311,9 +311,9 @@
 							"uri": "https://www.autoentrepreneur.urssaf.fr",
 							"nodeName": "https:\/\/www.autoentrepreneur.urssaf.fr",
 							"method": "GET",
-							"param": "TSb4494f8b027",
+							"param": "TS0928b85c027",
 							"attack": "",
-							"evidence": "Set-Cookie: TSb4494f8b027",
+							"evidence": "Set-Cookie: TS0928b85c027",
 							"otherinfo": ""
 						},
 						{
@@ -371,9 +371,9 @@
 							"uri": "https://www.autoentrepreneur.urssaf.fr",
 							"nodeName": "https:\/\/www.autoentrepreneur.urssaf.fr",
 							"method": "GET",
-							"param": "TSb4494f8b027",
+							"param": "TS0928b85c027",
 							"attack": "",
-							"evidence": "Set-Cookie: TSb4494f8b027",
+							"evidence": "Set-Cookie: TS0928b85c027",
 							"otherinfo": ""
 						},
 						{
@@ -441,9 +441,9 @@
 							"uri": "https://www.autoentrepreneur.urssaf.fr",
 							"nodeName": "https:\/\/www.autoentrepreneur.urssaf.fr",
 							"method": "GET",
-							"param": "TSb4494f8b027",
+							"param": "TS0928b85c027",
 							"attack": "",
-							"evidence": "Set-Cookie: TSb4494f8b027",
+							"evidence": "Set-Cookie: TS0928b85c027",
 							"otherinfo": ""
 						},
 						{
@@ -814,13 +814,13 @@
 							"param": "TS0191aa1f",
 							"attack": "",
 							"evidence": "TS0191aa1f",
-							"otherinfo": "cookie:TS0191aa1f\ncookie:TS014f769f\ncookie:TSb4494f8b027\ncookie:JSESSIONID\ncookie:TSeb68a781029"
+							"otherinfo": "cookie:TS0191aa1f\ncookie:TS014f769f\ncookie:TS0928b85c027\ncookie:JSESSIONID\ncookie:TSeb68a781029"
 						}
 					],
 					"count": "1",
 					"systemic": false,
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
-					"otherinfo": "<p>cookie:TS0191aa1f</p><p>cookie:TS014f769f</p><p>cookie:TSb4494f8b027</p><p>cookie:JSESSIONID</p><p>cookie:TSeb68a781029</p>",
+					"otherinfo": "<p>cookie:TS0191aa1f</p><p>cookie:TS014f769f</p><p>cookie:TS0928b85c027</p><p>cookie:JSESSIONID</p><p>cookie:TSeb68a781029</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
